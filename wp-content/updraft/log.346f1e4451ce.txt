@@ -1,0 +1,1274 @@
+0000.004 (0) Opened log file at time: Thu, 05 Aug 2021 01:44:01 +0000 on http://websolutions.co.il
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.1 PHP: 7.4.9 (fpm-fcgi, Linux vps65944.inmotionhosting.com 3.10.0-1160.21.1.vz7.174.13 #1 SMP Thu Apr 22 16:18:59 MSK 2021 x86_64) MySQL: 10.3.27-MariaDB WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.266 (0) Free space on disk containing Updraft's temporary directory: 14041.2 MB
+0000.313 (0) Deleting old log file: log.324df95b3d61.txt
+0000.403 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.418 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.466 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1625535562, seconds_ago=2592279)
+0000.489 (0) Set semaphore last lock (fd) time to 2021-08-05 01:44:01
+0000.499 (0) Semaphore lock (fd) complete
+0000.544 (0) Backup run: resumption=0, nonce=346f1e4451ce, file_nonce=346f1e4451ce begun at=1628127841 (0s ago), job type=backup
+0000.588 (0) Scheduling a resumption (1) after 300 seconds (1628128141) in case this run gets aborted
+0000.688 (0) OpenVZ; reported memory: 6144 MB
+0000.701 (0) Checking if we have a zip executable available
+0000.715 (0) Testing: /usr/bin/zip
+0000.796 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.811 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.825 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.837 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.848 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.227 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.239 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.279 (0) Working binary zip found: /usr/bin/zip
+0001.294 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.299 (0) Creation of backups of directories: beginning
+0001.314 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.731 (0) Total entities for the zip file: 2101 directories, 14602 files (0 skipped as non-modified), 250.8 MB
+0004.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.089 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 0.50 MB
+0005.099 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 100 files added (on-disk size: 487.8 KB)
+0005.107 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 200 files added (on-disk size: 487.8 KB)
+0005.119 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 300 files added (on-disk size: 487.8 KB)
+0005.132 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 400 files added (on-disk size: 487.8 KB)
+0005.141 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 500 files added (on-disk size: 487.8 KB)
+0005.145 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 14602 files batched, 501 (502) added so far); re-opening (prior size: 487.8 KB)
+0007.071 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 3.00 MB
+0007.087 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 600 files added (on-disk size: 3030.3 KB)
+0007.097 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 700 files added (on-disk size: 3030.3 KB)
+0007.104 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 800 files added (on-disk size: 3030.3 KB)
+0007.114 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 900 files added (on-disk size: 3030.3 KB)
+0007.123 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1000 files added (on-disk size: 3030.3 KB)
+0007.126 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 14602 files batched, 501 (1003) added so far); re-opening (prior size: 3030.3 KB)
+0007.771 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 4.80 MB
+0007.784 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1100 files added (on-disk size: 4935.9 KB)
+0007.791 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1200 files added (on-disk size: 4935.9 KB)
+0007.799 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1300 files added (on-disk size: 4935.9 KB)
+0007.806 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1400 files added (on-disk size: 4935.9 KB)
+0007.815 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1500 files added (on-disk size: 4935.9 KB)
+0007.818 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.9 MB, 14602 files batched, 501 (1504) added so far); re-opening (prior size: 4935.9 KB)
+0008.796 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 8.30 MB
+0008.806 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1600 files added (on-disk size: 8454.3 KB)
+0008.814 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1700 files added (on-disk size: 8454.3 KB)
+0008.821 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1800 files added (on-disk size: 8454.3 KB)
+0008.828 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 1900 files added (on-disk size: 8454.3 KB)
+0008.835 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2000 files added (on-disk size: 8454.3 KB)
+0008.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.2 MB, 14602 files batched, 501 (2005) added so far); re-opening (prior size: 8454.3 KB)
+0009.688 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 11.60 MB
+0009.707 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2100 files added (on-disk size: 11846.7 KB)
+0009.714 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2200 files added (on-disk size: 11846.7 KB)
+0009.721 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2300 files added (on-disk size: 11846.7 KB)
+0009.729 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2400 files added (on-disk size: 11846.7 KB)
+0009.736 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2500 files added (on-disk size: 11846.7 KB)
+0009.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 14602 files batched, 501 (2506) added so far); re-opening (prior size: 11846.7 KB)
+0010.718 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 15.00 MB
+0010.727 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2600 files added (on-disk size: 15312.5 KB)
+0010.735 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2700 files added (on-disk size: 15312.5 KB)
+0010.742 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2800 files added (on-disk size: 15312.5 KB)
+0010.750 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 2900 files added (on-disk size: 15312.5 KB)
+0010.757 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3000 files added (on-disk size: 15312.5 KB)
+0010.760 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 MB, 14602 files batched, 501 (3007) added so far); re-opening (prior size: 15312.5 KB)
+0012.925 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3100 files added (on-disk size: 18100.3 KB)
+0012.970 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3200 files added (on-disk size: 18100.3 KB)
+0012.988 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3300 files added (on-disk size: 18100.3 KB)
+0013.001 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3400 files added (on-disk size: 18100.3 KB)
+0013.009 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3500 files added (on-disk size: 18100.3 KB)
+0013.012 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.4 MB, 14602 files batched, 501 (3508) added so far); re-opening (prior size: 18100.3 KB)
+0013.907 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 23.40 MB
+0013.920 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3600 files added (on-disk size: 23951.7 KB)
+0013.929 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3700 files added (on-disk size: 23951.7 KB)
+0013.939 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3800 files added (on-disk size: 23951.7 KB)
+0013.947 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 3900 files added (on-disk size: 23951.7 KB)
+0013.954 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4000 files added (on-disk size: 23951.7 KB)
+0013.957 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 14602 files batched, 501 (4009) added so far); re-opening (prior size: 23951.7 KB)
+0014.436 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4100 files added (on-disk size: 24899.2 KB)
+0014.443 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4200 files added (on-disk size: 24899.2 KB)
+0014.450 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4300 files added (on-disk size: 24899.2 KB)
+0014.458 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4400 files added (on-disk size: 24899.2 KB)
+0014.467 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4500 files added (on-disk size: 24899.2 KB)
+0014.470 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 14602 files batched, 501 (4510) added so far); re-opening (prior size: 24899.2 KB)
+0014.837 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4600 files added (on-disk size: 25642.4 KB)
+0014.884 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4700 files added (on-disk size: 25642.4 KB)
+0014.892 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4800 files added (on-disk size: 25642.4 KB)
+0014.901 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 4900 files added (on-disk size: 25642.4 KB)
+0014.908 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5000 files added (on-disk size: 25642.4 KB)
+0014.911 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 14602 files batched, 501 (5011) added so far); re-opening (prior size: 25642.4 KB)
+0015.725 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5100 files added (on-disk size: 27779.7 KB)
+0015.733 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5200 files added (on-disk size: 27779.7 KB)
+0015.740 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5300 files added (on-disk size: 27779.7 KB)
+0015.747 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5400 files added (on-disk size: 27779.7 KB)
+0015.755 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5500 files added (on-disk size: 27779.7 KB)
+0015.758 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 14602 files batched, 501 (5512) added so far); re-opening (prior size: 27779.7 KB)
+0016.217 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5600 files added (on-disk size: 28664.3 KB)
+0016.233 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5700 files added (on-disk size: 28664.3 KB)
+0016.241 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5800 files added (on-disk size: 28664.3 KB)
+0016.251 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 5900 files added (on-disk size: 28664.3 KB)
+0016.261 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6000 files added (on-disk size: 28664.3 KB)
+0016.264 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 14602 files batched, 501 (6013) added so far); re-opening (prior size: 28664.3 KB)
+0016.700 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6100 files added (on-disk size: 29574.2 KB)
+0016.707 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6200 files added (on-disk size: 29574.2 KB)
+0016.714 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6300 files added (on-disk size: 29574.2 KB)
+0016.721 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6400 files added (on-disk size: 29574.2 KB)
+0016.728 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6500 files added (on-disk size: 29574.2 KB)
+0016.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 14602 files batched, 501 (6514) added so far); re-opening (prior size: 29574.2 KB)
+0017.198 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6600 files added (on-disk size: 30268.5 KB)
+0017.205 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6700 files added (on-disk size: 30268.5 KB)
+0017.571 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6800 files added (on-disk size: 30268.5 KB)
+0017.579 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 6900 files added (on-disk size: 30268.5 KB)
+0017.586 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7000 files added (on-disk size: 30268.5 KB)
+0017.588 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.9 MB, 14602 files batched, 501 (7015) added so far); re-opening (prior size: 30268.5 KB)
+0018.747 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7100 files added (on-disk size: 34184.1 KB)
+0018.754 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7200 files added (on-disk size: 34184.1 KB)
+0018.765 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7300 files added (on-disk size: 34184.1 KB)
+0018.774 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7400 files added (on-disk size: 34184.1 KB)
+0018.785 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7500 files added (on-disk size: 34184.1 KB)
+0018.789 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.7 MB, 14602 files batched, 501 (7516) added so far); re-opening (prior size: 34184.1 KB)
+0019.941 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7600 files added (on-disk size: 36801.5 KB)
+0019.949 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7700 files added (on-disk size: 36801.5 KB)
+0019.957 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7800 files added (on-disk size: 36801.5 KB)
+0019.965 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 7900 files added (on-disk size: 36801.5 KB)
+0019.972 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8000 files added (on-disk size: 36801.5 KB)
+0019.975 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.9 MB, 14602 files batched, 501 (8017) added so far); re-opening (prior size: 36801.5 KB)
+0021.548 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8100 files added (on-disk size: 42127.5 KB)
+0021.560 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8200 files added (on-disk size: 42127.5 KB)
+0021.571 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8300 files added (on-disk size: 42127.5 KB)
+0021.583 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8400 files added (on-disk size: 42127.5 KB)
+0021.595 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8500 files added (on-disk size: 42127.5 KB)
+0021.599 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 14602 files batched, 501 (8518) added so far); re-opening (prior size: 42127.5 KB)
+0022.184 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8600 files added (on-disk size: 43170.4 KB)
+0022.191 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8700 files added (on-disk size: 43170.4 KB)
+0022.330 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8800 files added (on-disk size: 43170.4 KB)
+0022.338 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 8900 files added (on-disk size: 43170.4 KB)
+0022.345 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9000 files added (on-disk size: 43170.4 KB)
+0022.348 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 14602 files batched, 501 (9019) added so far); re-opening (prior size: 43170.4 KB)
+0023.445 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9100 files added (on-disk size: 44083.9 KB)
+0023.453 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9200 files added (on-disk size: 44083.9 KB)
+0023.460 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9300 files added (on-disk size: 44083.9 KB)
+0023.467 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9400 files added (on-disk size: 44083.9 KB)
+0023.477 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9500 files added (on-disk size: 44083.9 KB)
+0023.481 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.4 MB, 14602 files batched, 501 (9520) added so far); re-opening (prior size: 44083.9 KB)
+0024.769 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9600 files added (on-disk size: 49043.6 KB)
+0024.776 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9700 files added (on-disk size: 49043.6 KB)
+0024.782 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9800 files added (on-disk size: 49043.6 KB)
+0024.793 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 9900 files added (on-disk size: 49043.6 KB)
+0024.800 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10000 files added (on-disk size: 49043.6 KB)
+0024.803 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 14602 files batched, 501 (10021) added so far); re-opening (prior size: 49043.6 KB)
+0025.351 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10100 files added (on-disk size: 50018.4 KB)
+0025.358 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10200 files added (on-disk size: 50018.4 KB)
+0025.365 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10300 files added (on-disk size: 50018.4 KB)
+0025.372 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10400 files added (on-disk size: 50018.4 KB)
+0025.379 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10500 files added (on-disk size: 50018.4 KB)
+0025.382 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 14602 files batched, 501 (10522) added so far); re-opening (prior size: 50018.4 KB)
+0025.892 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10600 files added (on-disk size: 51852.4 KB)
+0025.899 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10700 files added (on-disk size: 51852.4 KB)
+0025.907 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10800 files added (on-disk size: 51852.4 KB)
+0025.914 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 10900 files added (on-disk size: 51852.4 KB)
+0025.923 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11000 files added (on-disk size: 51852.4 KB)
+0025.928 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.9 MB, 14602 files batched, 501 (11023) added so far); re-opening (prior size: 51852.4 KB)
+0026.714 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: size is now: 64.30 MB
+0026.724 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11100 files added (on-disk size: 65890.9 KB)
+0026.732 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11200 files added (on-disk size: 65890.9 KB)
+0026.739 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11300 files added (on-disk size: 65890.9 KB)
+0026.746 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11400 files added (on-disk size: 65890.9 KB)
+0026.753 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11500 files added (on-disk size: 65890.9 KB)
+0026.756 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 14602 files batched, 501 (11524) added so far); re-opening (prior size: 65890.9 KB)
+0027.418 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11600 files added (on-disk size: 67038.2 KB)
+0027.425 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11700 files added (on-disk size: 67038.2 KB)
+0027.432 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11800 files added (on-disk size: 67038.2 KB)
+0027.439 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 11900 files added (on-disk size: 67038.2 KB)
+0027.446 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12000 files added (on-disk size: 67038.2 KB)
+0027.449 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.1 MB, 14602 files batched, 501 (12025) added so far); re-opening (prior size: 67038.2 KB)
+0031.924 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12100 files added (on-disk size: 70670.1 KB)
+0031.933 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12200 files added (on-disk size: 70670.1 KB)
+0031.941 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12300 files added (on-disk size: 70670.1 KB)
+0031.948 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12400 files added (on-disk size: 70670.1 KB)
+0031.955 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12500 files added (on-disk size: 70670.1 KB)
+0031.959 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 14602 files batched, 501 (12526) added so far); re-opening (prior size: 70670.1 KB)
+0032.775 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12600 files added (on-disk size: 72766.3 KB)
+0032.783 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12700 files added (on-disk size: 72766.3 KB)
+0032.791 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12800 files added (on-disk size: 72766.3 KB)
+0032.801 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 12900 files added (on-disk size: 72766.3 KB)
+0032.810 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13000 files added (on-disk size: 72766.3 KB)
+0032.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 14602 files batched, 501 (13027) added so far); re-opening (prior size: 72766.3 KB)
+0033.595 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13100 files added (on-disk size: 73885.3 KB)
+0033.602 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13200 files added (on-disk size: 73885.3 KB)
+0033.609 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13300 files added (on-disk size: 73885.3 KB)
+0033.616 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13400 files added (on-disk size: 73885.3 KB)
+0033.622 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13500 files added (on-disk size: 73885.3 KB)
+0033.625 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 14602 files batched, 501 (13528) added so far); re-opening (prior size: 73885.3 KB)
+0034.371 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13600 files added (on-disk size: 75845.3 KB)
+0034.379 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13700 files added (on-disk size: 75845.3 KB)
+0034.386 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13800 files added (on-disk size: 75845.3 KB)
+0034.394 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 13900 files added (on-disk size: 75845.3 KB)
+0034.401 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14000 files added (on-disk size: 75845.3 KB)
+0034.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 14602 files batched, 501 (14029) added so far); re-opening (prior size: 75845.3 KB)
+0035.110 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14100 files added (on-disk size: 77496.5 KB)
+0035.119 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14200 files added (on-disk size: 77496.5 KB)
+0035.125 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14300 files added (on-disk size: 77496.5 KB)
+0035.132 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14400 files added (on-disk size: 77496.5 KB)
+0035.139 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14500 files added (on-disk size: 77496.5 KB)
+0035.291 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.3 MB, 14602 files batched, 501 (14530) added so far); re-opening (prior size: 77496.5 KB)
+0036.779 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip.tmp: 14600 files added (on-disk size: 86405.1 KB)
+0038.132 (0) Created plugins zip (0) - 86837.4 KB in 36.7 s (2363.1 KB/s) (sha1: 58f4a70d20e8a4e4982c2d4190cb0db01d8c07b6, sha256: a038968c868ac89b185ee88775c78abe318807d364acf337d6386ffbacfce504)
+0038.138 (0) Beginning creation of dump of themes (split every: 400 MB)
+0038.224 (0) Total entities for the zip file: 112 directories, 651 files (0 skipped as non-modified), 16.9 MB
+0038.231 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0038.238 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0038.245 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0038.253 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0038.260 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0038.262 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 651 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0038.831 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: size is now: 9.10 MB
+0038.840 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: 600 files added (on-disk size: 9327.4 KB)
+0039.006 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip.tmp: size is now: 12.20 MB
+0039.165 (0) Created themes zip (0) - 12535.6 KB in 1 s (12708.3 KB/s) (sha1: 135730a7ac1d3f1173367c0a627a4c85e2526b38, sha256: 24bdedd8da442377233c7cd607f3703aeacce8eb2d0dfe2c5d6e35db6957519a)
+0039.169 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0039.171 (0) Looking for candidates to backup in: /home/webs/public_html/wp-content/uploads
+0039.173 (0) finding files: 2016: adding to list (1)
+0039.174 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (2)
+0039.175 (0) finding files: 2017: adding to list (3)
+0039.177 (0) finding files: woocommerce-placeholder-1170x1170.png: adding to list (4)
+0039.179 (0) finding files: wc-logs: adding to list (5)
+0039.180 (0) finding files: the-awe-des-awesome-commande: adding to list (6)
+0039.181 (0) finding files: WPC: adding to list (7)
+0039.183 (0) finding files: hummingbird-assets: adding to list (8)
+0039.184 (0) finding files: the-awe-des-awesome-clipart: adding to list (9)
+0039.186 (0) finding files: 2021: adding to list (10)
+0039.187 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (11)
+0039.189 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (12)
+0039.190 (0) finding files: woocommerce-placeholder.png: adding to list (13)
+0039.192 (0) finding files: the-awe-des-awesome-upload: adding to list (14)
+0039.194 (0) finding files: woocommerce-placeholder-370x280.png: adding to list (15)
+0039.196 (0) finding files: woocommerce-placeholder-1200x1200.png: adding to list (16)
+0039.197 (0) finding files: 2015: adding to list (17)
+0039.199 (0) finding files: GeoLite2-Country.mmdb: adding to list (18)
+0039.201 (0) finding files: mtphr-galleries: adding to list (19)
+0039.202 (0) finding files: GeoIPv6.dat: adding to list (20)
+0039.204 (0) finding files: woocommerce-placeholder-250x160.png: adding to list (21)
+0039.206 (0) finding files: 2019: adding to list (22)
+0039.208 (0) finding files: woocommerce_uploads: adding to list (23)
+0039.210 (0) finding files: 2018: adding to list (24)
+0039.211 (0) finding files: js_composer: adding to list (25)
+0039.213 (0) finding files: 2020: adding to list (26)
+0039.214 (0) finding files: 2014: adding to list (27)
+0039.216 (0) finding files: the-awe-des-awesome-product: adding to list (28)
+0039.217 (0) finding files: woocommerce-placeholder-500x200.png: adding to list (29)
+0039.219 (0) finding files: GeoIP.dat: adding to list (30)
+0039.221 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (31)
+0039.222 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (32)
+0039.224 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0039.367 (0) Total entities for the zip file: 95 directories, 2976 files (0 skipped as non-modified), 422.8 MB
+0039.375 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0039.382 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0039.388 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0039.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 2976 files batched, 368 (368) added so far); re-opening (prior size: 0 KB)
+0039.870 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: size is now: 24.10 MB
+0039.876 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 1 s, rate: 26865.1 KB/s)
+0039.880 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.9592649936676, normalised_time=0.95290815291787, max_time=39.874480009079, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0039.885 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 400 files added (on-disk size: 24656.4 KB)
+0039.892 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 500 files added (on-disk size: 24656.4 KB)
+0039.899 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 600 files added (on-disk size: 24656.4 KB)
+0039.906 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 700 files added (on-disk size: 24656.4 KB)
+0039.913 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 800 files added (on-disk size: 24656.4 KB)
+0039.919 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (67.2 MB, 2976 files batched, 501 (869) added so far); re-opening (prior size: 24656.4 KB)
+0040.799 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: size is now: 91.40 MB
+0040.805 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 900 files added (on-disk size: 93593.3 KB)
+0040.813 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1000 files added (on-disk size: 93593.3 KB)
+0040.820 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1100 files added (on-disk size: 93593.3 KB)
+0040.827 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1200 files added (on-disk size: 93593.3 KB)
+0040.838 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1300 files added (on-disk size: 93593.3 KB)
+0040.848 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (95.8 MB, 2976 files batched, 501 (1370) added so far); re-opening (prior size: 93593.3 KB)
+0042.164 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: size is now: 187.30 MB
+0042.170 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1400 files added (on-disk size: 191782.1 KB)
+0042.178 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1500 files added (on-disk size: 191782.1 KB)
+0042.185 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1600 files added (on-disk size: 191782.1 KB)
+0042.192 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1700 files added (on-disk size: 191782.1 KB)
+0042.200 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1800 files added (on-disk size: 191782.1 KB)
+0042.205 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (104.5 MB, 2976 files batched, 501 (1871) added so far); re-opening (prior size: 191782.1 KB)
+0044.978 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: size is now: 288.80 MB
+0045.675 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 1900 files added (on-disk size: 295776.7 KB)
+0045.740 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2000 files added (on-disk size: 295776.7 KB)
+0045.811 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2100 files added (on-disk size: 295776.7 KB)
+0045.886 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2200 files added (on-disk size: 295776.7 KB)
+0045.974 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2300 files added (on-disk size: 295776.7 KB)
+0046.261 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (91.7 MB, 2976 files batched, 501 (2372) added so far); re-opening (prior size: 295776.7 KB)
+0048.241 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: size is now: 380.60 MB
+0049.027 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2400 files added (on-disk size: 389751.6 KB)
+0049.044 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2500 files added (on-disk size: 389751.6 KB)
+0049.233 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip.tmp: 2600 files added (on-disk size: 389751.6 KB)
+0049.326 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (18.4 MB, 242 (2614) files added so far); last ratio: 1; re-opening (prior size: 389751.6 KB)
+0051.625 (0) Zip size is at/near split limit (399.1 MB / 400 MB) - bumping index (from: 0)
+0059.444 (0) Created uploads zip (0) - 408634.7 KB in 12.4 s (33051.7 KB/s) (checksums: sha1: e3785df5567dd427c5c4c30d46e9c0c86d44d2f1, sha256: d910143782f5f0b494fcd522b5aa5d97c5791d8873d93343a541a72a7e02cc0d)
+0059.453 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (2615) files added so far); re-opening (prior size: 0 KB)
+0059.468 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip.tmp: size is now: 0.10 MB
+0059.493 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip.tmp: 2700 files added (on-disk size: 94.5 KB)
+0059.506 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip.tmp: 2800 files added (on-disk size: 94.5 KB)
+0059.517 (0) Zip: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip.tmp: 2900 files added (on-disk size: 94.5 KB)
+0061.140 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip.tmp: size is now: 19.70 MB
+0062.579 (0) Created uploads zip (1) - 20177.8 KB in 3.1 s (6447.6 KB/s) (sha1: dbd875899509ff163e02f9f12f7c26dfe1e44359, sha256: 58eb65f7cfc905d46a0f4906207d815b4a0bddd890eaa1836982450d0c1cdc96)
+0071.744 (0) Beginning backup of other directories found in the content directory (index: 0)
+0071.750 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0071.753 (0) Looking for candidates to backup in: /home/webs/public_html/wp-content
+0071.755 (0) finding files: upgrade: skipping: excluded by options
+0071.758 (0) finding files: updraft: skipping: this is the updraft directory
+0071.760 (0) finding files: index.php: adding to list (1)
+0071.762 (0) finding files: wp-cache-config.php: adding to list (2)
+0071.764 (0) finding files: 29bk.zip: adding to list (3)
+0071.768 (0) finding files: wphb-logs: adding to list (4)
+0071.770 (0) finding files: cache: skipping: excluded by options
+0071.772 (0) finding files: plugins: skipping: this is the plugins directory
+0071.773 (0) finding files: uploads: skipping: this is the uploads directory
+0071.775 (0) finding files: themes: skipping: this is the themes directory
+0071.822 (0) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 95.9 MB
+0072.554 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-others.zip.tmp: size is now: 95.90 MB
+0073.808 (0) Created others zip (0) - 98175.4 KB in 2 s (49307.1 KB/s) (sha1: f85bad3b9aa94e1110d1c2bb96c2cd6bca9fcb3f, sha256: 5b5b0b9843383454bff8e9161c93fb1919d13a2ff6884d26094e5ce9eae0485f)
+0073.819 (0) Saving backup status to database (elements: 9)
+0073.824 (0) Beginning creation of database dump (WordPress DB)
+0073.829 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0073.869 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1221 bytes total)
+0073.872 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0073.888 (0) Table wp_options: Total expected rows (approximate): 567
+0073.952 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 563 in 0.06 seconds
+0073.956 (0) Table wp_options: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_options.table.gz - 150.8 KB)
+0073.966 (0) Table wp_users: Total expected rows (approximate): 0
+0073.971 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0073.973 (0) Table wp_users: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_users.table.gz - 0.6 KB)
+0073.982 (0) Table wp_usermeta: Total expected rows (approximate): 86
+0073.987 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 86 in 0.00 seconds
+0073.989 (0) Table wp_usermeta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_usermeta.table.gz - 2.5 KB)
+0073.997 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 77
+0074.004 (0) Table wp_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 77 in 0.00 seconds
+0074.008 (0) Table wp_actionscheduler_actions: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_actions.table.gz - 3.6 KB)
+0074.017 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0074.020 (0) Table wp_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.022 (0) Table wp_actionscheduler_claims: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0074.032 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 3
+0074.036 (0) Table wp_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0074.038 (0) Table wp_actionscheduler_groups: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0074.047 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 1984
+0074.073 (0) Table wp_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 1984 in 0.02 seconds
+0074.076 (0) Table wp_actionscheduler_logs: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_logs.table.gz - 12.8 KB)
+0074.084 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0074.087 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.089 (0) Table wp_commentmeta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0074.096 (0) Table wp_comments: Total expected rows (approximate): 733
+0074.172 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 733 in 0.07 seconds
+0074.176 (0) Table wp_comments: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_comments.table.gz - 112.7 KB)
+0074.185 (0) Table wp_links: Total expected rows (approximate): 0
+0074.191 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.193 (0) Table wp_links: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_links.table.gz - 0.4 KB)
+0074.200 (0) Table wp_postmeta: Total expected rows (approximate): 3725
+0074.279 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 3726 in 0.08 seconds
+0074.282 (0) Table wp_postmeta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_postmeta.table.gz - 122.4 KB)
+0074.288 (0) Table wp_posts: Total expected rows (approximate): 694
+0074.334 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 704 in 0.04 seconds
+0074.337 (0) Table wp_posts: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_posts.table.gz - 73.9 KB)
+0074.344 (0) Table wp_term_relationships: Total expected rows (approximate): 115
+0074.348 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 115 in 0.00 seconds
+0074.350 (0) Table wp_term_relationships: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_term_relationships.table.gz - 0.7 KB)
+0074.356 (0) Table wp_term_taxonomy: Total expected rows (approximate): 51
+0074.360 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 51 in 0.00 seconds
+0074.362 (0) Table wp_term_taxonomy: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_term_taxonomy.table.gz - 0.8 KB)
+0074.368 (0) Table wp_termmeta: Total expected rows (approximate): 1
+0074.371 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0074.373 (0) Table wp_termmeta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_termmeta.table.gz - 0.4 KB)
+0074.379 (0) Table wp_terms: Total expected rows (approximate): 51
+0074.382 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 51 in 0.00 seconds
+0074.384 (0) Table wp_terms: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_terms.table.gz - 1 KB)
+0074.390 (0) Table wp_aiowps_events: Total expected rows (approximate): 0
+0074.393 (0) Table wp_aiowps_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.395 (0) Table wp_aiowps_events: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_events.table.gz - 0.4 KB)
+0074.402 (0) Table wp_aiowps_failed_logins: Total expected rows (approximate): 5000
+0074.461 (0) Table wp_aiowps_failed_logins: Rows added in this batch (start page: 0; next: finished): 5000 in 0.06 seconds
+0074.464 (0) Table wp_aiowps_failed_logins: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_failed_logins.table.gz - 61.2 KB)
+0074.471 (0) Table wp_aiowps_global_meta: Total expected rows (approximate): 0
+0074.474 (0) Table wp_aiowps_global_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.477 (0) Table wp_aiowps_global_meta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_global_meta.table.gz - 0.4 KB)
+0074.485 (0) Table wp_aiowps_login_activity: Total expected rows (approximate): 20
+0074.490 (0) Table wp_aiowps_login_activity: Rows added in this batch (start page: 0; next: finished): 20 in 0.00 seconds
+0074.493 (0) Table wp_aiowps_login_activity: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_login_activity.table.gz - 0.8 KB)
+0074.500 (0) Table wp_aiowps_login_lockdown: Total expected rows (approximate): 0
+0074.504 (0) Table wp_aiowps_login_lockdown: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.506 (0) Table wp_aiowps_login_lockdown: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_login_lockdown.table.gz - 0.4 KB)
+0074.514 (0) Table wp_aiowps_permanent_block: Total expected rows (approximate): 0
+0074.517 (0) Table wp_aiowps_permanent_block: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.518 (0) Table wp_aiowps_permanent_block: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_permanent_block.table.gz - 0.4 KB)
+0074.525 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0074.532 (0) Table wp_revslider_css: Rows added in this batch (start page: 0; next: finished): 109 in 0.00 seconds
+0074.534 (0) Table wp_revslider_css: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_css.table.gz - 4.9 KB)
+0074.541 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0074.544 (0) Table wp_revslider_layer_animations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.546 (0) Table wp_revslider_layer_animations: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0074.552 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0074.557 (0) Table wp_revslider_navigations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.559 (0) Table wp_revslider_navigations: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0074.566 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0074.570 (0) Table wp_revslider_sliders: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.572 (0) Table wp_revslider_sliders: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_sliders.table.gz - 0.3 KB)
+0074.581 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0074.585 (0) Table wp_revslider_slides: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.593 (0) Table wp_revslider_slides: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_slides.table.gz - 0.3 KB)
+0074.604 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0074.608 (0) Table wp_revslider_static_slides: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.610 (0) Table wp_revslider_static_slides: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0074.618 (0) Table wp_smush_dir_images: Total expected rows (approximate): 72
+0074.626 (0) Table wp_smush_dir_images: Rows added in this batch (start page: 0; next: finished): 72 in 0.00 seconds
+0074.628 (0) Table wp_smush_dir_images: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_smush_dir_images.table.gz - 3.5 KB)
+0074.635 (0) Table wp_translations: Total expected rows (approximate): 4145
+0074.740 (0) Table wp_translations: Rows added in this batch (start page: 0; next: finished): 4145 in 0.10 seconds
+0074.743 (0) Table wp_translations: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_translations.table.gz - 84 KB)
+0074.751 (0) Table wp_translations_log: Total expected rows (approximate): 363
+0074.761 (0) Table wp_translations_log: Rows added in this batch (start page: 0; next: finished): 363 in 0.01 seconds
+0074.763 (0) Table wp_translations_log: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_translations_log.table.gz - 6.1 KB)
+0074.771 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 0
+0074.774 (0) Table wp_wc_admin_note_actions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.776 (0) Table wp_wc_admin_note_actions: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_admin_note_actions.table.gz - 0.4 KB)
+0074.784 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 0
+0074.788 (0) Table wp_wc_admin_notes: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.790 (0) Table wp_wc_admin_notes: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_admin_notes.table.gz - 0.4 KB)
+0074.796 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0074.799 (0) Table wp_wc_category_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.802 (0) Table wp_wc_category_lookup: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0074.809 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0074.812 (0) Table wp_wc_customer_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.814 (0) Table wp_wc_customer_lookup: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_customer_lookup.table.gz - 0.4 KB)
+0074.820 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0074.823 (0) Table wp_wc_download_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.825 (0) Table wp_wc_download_log: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0074.831 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0074.835 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.837 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0074.845 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0074.848 (0) Table wp_wc_order_product_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.850 (0) Table wp_wc_order_product_lookup: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0074.858 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0074.862 (0) Table wp_wc_order_stats: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.864 (0) Table wp_wc_order_stats: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0074.871 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0074.875 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.878 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0074.885 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 2
+0074.888 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0074.891 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_product_meta_lookup.table.gz - 0.5 KB)
+0074.898 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0074.901 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0074.903 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0074.912 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0074.917 (0) Table wp_wc_webhooks: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.921 (0) Table wp_wc_webhooks: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0074.928 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0074.931 (0) Table wp_woocommerce_api_keys: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.934 (0) Table wp_woocommerce_api_keys: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0074.942 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0074.945 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.947 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0074.954 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0074.957 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.960 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0074.968 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0074.971 (0) Table wp_woocommerce_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0074.973 (0) Table wp_woocommerce_log: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0074.981 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 18
+0074.987 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (start page: 0; next: finished): 18 in 0.00 seconds
+0074.991 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.6 KB)
+0075.007 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 2
+0075.011 (0) Table wp_woocommerce_order_items: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0075.014 (0) Table wp_woocommerce_order_items: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0075.021 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0075.024 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.027 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0075.034 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0075.038 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.040 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0075.048 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0075.053 (0) Table wp_woocommerce_sessions: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0075.056 (0) Table wp_woocommerce_sessions: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_sessions.table.gz - 0.9 KB)
+0075.064 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0075.068 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.072 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0075.081 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0075.084 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.086 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0075.094 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0075.097 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.099 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0075.105 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0075.108 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.110 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0075.116 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0075.118 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.120 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0075.127 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 58
+0075.131 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (start page: 0; next: finished): 58 in 0.00 seconds
+0075.134 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wpforms_tasks_meta.table.gz - 1.1 KB)
+0075.142 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 0
+0075.145 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.148 (0) Table wp_wpmailsmtp_tasks_meta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wpmailsmtp_tasks_meta.table.gz - 0.3 KB)
+0075.154 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0075.157 (0) Table wp_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0075.159 (0) Table wp_yoast_seo_links: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0075.165 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 4245
+0075.182 (0) Table wp_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 4245 in 0.01 seconds
+0075.184 (0) Table wp_yoast_seo_meta: finishing file (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_yoast_seo_meta.table.gz - 10.3 KB)
+0075.188 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_options.table.gz (1/61): adding to final database dump
+0075.225 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_users.table.gz (2/61): adding to final database dump
+0075.227 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_usermeta.table.gz (3/61): adding to final database dump
+0075.230 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_actions.table.gz (4/61): adding to final database dump
+0075.233 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_claims.table.gz (5/61): adding to final database dump
+0075.235 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_groups.table.gz (6/61): adding to final database dump
+0075.237 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_actionscheduler_logs.table.gz (7/61): adding to final database dump
+0075.244 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_commentmeta.table.gz (8/61): adding to final database dump
+0075.247 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_comments.table.gz (9/61): adding to final database dump
+0075.269 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_links.table.gz (10/61): adding to final database dump
+0075.272 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_postmeta.table.gz (11/61): adding to final database dump
+0075.308 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_posts.table.gz (12/61): adding to final database dump
+0075.328 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_term_relationships.table.gz (13/61): adding to final database dump
+0075.330 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_term_taxonomy.table.gz (14/61): adding to final database dump
+0075.333 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_termmeta.table.gz (15/61): adding to final database dump
+0075.335 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_terms.table.gz (16/61): adding to final database dump
+0075.336 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_events.table.gz (17/61): adding to final database dump
+0075.338 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_failed_logins.table.gz (18/61): adding to final database dump
+0075.358 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_global_meta.table.gz (19/61): adding to final database dump
+0075.360 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_login_activity.table.gz (20/61): adding to final database dump
+0075.363 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_login_lockdown.table.gz (21/61): adding to final database dump
+0075.364 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_aiowps_permanent_block.table.gz (22/61): adding to final database dump
+0075.368 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_css.table.gz (23/61): adding to final database dump
+0075.372 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_layer_animations.table.gz (24/61): adding to final database dump
+0075.375 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_navigations.table.gz (25/61): adding to final database dump
+0075.377 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_sliders.table.gz (26/61): adding to final database dump
+0075.379 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_slides.table.gz (27/61): adding to final database dump
+0075.381 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_revslider_static_slides.table.gz (28/61): adding to final database dump
+0075.383 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_smush_dir_images.table.gz (29/61): adding to final database dump
+0075.387 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_translations.table.gz (30/61): adding to final database dump
+0075.419 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_translations_log.table.gz (31/61): adding to final database dump
+0075.424 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_admin_note_actions.table.gz (32/61): adding to final database dump
+0075.426 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_admin_notes.table.gz (33/61): adding to final database dump
+0075.428 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_category_lookup.table.gz (34/61): adding to final database dump
+0075.430 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_customer_lookup.table.gz (35/61): adding to final database dump
+0075.431 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_download_log.table.gz (36/61): adding to final database dump
+0075.433 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_coupon_lookup.table.gz (37/61): adding to final database dump
+0075.435 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_product_lookup.table.gz (38/61): adding to final database dump
+0075.437 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_stats.table.gz (39/61): adding to final database dump
+0075.439 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_order_tax_lookup.table.gz (40/61): adding to final database dump
+0075.441 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_product_meta_lookup.table.gz (41/61): adding to final database dump
+0075.443 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_tax_rate_classes.table.gz (42/61): adding to final database dump
+0075.445 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wc_webhooks.table.gz (43/61): adding to final database dump
+0075.447 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_api_keys.table.gz (44/61): adding to final database dump
+0075.449 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_attribute_taxonomies.table.gz (45/61): adding to final database dump
+0075.450 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (46/61): adding to final database dump
+0075.452 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_log.table.gz (47/61): adding to final database dump
+0075.454 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_order_itemmeta.table.gz (48/61): adding to final database dump
+0075.456 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_order_items.table.gz (49/61): adding to final database dump
+0075.458 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_payment_tokenmeta.table.gz (50/61): adding to final database dump
+0075.460 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_payment_tokens.table.gz (51/61): adding to final database dump
+0075.462 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_sessions.table.gz (52/61): adding to final database dump
+0075.463 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_shipping_zone_locations.table.gz (53/61): adding to final database dump
+0075.465 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_shipping_zone_methods.table.gz (54/61): adding to final database dump
+0075.467 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_shipping_zones.table.gz (55/61): adding to final database dump
+0075.469 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_tax_rate_locations.table.gz (56/61): adding to final database dump
+0075.471 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_woocommerce_tax_rates.table.gz (57/61): adding to final database dump
+0075.472 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wpforms_tasks_meta.table.gz (58/61): adding to final database dump
+0075.474 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_wpmailsmtp_tasks_meta.table.gz (59/61): adding to final database dump
+0075.476 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_yoast_seo_links.table.gz (60/61): adding to final database dump
+0075.478 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db-table-wp_yoast_seo_meta.table.gz (61/61): adding to final database dump
+0075.485 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz: finished writing out complete database file (640 KB)
+0075.503 (0) Total database tables backed up: 61 (backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz, size: 675601, sha1: 185bfd5014c5ba430113119219a58ceddb288cc6, sha256: 7c2875029f620dfd380eef1ec06ad19766d750df3fb0738f0e3ef8e4ab0a22ae)
+0075.512 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0075.514 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0075.515 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0075.517 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0075.518 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-others.zip: others: This file has not yet been successfully uploaded: will queue
+0075.520 (0) backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz: db: This file has not yet been successfully uploaded: will queue
+0075.522 (0) Saving backup history. Total backup size: 612.3 MB
+0075.526 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0075.531 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0075.533 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-16a307da56f1652eb78118757a3fadf9)
+0078.412 (0) Google Drive: quota usage: used=27069.5 MB, total=117760 MB, available=90690.5 MB
+0078.414 (0) Google Drive: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rPtSjb31qrpf2Zs0lmvNl3KrYda12gOi)
+0078.832 (0) Googledrive chunked upload: 1.2 % uploaded (1048576)
+0079.133 (0) Googledrive chunked upload: 2.4 % uploaded (2097152)
+0079.338 (0) Googledrive chunked upload: 3.5 % uploaded (3145728)
+0079.548 (0) Googledrive chunked upload: 4.7 % uploaded (4194304)
+0079.771 (0) Googledrive chunked upload: 5.9 % uploaded (5242880)
+0080.002 (0) Googledrive chunked upload: 7.1 % uploaded (6291456)
+0080.218 (0) Googledrive chunked upload: 8.3 % uploaded (7340032)
+0080.415 (0) Googledrive chunked upload: 9.4 % uploaded (8388608)
+0080.585 (0) Googledrive chunked upload: 10.6 % uploaded (9437184)
+0080.752 (0) Googledrive chunked upload: 11.8 % uploaded (10485760)
+0080.928 (0) Googledrive chunked upload: 13 % uploaded (11534336)
+0081.146 (0) Googledrive chunked upload: 14.2 % uploaded (12582912)
+0081.380 (0) Googledrive chunked upload: 15.3 % uploaded (13631488)
+0081.590 (0) Googledrive chunked upload: 16.5 % uploaded (14680064)
+0081.863 (0) Googledrive chunked upload: 17.7 % uploaded (15728640)
+0082.162 (0) Googledrive chunked upload: 18.9 % uploaded (16777216)
+0082.382 (0) Googledrive chunked upload: 20 % uploaded (17825792)
+0082.559 (0) Googledrive chunked upload: 21.2 % uploaded (18874368)
+0082.826 (0) Googledrive chunked upload: 22.4 % uploaded (19922944)
+0083.052 (0) Googledrive chunked upload: 23.6 % uploaded (20971520)
+0083.266 (0) Googledrive chunked upload: 24.8 % uploaded (22020096)
+0083.439 (0) Googledrive chunked upload: 25.9 % uploaded (23068672)
+0083.687 (0) Googledrive chunked upload: 27.1 % uploaded (24117248)
+0083.883 (0) Googledrive chunked upload: 28.3 % uploaded (25165824)
+0084.065 (0) Googledrive chunked upload: 29.5 % uploaded (26214400)
+0084.253 (0) Googledrive chunked upload: 30.7 % uploaded (27262976)
+0084.421 (0) Googledrive chunked upload: 31.8 % uploaded (28311552)
+0084.617 (0) Googledrive chunked upload: 33 % uploaded (29360128)
+0084.807 (0) Googledrive chunked upload: 34.2 % uploaded (30408704)
+0085.026 (0) Googledrive chunked upload: 35.4 % uploaded (31457280)
+0085.226 (0) Googledrive chunked upload: 36.6 % uploaded (32505856)
+0085.452 (0) Googledrive chunked upload: 37.7 % uploaded (33554432)
+0085.669 (0) Googledrive chunked upload: 38.9 % uploaded (34603008)
+0085.896 (0) Googledrive chunked upload: 40.1 % uploaded (35651584)
+0086.120 (0) Googledrive chunked upload: 41.3 % uploaded (36700160)
+0086.351 (0) Googledrive chunked upload: 42.5 % uploaded (37748736)
+0086.519 (0) Googledrive chunked upload: 43.6 % uploaded (38797312)
+0086.757 (0) Googledrive chunked upload: 44.8 % uploaded (39845888)
+0086.954 (0) Googledrive chunked upload: 46 % uploaded (40894464)
+0087.158 (0) Googledrive chunked upload: 47.2 % uploaded (41943040)
+0087.334 (0) Googledrive chunked upload: 48.3 % uploaded (42991616)
+0087.503 (0) Googledrive chunked upload: 49.5 % uploaded (44040192)
+0087.709 (0) Googledrive chunked upload: 50.7 % uploaded (45088768)
+0087.873 (0) Googledrive chunked upload: 51.9 % uploaded (46137344)
+0088.050 (0) Googledrive chunked upload: 53.1 % uploaded (47185920)
+0088.225 (0) Googledrive chunked upload: 54.2 % uploaded (48234496)
+0088.449 (0) Googledrive chunked upload: 55.4 % uploaded (49283072)
+0088.611 (0) Googledrive chunked upload: 56.6 % uploaded (50331648)
+0088.807 (0) Googledrive chunked upload: 57.8 % uploaded (51380224)
+0088.996 (0) Googledrive chunked upload: 59 % uploaded (52428800)
+0089.151 (0) Googledrive chunked upload: 60.1 % uploaded (53477376)
+0089.390 (0) Googledrive chunked upload: 61.3 % uploaded (54525952)
+0089.585 (0) Googledrive chunked upload: 62.5 % uploaded (55574528)
+0089.757 (0) Googledrive chunked upload: 63.7 % uploaded (56623104)
+0089.972 (0) Googledrive chunked upload: 64.9 % uploaded (57671680)
+0090.222 (0) Googledrive chunked upload: 66 % uploaded (58720256)
+0090.382 (0) Googledrive chunked upload: 67.2 % uploaded (59768832)
+0090.691 (0) Googledrive chunked upload: 68.4 % uploaded (60817408)
+0090.876 (0) Googledrive chunked upload: 69.6 % uploaded (61865984)
+0091.035 (0) Googledrive chunked upload: 70.8 % uploaded (62914560)
+0091.209 (0) Googledrive chunked upload: 71.9 % uploaded (63963136)
+0091.427 (0) Googledrive chunked upload: 73.1 % uploaded (65011712)
+0091.683 (0) Googledrive chunked upload: 74.3 % uploaded (66060288)
+0091.875 (0) Googledrive chunked upload: 75.5 % uploaded (67108864)
+0092.044 (0) Googledrive chunked upload: 76.6 % uploaded (68157440)
+0092.236 (0) Googledrive chunked upload: 77.8 % uploaded (69206016)
+0092.897 (0) Googledrive chunked upload: 79 % uploaded (70254592)
+0093.358 (0) Googledrive chunked upload: 80.2 % uploaded (71303168)
+0093.563 (0) Googledrive chunked upload: 81.4 % uploaded (72351744)
+0093.756 (0) Googledrive chunked upload: 82.5 % uploaded (73400320)
+0093.990 (0) Googledrive chunked upload: 83.7 % uploaded (74448896)
+0094.255 (0) Googledrive chunked upload: 84.9 % uploaded (75497472)
+0094.466 (0) Googledrive chunked upload: 86.1 % uploaded (76546048)
+0094.686 (0) Googledrive chunked upload: 87.3 % uploaded (77594624)
+0094.868 (0) Googledrive chunked upload: 88.4 % uploaded (78643200)
+0095.079 (0) Googledrive chunked upload: 89.6 % uploaded (79691776)
+0095.305 (0) Googledrive chunked upload: 90.8 % uploaded (80740352)
+0095.502 (0) Googledrive chunked upload: 92 % uploaded (81788928)
+0095.661 (0) Googledrive chunked upload: 93.2 % uploaded (82837504)
+0095.833 (0) Googledrive chunked upload: 94.3 % uploaded (83886080)
+0096.005 (0) Googledrive chunked upload: 95.5 % uploaded (84934656)
+0096.166 (0) Googledrive chunked upload: 96.7 % uploaded (85983232)
+0096.361 (0) Googledrive chunked upload: 97.9 % uploaded (87031808)
+0096.539 (0) Googledrive chunked upload: 99.1 % uploaded (88080384)
+0097.641 (0) Googledrive chunked upload: 100 % uploaded (88080384)
+0097.647 (0) Google Drive: OK: Archive backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip uploaded in 19.23 seconds
+0097.649 (0) Recording as successfully uploaded: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip
+0097.673 (0) Deleting local file: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-plugins.zip: OK
+0097.872 (0) Google Drive: quota usage: used=27069.5 MB, total=117760 MB, available=90690.5 MB
+0097.874 (0) Google Drive: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip: Attempting to upload to Google Drive (into folder id: 1rPtSjb31qrpf2Zs0lmvNl3KrYda12gOi)
+0098.306 (0) Googledrive chunked upload: 8.2 % uploaded (1048576)
+0098.459 (0) Googledrive chunked upload: 16.3 % uploaded (2097152)
+0098.634 (0) Googledrive chunked upload: 24.5 % uploaded (3145728)
+0098.797 (0) Googledrive chunked upload: 32.7 % uploaded (4194304)
+0099.013 (0) Googledrive chunked upload: 40.8 % uploaded (5242880)
+0099.190 (0) Googledrive chunked upload: 49 % uploaded (6291456)
+0099.371 (0) Googledrive chunked upload: 57.2 % uploaded (7340032)
+0099.559 (0) Googledrive chunked upload: 65.4 % uploaded (8388608)
+0099.728 (0) Googledrive chunked upload: 73.5 % uploaded (9437184)
+0099.934 (0) Googledrive chunked upload: 81.7 % uploaded (10485760)
+0100.093 (0) Googledrive chunked upload: 89.9 % uploaded (11534336)
+0100.261 (0) Googledrive chunked upload: 98 % uploaded (12582912)
+0101.153 (0) Googledrive chunked upload: 100 % uploaded (12582912)
+0101.159 (0) Google Drive: OK: Archive backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip uploaded in 3.28 seconds
+0101.161 (0) Recording as successfully uploaded: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip
+0101.168 (0) Deleting local file: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-themes.zip: OK
+0101.330 (0) Google Drive: quota usage: used=27166.5 MB, total=117760 MB, available=90593.5 MB
+0101.332 (0) Google Drive: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip: Attempting to upload to Google Drive (into folder id: 1rPtSjb31qrpf2Zs0lmvNl3KrYda12gOi)
+0101.869 (0) Googledrive chunked upload: 0.3 % uploaded (1048576)
+0102.100 (0) Googledrive chunked upload: 0.5 % uploaded (2097152)
+0102.299 (0) Googledrive chunked upload: 0.8 % uploaded (3145728)
+0103.388 (0) Googledrive chunked upload: 1 % uploaded (4194304)
+0104.205 (0) Googledrive chunked upload: 1.3 % uploaded (5242880)
+0104.435 (0) Googledrive chunked upload: 1.5 % uploaded (6291456)
+0104.613 (0) Googledrive chunked upload: 1.8 % uploaded (7340032)
+0104.831 (0) Googledrive chunked upload: 2 % uploaded (8388608)
+0105.065 (0) Googledrive chunked upload: 2.3 % uploaded (9437184)
+0105.261 (0) Googledrive chunked upload: 2.5 % uploaded (10485760)
+0105.508 (0) Googledrive chunked upload: 2.8 % uploaded (11534336)
+0105.679 (0) Googledrive chunked upload: 3 % uploaded (12582912)
+0105.909 (0) Googledrive chunked upload: 3.3 % uploaded (13631488)
+0106.113 (0) Googledrive chunked upload: 3.5 % uploaded (14680064)
+0106.344 (0) Googledrive chunked upload: 3.8 % uploaded (15728640)
+0106.561 (0) Googledrive chunked upload: 4 % uploaded (16777216)
+0106.784 (0) Googledrive chunked upload: 4.3 % uploaded (17825792)
+0107.019 (0) Googledrive chunked upload: 4.5 % uploaded (18874368)
+0107.239 (0) Googledrive chunked upload: 4.8 % uploaded (19922944)
+0107.485 (0) Googledrive chunked upload: 5 % uploaded (20971520)
+0107.692 (0) Googledrive chunked upload: 5.3 % uploaded (22020096)
+0107.891 (0) Googledrive chunked upload: 5.5 % uploaded (23068672)
+0108.129 (0) Googledrive chunked upload: 5.8 % uploaded (24117248)
+0108.566 (0) Googledrive chunked upload: 6 % uploaded (25165824)
+0108.753 (0) Googledrive chunked upload: 6.3 % uploaded (26214400)
+0108.967 (0) Googledrive chunked upload: 6.5 % uploaded (27262976)
+0109.581 (0) Googledrive chunked upload: 6.8 % uploaded (28311552)
+0109.782 (0) Googledrive chunked upload: 7 % uploaded (29360128)
+0109.958 (0) Googledrive chunked upload: 7.3 % uploaded (30408704)
+0110.163 (0) Googledrive chunked upload: 7.5 % uploaded (31457280)
+0110.428 (0) Googledrive chunked upload: 7.8 % uploaded (32505856)
+0110.627 (0) Googledrive chunked upload: 8 % uploaded (33554432)
+0110.885 (0) Googledrive chunked upload: 8.3 % uploaded (34603008)
+0111.093 (0) Googledrive chunked upload: 8.5 % uploaded (35651584)
+0111.284 (0) Googledrive chunked upload: 8.8 % uploaded (36700160)
+0111.479 (0) Googledrive chunked upload: 9 % uploaded (37748736)
+0111.716 (0) Googledrive chunked upload: 9.3 % uploaded (38797312)
+0111.987 (0) Googledrive chunked upload: 9.5 % uploaded (39845888)
+0112.252 (0) Googledrive chunked upload: 9.8 % uploaded (40894464)
+0112.465 (0) Googledrive chunked upload: 10 % uploaded (41943040)
+0112.676 (0) Googledrive chunked upload: 10.3 % uploaded (42991616)
+0112.898 (0) Googledrive chunked upload: 10.5 % uploaded (44040192)
+0113.096 (0) Googledrive chunked upload: 10.8 % uploaded (45088768)
+0113.313 (0) Googledrive chunked upload: 11 % uploaded (46137344)
+0113.529 (0) Googledrive chunked upload: 11.3 % uploaded (47185920)
+0113.703 (0) Googledrive chunked upload: 11.5 % uploaded (48234496)
+0113.893 (0) Googledrive chunked upload: 11.8 % uploaded (49283072)
+0114.131 (0) Googledrive chunked upload: 12 % uploaded (50331648)
+0114.297 (0) Googledrive chunked upload: 12.3 % uploaded (51380224)
+0114.491 (0) Googledrive chunked upload: 12.5 % uploaded (52428800)
+0114.747 (0) Googledrive chunked upload: 12.8 % uploaded (53477376)
+0114.996 (0) Googledrive chunked upload: 13 % uploaded (54525952)
+0115.169 (0) Googledrive chunked upload: 13.3 % uploaded (55574528)
+0115.427 (0) Googledrive chunked upload: 13.5 % uploaded (56623104)
+0115.658 (0) Googledrive chunked upload: 13.8 % uploaded (57671680)
+0115.993 (0) Googledrive chunked upload: 14 % uploaded (58720256)
+0116.172 (0) Googledrive chunked upload: 14.3 % uploaded (59768832)
+0116.364 (0) Googledrive chunked upload: 14.5 % uploaded (60817408)
+0116.547 (0) Googledrive chunked upload: 14.8 % uploaded (61865984)
+0116.772 (0) Googledrive chunked upload: 15 % uploaded (62914560)
+0116.952 (0) Googledrive chunked upload: 15.3 % uploaded (63963136)
+0117.185 (0) Googledrive chunked upload: 15.5 % uploaded (65011712)
+0117.365 (0) Googledrive chunked upload: 15.8 % uploaded (66060288)
+0117.543 (0) Googledrive chunked upload: 16 % uploaded (67108864)
+0117.762 (0) Googledrive chunked upload: 16.3 % uploaded (68157440)
+0117.989 (0) Googledrive chunked upload: 16.5 % uploaded (69206016)
+0118.138 (0) Googledrive chunked upload: 16.8 % uploaded (70254592)
+0118.308 (0) Googledrive chunked upload: 17 % uploaded (71303168)
+0118.479 (0) Googledrive chunked upload: 17.3 % uploaded (72351744)
+0118.688 (0) Googledrive chunked upload: 17.5 % uploaded (73400320)
+0118.848 (0) Googledrive chunked upload: 17.8 % uploaded (74448896)
+0119.038 (0) Googledrive chunked upload: 18 % uploaded (75497472)
+0119.242 (0) Googledrive chunked upload: 18.3 % uploaded (76546048)
+0119.415 (0) Googledrive chunked upload: 18.5 % uploaded (77594624)
+0119.592 (0) Googledrive chunked upload: 18.8 % uploaded (78643200)
+0119.798 (0) Googledrive chunked upload: 19 % uploaded (79691776)
+0120.017 (0) Googledrive chunked upload: 19.3 % uploaded (80740352)
+0120.232 (0) Googledrive chunked upload: 19.5 % uploaded (81788928)
+0120.442 (0) Googledrive chunked upload: 19.8 % uploaded (82837504)
+0120.664 (0) Googledrive chunked upload: 20 % uploaded (83886080)
+0120.963 (0) Googledrive chunked upload: 20.3 % uploaded (84934656)
+0121.172 (0) Googledrive chunked upload: 20.5 % uploaded (85983232)
+0121.387 (0) Googledrive chunked upload: 20.8 % uploaded (87031808)
+0121.650 (0) Googledrive chunked upload: 21 % uploaded (88080384)
+0121.821 (0) Googledrive chunked upload: 21.3 % uploaded (89128960)
+0122.015 (0) Googledrive chunked upload: 21.6 % uploaded (90177536)
+0122.236 (0) Googledrive chunked upload: 21.8 % uploaded (91226112)
+0122.502 (0) Googledrive chunked upload: 22.1 % uploaded (92274688)
+0122.739 (0) Googledrive chunked upload: 22.3 % uploaded (93323264)
+0122.953 (0) Googledrive chunked upload: 22.6 % uploaded (94371840)
+0123.110 (0) Googledrive chunked upload: 22.8 % uploaded (95420416)
+0123.350 (0) Googledrive chunked upload: 23.1 % uploaded (96468992)
+0123.537 (0) Googledrive chunked upload: 23.3 % uploaded (97517568)
+0123.794 (0) Googledrive chunked upload: 23.6 % uploaded (98566144)
+0124.002 (0) Googledrive chunked upload: 23.8 % uploaded (99614720)
+0124.219 (0) Googledrive chunked upload: 24.1 % uploaded (100663296)
+0124.466 (0) Googledrive chunked upload: 24.3 % uploaded (101711872)
+0124.639 (0) Googledrive chunked upload: 24.6 % uploaded (102760448)
+0124.865 (0) Googledrive chunked upload: 24.8 % uploaded (103809024)
+0125.051 (0) Googledrive chunked upload: 25.1 % uploaded (104857600)
+0125.312 (0) Googledrive chunked upload: 25.3 % uploaded (105906176)
+0125.495 (0) Googledrive chunked upload: 25.6 % uploaded (106954752)
+0125.643 (0) Googledrive chunked upload: 25.8 % uploaded (108003328)
+0125.823 (0) Googledrive chunked upload: 26.1 % uploaded (109051904)
+0126.091 (0) Googledrive chunked upload: 26.3 % uploaded (110100480)
+0126.316 (0) Googledrive chunked upload: 26.6 % uploaded (111149056)
+0126.474 (0) Googledrive chunked upload: 26.8 % uploaded (112197632)
+0126.743 (0) Googledrive chunked upload: 27.1 % uploaded (113246208)
+0126.945 (0) Googledrive chunked upload: 27.3 % uploaded (114294784)
+0127.197 (0) Googledrive chunked upload: 27.6 % uploaded (115343360)
+0127.419 (0) Googledrive chunked upload: 27.8 % uploaded (116391936)
+0127.657 (0) Googledrive chunked upload: 28.1 % uploaded (117440512)
+0127.855 (0) Googledrive chunked upload: 28.3 % uploaded (118489088)
+0128.040 (0) Googledrive chunked upload: 28.6 % uploaded (119537664)
+0128.318 (0) Googledrive chunked upload: 28.8 % uploaded (120586240)
+0128.511 (0) Googledrive chunked upload: 29.1 % uploaded (121634816)
+0128.698 (0) Googledrive chunked upload: 29.3 % uploaded (122683392)
+0128.859 (0) Googledrive chunked upload: 29.6 % uploaded (123731968)
+0129.047 (0) Googledrive chunked upload: 29.8 % uploaded (124780544)
+0129.266 (0) Googledrive chunked upload: 30.1 % uploaded (125829120)
+0129.430 (0) Googledrive chunked upload: 30.3 % uploaded (126877696)
+0129.702 (0) Googledrive chunked upload: 30.6 % uploaded (127926272)
+0129.874 (0) Googledrive chunked upload: 30.8 % uploaded (128974848)
+0130.040 (0) Googledrive chunked upload: 31.1 % uploaded (130023424)
+0130.263 (0) Googledrive chunked upload: 31.3 % uploaded (131072000)
+0130.435 (0) Googledrive chunked upload: 31.6 % uploaded (132120576)
+0130.604 (0) Googledrive chunked upload: 31.8 % uploaded (133169152)
+0130.772 (0) Googledrive chunked upload: 32.1 % uploaded (134217728)
+0130.990 (0) Googledrive chunked upload: 32.3 % uploaded (135266304)
+0131.160 (0) Googledrive chunked upload: 32.6 % uploaded (136314880)
+0131.354 (0) Googledrive chunked upload: 32.8 % uploaded (137363456)
+0131.521 (0) Googledrive chunked upload: 33.1 % uploaded (138412032)
+0131.740 (0) Googledrive chunked upload: 33.3 % uploaded (139460608)
+0131.943 (0) Googledrive chunked upload: 33.6 % uploaded (140509184)
+0132.152 (0) Googledrive chunked upload: 33.8 % uploaded (141557760)
+0132.372 (0) Googledrive chunked upload: 34.1 % uploaded (142606336)
+0132.582 (0) Googledrive chunked upload: 34.3 % uploaded (143654912)
+0132.837 (0) Googledrive chunked upload: 34.6 % uploaded (144703488)
+0133.008 (0) Googledrive chunked upload: 34.8 % uploaded (145752064)
+0133.244 (0) Googledrive chunked upload: 35.1 % uploaded (146800640)
+0133.453 (0) Googledrive chunked upload: 35.3 % uploaded (147849216)
+0133.636 (0) Googledrive chunked upload: 35.6 % uploaded (148897792)
+0133.792 (0) Googledrive chunked upload: 35.8 % uploaded (149946368)
+0133.971 (0) Googledrive chunked upload: 36.1 % uploaded (150994944)
+0134.148 (0) Googledrive chunked upload: 36.3 % uploaded (152043520)
+0134.364 (0) Googledrive chunked upload: 36.6 % uploaded (153092096)
+0134.544 (0) Googledrive chunked upload: 36.8 % uploaded (154140672)
+0134.707 (0) Googledrive chunked upload: 37.1 % uploaded (155189248)
+0134.881 (0) Googledrive chunked upload: 37.3 % uploaded (156237824)
+0135.103 (0) Googledrive chunked upload: 37.6 % uploaded (157286400)
+0135.308 (0) Googledrive chunked upload: 37.8 % uploaded (158334976)
+0135.476 (0) Googledrive chunked upload: 38.1 % uploaded (159383552)
+0135.695 (0) Googledrive chunked upload: 38.3 % uploaded (160432128)
+0135.861 (0) Googledrive chunked upload: 38.6 % uploaded (161480704)
+0136.099 (0) Googledrive chunked upload: 38.8 % uploaded (162529280)
+0136.254 (0) Googledrive chunked upload: 39.1 % uploaded (163577856)
+0136.461 (0) Googledrive chunked upload: 39.3 % uploaded (164626432)
+0136.718 (0) Googledrive chunked upload: 39.6 % uploaded (165675008)
+0136.939 (0) Googledrive chunked upload: 39.8 % uploaded (166723584)
+0137.156 (0) Googledrive chunked upload: 40.1 % uploaded (167772160)
+0137.353 (0) Googledrive chunked upload: 40.3 % uploaded (168820736)
+0137.580 (0) Googledrive chunked upload: 40.6 % uploaded (169869312)
+0137.832 (0) Googledrive chunked upload: 40.8 % uploaded (170917888)
+0138.717 (0) Googledrive chunked upload: 41.1 % uploaded (171966464)
+0139.171 (0) Googledrive chunked upload: 41.3 % uploaded (173015040)
+0139.353 (0) Googledrive chunked upload: 41.6 % uploaded (174063616)
+0139.530 (0) Googledrive chunked upload: 41.8 % uploaded (175112192)
+0139.702 (0) Googledrive chunked upload: 42.1 % uploaded (176160768)
+0139.875 (0) Googledrive chunked upload: 42.3 % uploaded (177209344)
+0140.062 (0) Googledrive chunked upload: 42.6 % uploaded (178257920)
+0140.277 (0) Googledrive chunked upload: 42.9 % uploaded (179306496)
+0140.453 (0) Googledrive chunked upload: 43.1 % uploaded (180355072)
+0140.708 (0) Googledrive chunked upload: 43.4 % uploaded (181403648)
+0140.878 (0) Googledrive chunked upload: 43.6 % uploaded (182452224)
+0141.102 (0) Googledrive chunked upload: 43.9 % uploaded (183500800)
+0141.291 (0) Googledrive chunked upload: 44.1 % uploaded (184549376)
+0141.454 (0) Googledrive chunked upload: 44.4 % uploaded (185597952)
+0141.596 (0) Googledrive chunked upload: 44.6 % uploaded (186646528)
+0141.771 (0) Googledrive chunked upload: 44.9 % uploaded (187695104)
+0141.954 (0) Googledrive chunked upload: 45.1 % uploaded (188743680)
+0142.147 (0) Googledrive chunked upload: 45.4 % uploaded (189792256)
+0142.306 (0) Googledrive chunked upload: 45.6 % uploaded (190840832)
+0142.479 (0) Googledrive chunked upload: 45.9 % uploaded (191889408)
+0142.965 (0) Googledrive chunked upload: 46.1 % uploaded (192937984)
+0143.183 (0) Googledrive chunked upload: 46.4 % uploaded (193986560)
+0143.367 (0) Googledrive chunked upload: 46.6 % uploaded (195035136)
+0143.541 (0) Googledrive chunked upload: 46.9 % uploaded (196083712)
+0143.755 (0) Googledrive chunked upload: 47.1 % uploaded (197132288)
+0143.980 (0) Googledrive chunked upload: 47.4 % uploaded (198180864)
+0144.178 (0) Googledrive chunked upload: 47.6 % uploaded (199229440)
+0144.387 (0) Googledrive chunked upload: 47.9 % uploaded (200278016)
+0144.562 (0) Googledrive chunked upload: 48.1 % uploaded (201326592)
+0144.756 (0) Googledrive chunked upload: 48.4 % uploaded (202375168)
+0146.119 (0) Googledrive chunked upload: 48.6 % uploaded (203423744)
+0147.076 (0) Googledrive chunked upload: 48.9 % uploaded (204472320)
+0147.237 (0) Googledrive chunked upload: 49.1 % uploaded (205520896)
+0147.424 (0) Googledrive chunked upload: 49.4 % uploaded (206569472)
+0147.588 (0) Googledrive chunked upload: 49.6 % uploaded (207618048)
+0147.777 (0) Googledrive chunked upload: 49.9 % uploaded (208666624)
+0147.960 (0) Googledrive chunked upload: 50.1 % uploaded (209715200)
+0148.165 (0) Googledrive chunked upload: 50.4 % uploaded (210763776)
+0148.341 (0) Googledrive chunked upload: 50.6 % uploaded (211812352)
+0148.556 (0) Googledrive chunked upload: 50.9 % uploaded (212860928)
+0148.745 (0) Googledrive chunked upload: 51.1 % uploaded (213909504)
+0148.964 (0) Googledrive chunked upload: 51.4 % uploaded (214958080)
+0149.155 (0) Googledrive chunked upload: 51.6 % uploaded (216006656)
+0149.337 (0) Googledrive chunked upload: 51.9 % uploaded (217055232)
+0149.550 (0) Googledrive chunked upload: 52.1 % uploaded (218103808)
+0149.714 (0) Googledrive chunked upload: 52.4 % uploaded (219152384)
+0149.886 (0) Googledrive chunked upload: 52.6 % uploaded (220200960)
+0150.060 (0) Googledrive chunked upload: 52.9 % uploaded (221249536)
+0150.203 (0) Googledrive chunked upload: 53.1 % uploaded (222298112)
+0150.412 (0) Googledrive chunked upload: 53.4 % uploaded (223346688)
+0150.584 (0) Googledrive chunked upload: 53.6 % uploaded (224395264)
+0150.785 (0) Googledrive chunked upload: 53.9 % uploaded (225443840)
+0150.994 (0) Googledrive chunked upload: 54.1 % uploaded (226492416)
+0151.180 (0) Googledrive chunked upload: 54.4 % uploaded (227540992)
+0151.353 (0) Googledrive chunked upload: 54.6 % uploaded (228589568)
+0151.561 (0) Googledrive chunked upload: 54.9 % uploaded (229638144)
+0151.740 (0) Googledrive chunked upload: 55.1 % uploaded (230686720)
+0151.928 (0) Googledrive chunked upload: 55.4 % uploaded (231735296)
+0152.079 (0) Googledrive chunked upload: 55.6 % uploaded (232783872)
+0152.331 (0) Googledrive chunked upload: 55.9 % uploaded (233832448)
+0152.499 (0) Googledrive chunked upload: 56.1 % uploaded (234881024)
+0152.678 (0) Googledrive chunked upload: 56.4 % uploaded (235929600)
+0152.868 (0) Googledrive chunked upload: 56.6 % uploaded (236978176)
+0153.057 (0) Googledrive chunked upload: 56.9 % uploaded (238026752)
+0153.226 (0) Googledrive chunked upload: 57.1 % uploaded (239075328)
+0153.393 (0) Googledrive chunked upload: 57.4 % uploaded (240123904)
+0153.586 (0) Googledrive chunked upload: 57.6 % uploaded (241172480)
+0153.818 (0) Googledrive chunked upload: 57.9 % uploaded (242221056)
+0154.011 (0) Googledrive chunked upload: 58.1 % uploaded (243269632)
+0154.227 (0) Googledrive chunked upload: 58.4 % uploaded (244318208)
+0154.388 (0) Googledrive chunked upload: 58.6 % uploaded (245366784)
+0154.604 (0) Googledrive chunked upload: 58.9 % uploaded (246415360)
+0154.894 (0) Googledrive chunked upload: 59.1 % uploaded (247463936)
+0155.656 (0) Googledrive chunked upload: 59.4 % uploaded (248512512)
+0155.847 (0) Googledrive chunked upload: 59.6 % uploaded (249561088)
+0156.013 (0) Googledrive chunked upload: 59.9 % uploaded (250609664)
+0156.236 (0) Googledrive chunked upload: 60.1 % uploaded (251658240)
+0156.398 (0) Googledrive chunked upload: 60.4 % uploaded (252706816)
+0156.635 (0) Googledrive chunked upload: 60.6 % uploaded (253755392)
+0156.820 (0) Googledrive chunked upload: 60.9 % uploaded (254803968)
+0157.059 (0) Googledrive chunked upload: 61.1 % uploaded (255852544)
+0157.225 (0) Googledrive chunked upload: 61.4 % uploaded (256901120)
+0157.392 (0) Googledrive chunked upload: 61.6 % uploaded (257949696)
+0158.330 (0) Googledrive chunked upload: 61.9 % uploaded (258998272)
+0158.515 (0) Googledrive chunked upload: 62.1 % uploaded (260046848)
+0158.683 (0) Googledrive chunked upload: 62.4 % uploaded (261095424)
+0158.867 (0) Googledrive chunked upload: 62.6 % uploaded (262144000)
+0159.098 (0) Googledrive chunked upload: 62.9 % uploaded (263192576)
+0159.266 (0) Googledrive chunked upload: 63.1 % uploaded (264241152)
+0159.513 (0) Googledrive chunked upload: 63.4 % uploaded (265289728)
+0159.701 (0) Googledrive chunked upload: 63.7 % uploaded (266338304)
+0159.912 (0) Googledrive chunked upload: 63.9 % uploaded (267386880)
+0160.147 (0) Googledrive chunked upload: 64.2 % uploaded (268435456)
+0160.301 (0) Googledrive chunked upload: 64.4 % uploaded (269484032)
+0160.518 (0) Googledrive chunked upload: 64.7 % uploaded (270532608)
+0160.694 (0) Googledrive chunked upload: 64.9 % uploaded (271581184)
+0160.889 (0) Googledrive chunked upload: 65.2 % uploaded (272629760)
+0161.112 (0) Googledrive chunked upload: 65.4 % uploaded (273678336)
+0161.310 (0) Googledrive chunked upload: 65.7 % uploaded (274726912)
+0161.510 (0) Googledrive chunked upload: 65.9 % uploaded (275775488)
+0161.725 (0) Googledrive chunked upload: 66.2 % uploaded (276824064)
+0161.967 (0) Googledrive chunked upload: 66.4 % uploaded (277872640)
+0162.178 (0) Googledrive chunked upload: 66.7 % uploaded (278921216)
+0162.336 (0) Googledrive chunked upload: 66.9 % uploaded (279969792)
+0162.534 (0) Googledrive chunked upload: 67.2 % uploaded (281018368)
+0162.704 (0) Googledrive chunked upload: 67.4 % uploaded (282066944)
+0162.883 (0) Googledrive chunked upload: 67.7 % uploaded (283115520)
+0163.086 (0) Googledrive chunked upload: 67.9 % uploaded (284164096)
+0163.269 (0) Googledrive chunked upload: 68.2 % uploaded (285212672)
+0163.463 (0) Googledrive chunked upload: 68.4 % uploaded (286261248)
+0163.659 (0) Googledrive chunked upload: 68.7 % uploaded (287309824)
+0163.838 (0) Googledrive chunked upload: 68.9 % uploaded (288358400)
+0163.997 (0) Googledrive chunked upload: 69.2 % uploaded (289406976)
+0164.178 (0) Googledrive chunked upload: 69.4 % uploaded (290455552)
+0164.329 (0) Googledrive chunked upload: 69.7 % uploaded (291504128)
+0164.500 (0) Googledrive chunked upload: 69.9 % uploaded (292552704)
+0165.871 (0) Googledrive chunked upload: 70.2 % uploaded (293601280)
+0166.265 (0) Googledrive chunked upload: 70.4 % uploaded (294649856)
+0166.420 (0) Googledrive chunked upload: 70.7 % uploaded (295698432)
+0166.580 (0) Googledrive chunked upload: 70.9 % uploaded (296747008)
+0166.816 (0) Googledrive chunked upload: 71.2 % uploaded (297795584)
+0166.997 (0) Googledrive chunked upload: 71.4 % uploaded (298844160)
+0167.158 (0) Googledrive chunked upload: 71.7 % uploaded (299892736)
+0167.330 (0) Googledrive chunked upload: 71.9 % uploaded (300941312)
+0167.500 (0) Googledrive chunked upload: 72.2 % uploaded (301989888)
+0167.730 (0) Googledrive chunked upload: 72.4 % uploaded (303038464)
+0167.980 (0) Googledrive chunked upload: 72.7 % uploaded (304087040)
+0168.163 (0) Googledrive chunked upload: 72.9 % uploaded (305135616)
+0168.338 (0) Googledrive chunked upload: 73.2 % uploaded (306184192)
+0168.505 (0) Googledrive chunked upload: 73.4 % uploaded (307232768)
+0168.663 (0) Googledrive chunked upload: 73.7 % uploaded (308281344)
+0168.824 (0) Googledrive chunked upload: 73.9 % uploaded (309329920)
+0168.970 (0) Googledrive chunked upload: 74.2 % uploaded (310378496)
+0169.403 (0) Googledrive chunked upload: 74.4 % uploaded (311427072)
+0169.612 (0) Googledrive chunked upload: 74.7 % uploaded (312475648)
+0169.766 (0) Googledrive chunked upload: 74.9 % uploaded (313524224)
+0170.277 (0) Googledrive chunked upload: 75.2 % uploaded (314572800)
+0170.499 (0) Googledrive chunked upload: 75.4 % uploaded (315621376)
+0170.666 (0) Googledrive chunked upload: 75.7 % uploaded (316669952)
+0170.879 (0) Googledrive chunked upload: 75.9 % uploaded (317718528)
+0171.334 (0) Googledrive chunked upload: 76.2 % uploaded (318767104)
+0171.566 (0) Googledrive chunked upload: 76.4 % uploaded (319815680)
+0171.724 (0) Googledrive chunked upload: 76.7 % uploaded (320864256)
+0171.897 (0) Googledrive chunked upload: 76.9 % uploaded (321912832)
+0172.072 (0) Googledrive chunked upload: 77.2 % uploaded (322961408)
+0172.289 (0) Googledrive chunked upload: 77.4 % uploaded (324009984)
+0172.464 (0) Googledrive chunked upload: 77.7 % uploaded (325058560)
+0172.696 (0) Googledrive chunked upload: 77.9 % uploaded (326107136)
+0172.882 (0) Googledrive chunked upload: 78.2 % uploaded (327155712)
+0173.079 (0) Googledrive chunked upload: 78.4 % uploaded (328204288)
+0173.232 (0) Googledrive chunked upload: 78.7 % uploaded (329252864)
+0173.447 (0) Googledrive chunked upload: 78.9 % uploaded (330301440)
+0173.614 (0) Googledrive chunked upload: 79.2 % uploaded (331350016)
+0173.830 (0) Googledrive chunked upload: 79.4 % uploaded (332398592)
+0174.006 (0) Googledrive chunked upload: 79.7 % uploaded (333447168)
+0174.255 (0) Googledrive chunked upload: 79.9 % uploaded (334495744)
+0174.448 (0) Googledrive chunked upload: 80.2 % uploaded (335544320)
+0174.614 (0) Googledrive chunked upload: 80.4 % uploaded (336592896)
+0174.798 (0) Googledrive chunked upload: 80.7 % uploaded (337641472)
+0175.005 (0) Googledrive chunked upload: 80.9 % uploaded (338690048)
+0175.174 (0) Googledrive chunked upload: 81.2 % uploaded (339738624)
+0175.396 (0) Googledrive chunked upload: 81.4 % uploaded (340787200)
+0175.635 (0) Googledrive chunked upload: 81.7 % uploaded (341835776)
+0175.854 (0) Googledrive chunked upload: 81.9 % uploaded (342884352)
+0176.049 (0) Googledrive chunked upload: 82.2 % uploaded (343932928)
+0176.229 (0) Googledrive chunked upload: 82.4 % uploaded (344981504)
+0176.391 (0) Googledrive chunked upload: 82.7 % uploaded (346030080)
+0176.556 (0) Googledrive chunked upload: 82.9 % uploaded (347078656)
+0176.736 (0) Googledrive chunked upload: 83.2 % uploaded (348127232)
+0176.901 (0) Googledrive chunked upload: 83.4 % uploaded (349175808)
+0177.227 (0) Googledrive chunked upload: 83.7 % uploaded (350224384)
+0177.426 (0) Googledrive chunked upload: 83.9 % uploaded (351272960)
+0177.584 (0) Googledrive chunked upload: 84.2 % uploaded (352321536)
+0177.751 (0) Googledrive chunked upload: 84.4 % uploaded (353370112)
+0177.963 (0) Googledrive chunked upload: 84.7 % uploaded (354418688)
+0178.122 (0) Googledrive chunked upload: 85 % uploaded (355467264)
+0178.304 (0) Googledrive chunked upload: 85.2 % uploaded (356515840)
+0178.463 (0) Googledrive chunked upload: 85.5 % uploaded (357564416)
+0178.680 (0) Googledrive chunked upload: 85.7 % uploaded (358612992)
+0178.873 (0) Googledrive chunked upload: 86 % uploaded (359661568)
+0179.112 (0) Googledrive chunked upload: 86.2 % uploaded (360710144)
+0179.358 (0) Googledrive chunked upload: 86.5 % uploaded (361758720)
+0179.593 (0) Googledrive chunked upload: 86.7 % uploaded (362807296)
+0179.814 (0) Googledrive chunked upload: 87 % uploaded (363855872)
+0179.979 (0) Googledrive chunked upload: 87.2 % uploaded (364904448)
+0180.141 (0) Googledrive chunked upload: 87.5 % uploaded (365953024)
+0180.344 (0) Googledrive chunked upload: 87.7 % uploaded (367001600)
+0180.564 (0) Googledrive chunked upload: 88 % uploaded (368050176)
+0180.722 (0) Googledrive chunked upload: 88.2 % uploaded (369098752)
+0180.919 (0) Googledrive chunked upload: 88.5 % uploaded (370147328)
+0181.099 (0) Googledrive chunked upload: 88.7 % uploaded (371195904)
+0181.325 (0) Googledrive chunked upload: 89 % uploaded (372244480)
+0181.501 (0) Googledrive chunked upload: 89.2 % uploaded (373293056)
+0181.672 (0) Googledrive chunked upload: 89.5 % uploaded (374341632)
+0181.865 (0) Googledrive chunked upload: 89.7 % uploaded (375390208)
+0182.011 (0) Googledrive chunked upload: 90 % uploaded (376438784)
+0182.298 (0) Googledrive chunked upload: 90.2 % uploaded (377487360)
+0182.500 (0) Googledrive chunked upload: 90.5 % uploaded (378535936)
+0182.674 (0) Googledrive chunked upload: 90.7 % uploaded (379584512)
+0182.840 (0) Googledrive chunked upload: 91 % uploaded (380633088)
+0183.100 (0) Googledrive chunked upload: 91.2 % uploaded (381681664)
+0183.340 (0) Googledrive chunked upload: 91.5 % uploaded (382730240)
+0183.547 (0) Googledrive chunked upload: 91.7 % uploaded (383778816)
+0183.725 (0) Googledrive chunked upload: 92 % uploaded (384827392)
+0183.943 (0) Googledrive chunked upload: 92.2 % uploaded (385875968)
+0184.128 (0) Googledrive chunked upload: 92.5 % uploaded (386924544)
+0184.305 (0) Googledrive chunked upload: 92.7 % uploaded (387973120)
+0184.527 (0) Googledrive chunked upload: 93 % uploaded (389021696)
+0184.768 (0) Googledrive chunked upload: 93.2 % uploaded (390070272)
+0184.944 (0) Googledrive chunked upload: 93.5 % uploaded (391118848)
+0185.096 (0) Googledrive chunked upload: 93.7 % uploaded (392167424)
+0185.245 (0) Googledrive chunked upload: 94 % uploaded (393216000)
+0185.528 (0) Googledrive chunked upload: 94.2 % uploaded (394264576)
+0185.689 (0) Googledrive chunked upload: 94.5 % uploaded (395313152)
+0185.923 (0) Googledrive chunked upload: 94.7 % uploaded (396361728)
+0186.137 (0) Googledrive chunked upload: 95 % uploaded (397410304)
+0186.323 (0) Googledrive chunked upload: 95.2 % uploaded (398458880)
+0186.494 (0) Googledrive chunked upload: 95.5 % uploaded (399507456)
+0186.667 (0) Googledrive chunked upload: 95.7 % uploaded (400556032)
+0186.829 (0) Googledrive chunked upload: 96 % uploaded (401604608)
+0186.979 (0) Googledrive chunked upload: 96.2 % uploaded (402653184)
+0187.131 (0) Googledrive chunked upload: 96.5 % uploaded (403701760)
+0187.327 (0) Googledrive chunked upload: 96.7 % uploaded (404750336)
+0187.526 (0) Googledrive chunked upload: 97 % uploaded (405798912)
+0187.729 (0) Googledrive chunked upload: 97.2 % uploaded (406847488)
+0187.903 (0) Googledrive chunked upload: 97.5 % uploaded (407896064)
+0188.118 (0) Googledrive chunked upload: 97.7 % uploaded (408944640)
+0188.304 (0) Googledrive chunked upload: 98 % uploaded (409993216)
+0188.529 (0) Googledrive chunked upload: 98.2 % uploaded (411041792)
+0188.749 (0) Googledrive chunked upload: 98.5 % uploaded (412090368)
+0188.924 (0) Googledrive chunked upload: 98.7 % uploaded (413138944)
+0189.112 (0) Googledrive chunked upload: 99 % uploaded (414187520)
+0189.314 (0) Googledrive chunked upload: 99.2 % uploaded (415236096)
+0189.556 (0) Googledrive chunked upload: 99.5 % uploaded (416284672)
+0189.734 (0) Googledrive chunked upload: 99.7 % uploaded (417333248)
+0189.934 (0) Googledrive chunked upload: 100 % uploaded (418381824)
+0190.824 (0) Googledrive chunked upload: 100 % uploaded (418381824)
+0190.827 (0) Google Drive: OK: Archive backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip uploaded in 89.49 seconds
+0190.829 (0) Recording as successfully uploaded: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip
+0190.927 (0) Deleting local file: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads.zip: OK
+0191.090 (0) Google Drive: quota usage: used=27166.5 MB, total=117760 MB, available=90593.5 MB
+0191.092 (0) Google Drive: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1rPtSjb31qrpf2Zs0lmvNl3KrYda12gOi)
+0191.627 (0) Googledrive chunked upload: 5.1 % uploaded (1048576)
+0191.890 (0) Googledrive chunked upload: 10.1 % uploaded (2097152)
+0192.210 (0) Googledrive chunked upload: 15.2 % uploaded (3145728)
+0192.408 (0) Googledrive chunked upload: 20.3 % uploaded (4194304)
+0192.645 (0) Googledrive chunked upload: 25.4 % uploaded (5242880)
+0192.884 (0) Googledrive chunked upload: 30.4 % uploaded (6291456)
+0195.242 (0) Googledrive chunked upload: 35.5 % uploaded (7340032)
+0195.491 (0) Googledrive chunked upload: 40.6 % uploaded (8388608)
+0195.701 (0) Googledrive chunked upload: 45.7 % uploaded (9437184)
+0195.929 (0) Googledrive chunked upload: 50.7 % uploaded (10485760)
+0196.124 (0) Googledrive chunked upload: 55.8 % uploaded (11534336)
+0196.420 (0) Googledrive chunked upload: 60.9 % uploaded (12582912)
+0196.668 (0) Googledrive chunked upload: 66 % uploaded (13631488)
+0196.911 (0) Googledrive chunked upload: 71 % uploaded (14680064)
+0197.127 (0) Googledrive chunked upload: 76.1 % uploaded (15728640)
+0197.362 (0) Googledrive chunked upload: 81.2 % uploaded (16777216)
+0197.607 (0) Googledrive chunked upload: 86.3 % uploaded (17825792)
+0197.808 (0) Googledrive chunked upload: 91.3 % uploaded (18874368)
+0197.959 (0) Googledrive chunked upload: 96.4 % uploaded (19922944)
+0198.838 (0) Googledrive chunked upload: 100 % uploaded (19922944)
+0198.843 (0) Google Drive: OK: Archive backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip uploaded in 7.75 seconds
+0198.845 (0) Recording as successfully uploaded: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip
+0198.854 (0) Deleting local file: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-uploads2.zip: OK
+0199.004 (0) Google Drive: quota usage: used=27585.3 MB, total=117760 MB, available=90174.7 MB
+0199.007 (0) Google Drive: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-others.zip: Attempting to upload to Google Drive (into folder id: 1rPtSjb31qrpf2Zs0lmvNl3KrYda12gOi)
+0199.466 (0) Googledrive chunked upload: 1 % uploaded (1048576)
+0199.634 (0) Googledrive chunked upload: 2.1 % uploaded (2097152)
+0199.833 (0) Googledrive chunked upload: 3.1 % uploaded (3145728)
+0200.010 (0) Googledrive chunked upload: 4.2 % uploaded (4194304)
+0200.186 (0) Googledrive chunked upload: 5.2 % uploaded (5242880)
+0200.963 (0) Googledrive chunked upload: 6.3 % uploaded (6291456)
+0201.483 (0) Googledrive chunked upload: 7.3 % uploaded (7340032)
+0201.688 (0) Googledrive chunked upload: 8.3 % uploaded (8388608)
+0201.881 (0) Googledrive chunked upload: 9.4 % uploaded (9437184)
+0202.054 (0) Googledrive chunked upload: 10.4 % uploaded (10485760)
+0202.231 (0) Googledrive chunked upload: 11.5 % uploaded (11534336)
+0202.613 (0) Googledrive chunked upload: 12.5 % uploaded (12582912)
+0202.774 (0) Googledrive chunked upload: 13.6 % uploaded (13631488)
+0202.965 (0) Googledrive chunked upload: 14.6 % uploaded (14680064)
+0203.135 (0) Googledrive chunked upload: 15.6 % uploaded (15728640)
+0203.309 (0) Googledrive chunked upload: 16.7 % uploaded (16777216)
+0203.480 (0) Googledrive chunked upload: 17.7 % uploaded (17825792)
+0203.654 (0) Googledrive chunked upload: 18.8 % uploaded (18874368)
+0203.847 (0) Googledrive chunked upload: 19.8 % uploaded (19922944)
+0204.003 (0) Googledrive chunked upload: 20.9 % uploaded (20971520)
+0204.171 (0) Googledrive chunked upload: 21.9 % uploaded (22020096)
+0204.352 (0) Googledrive chunked upload: 22.9 % uploaded (23068672)
+0204.560 (0) Googledrive chunked upload: 24 % uploaded (24117248)
+0204.909 (0) Googledrive chunked upload: 25 % uploaded (25165824)
+0205.087 (0) Googledrive chunked upload: 26.1 % uploaded (26214400)
+0205.416 (0) Googledrive chunked upload: 27.1 % uploaded (27262976)
+0205.903 (0) Googledrive chunked upload: 28.2 % uploaded (28311552)
+0206.072 (0) Googledrive chunked upload: 29.2 % uploaded (29360128)
+0206.238 (0) Googledrive chunked upload: 30.2 % uploaded (30408704)
+0206.423 (0) Googledrive chunked upload: 31.3 % uploaded (31457280)
+0206.582 (0) Googledrive chunked upload: 32.3 % uploaded (32505856)
+0207.205 (0) Googledrive chunked upload: 33.4 % uploaded (33554432)
+0207.383 (0) Googledrive chunked upload: 34.4 % uploaded (34603008)
+0207.587 (0) Googledrive chunked upload: 35.5 % uploaded (35651584)
+0207.745 (0) Googledrive chunked upload: 36.5 % uploaded (36700160)
+0207.912 (0) Googledrive chunked upload: 37.5 % uploaded (37748736)
+0208.173 (0) Googledrive chunked upload: 38.6 % uploaded (38797312)
+0208.332 (0) Googledrive chunked upload: 39.6 % uploaded (39845888)
+0208.521 (0) Googledrive chunked upload: 40.7 % uploaded (40894464)
+0208.702 (0) Googledrive chunked upload: 41.7 % uploaded (41943040)
+0208.865 (0) Googledrive chunked upload: 42.8 % uploaded (42991616)
+0209.080 (0) Googledrive chunked upload: 43.8 % uploaded (44040192)
+0209.271 (0) Googledrive chunked upload: 44.9 % uploaded (45088768)
+0209.472 (0) Googledrive chunked upload: 45.9 % uploaded (46137344)
+0209.632 (0) Googledrive chunked upload: 46.9 % uploaded (47185920)
+0209.779 (0) Googledrive chunked upload: 48 % uploaded (48234496)
+0210.011 (0) Googledrive chunked upload: 49 % uploaded (49283072)
+0210.215 (0) Googledrive chunked upload: 50.1 % uploaded (50331648)
+0210.423 (0) Googledrive chunked upload: 51.1 % uploaded (51380224)
+0210.590 (0) Googledrive chunked upload: 52.2 % uploaded (52428800)
+0210.813 (0) Googledrive chunked upload: 53.2 % uploaded (53477376)
+0210.986 (0) Googledrive chunked upload: 54.2 % uploaded (54525952)
+0211.144 (0) Googledrive chunked upload: 55.3 % uploaded (55574528)
+0211.306 (0) Googledrive chunked upload: 56.3 % uploaded (56623104)
+0211.464 (0) Googledrive chunked upload: 57.4 % uploaded (57671680)
+0211.628 (0) Googledrive chunked upload: 58.4 % uploaded (58720256)
+0211.795 (0) Googledrive chunked upload: 59.5 % uploaded (59768832)
+0211.957 (0) Googledrive chunked upload: 60.5 % uploaded (60817408)
+0212.162 (0) Googledrive chunked upload: 61.5 % uploaded (61865984)
+0212.334 (0) Googledrive chunked upload: 62.6 % uploaded (62914560)
+0212.495 (0) Googledrive chunked upload: 63.6 % uploaded (63963136)
+0212.667 (0) Googledrive chunked upload: 64.7 % uploaded (65011712)
+0212.859 (0) Googledrive chunked upload: 65.7 % uploaded (66060288)
+0213.133 (0) Googledrive chunked upload: 66.8 % uploaded (67108864)
+0213.318 (0) Googledrive chunked upload: 67.8 % uploaded (68157440)
+0213.536 (0) Googledrive chunked upload: 68.8 % uploaded (69206016)
+0213.707 (0) Googledrive chunked upload: 69.9 % uploaded (70254592)
+0213.935 (0) Googledrive chunked upload: 70.9 % uploaded (71303168)
+0214.091 (0) Googledrive chunked upload: 72 % uploaded (72351744)
+0214.297 (0) Googledrive chunked upload: 73 % uploaded (73400320)
+0214.468 (0) Googledrive chunked upload: 74.1 % uploaded (74448896)
+0214.635 (0) Googledrive chunked upload: 75.1 % uploaded (75497472)
+0214.797 (0) Googledrive chunked upload: 76.1 % uploaded (76546048)
+0214.965 (0) Googledrive chunked upload: 77.2 % uploaded (77594624)
+0215.163 (0) Googledrive chunked upload: 78.2 % uploaded (78643200)
+0215.334 (0) Googledrive chunked upload: 79.3 % uploaded (79691776)
+0215.493 (0) Googledrive chunked upload: 80.3 % uploaded (80740352)
+0215.704 (0) Googledrive chunked upload: 81.4 % uploaded (81788928)
+0216.135 (0) Googledrive chunked upload: 82.4 % uploaded (82837504)
+0216.290 (0) Googledrive chunked upload: 83.4 % uploaded (83886080)
+0216.497 (0) Googledrive chunked upload: 84.5 % uploaded (84934656)
+0216.675 (0) Googledrive chunked upload: 85.5 % uploaded (85983232)
+0216.863 (0) Googledrive chunked upload: 86.6 % uploaded (87031808)
+0217.047 (0) Googledrive chunked upload: 87.6 % uploaded (88080384)
+0217.227 (0) Googledrive chunked upload: 88.7 % uploaded (89128960)
+0217.447 (0) Googledrive chunked upload: 89.7 % uploaded (90177536)
+0217.669 (0) Googledrive chunked upload: 90.7 % uploaded (91226112)
+0217.824 (0) Googledrive chunked upload: 91.8 % uploaded (92274688)
+0218.036 (0) Googledrive chunked upload: 92.8 % uploaded (93323264)
+0218.270 (0) Googledrive chunked upload: 93.9 % uploaded (94371840)
+0218.486 (0) Googledrive chunked upload: 94.9 % uploaded (95420416)
+0218.680 (0) Googledrive chunked upload: 96 % uploaded (96468992)
+0218.848 (0) Googledrive chunked upload: 97 % uploaded (97517568)
+0219.002 (0) Googledrive chunked upload: 98 % uploaded (98566144)
+0219.179 (0) Googledrive chunked upload: 99.1 % uploaded (99614720)
+0220.131 (0) Googledrive chunked upload: 100 % uploaded (99614720)
+0220.137 (0) Google Drive: OK: Archive backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-others.zip uploaded in 21.13 seconds
+0220.139 (0) Recording as successfully uploaded: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-others.zip
+0220.171 (0) Deleting local file: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-others.zip: OK
+0220.421 (0) Google Drive: quota usage: used=27681.2 MB, total=117760 MB, available=90078.8 MB
+0220.425 (0) Google Drive: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz: Attempting to upload to Google Drive (into folder id: 1rPtSjb31qrpf2Zs0lmvNl3KrYda12gOi)
+0221.499 (0) Googledrive chunked upload: 100 % uploaded
+0221.505 (0) Google Drive: OK: Archive backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz uploaded in 1.08 seconds
+0221.507 (0) Recording as successfully uploaded: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz
+0221.511 (0) Deleting local file: backup_2021-08-05-0144_Web_Solutions_346f1e4451ce-db.gz: OK
+0221.517 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0221.519 (0) Number of backup sets in history: 3; groups (db): 1
+0221.521 (0) Examining (for databases) backup set with group_id=0, nonce=346f1e4451ce, datestamp=1628127841 (Aug 05 2021 01:44:01)
+0221.522 (0) This backup set is the backup set just made, so will not be deleted.
+0221.523 (0) Examining (for databases) backup set with group_id=0, nonce=958578ba5632, datestamp=1625535554 (Jul 06 2021 01:39:14)
+0221.523 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0221.525 (0) Examining (for databases) backup set with group_id=0, nonce=324df95b3d61, datestamp=1622943581 (Jun 06 2021 01:39:41)
+0221.525 (0) 1622943581: db: this set includes a database (backup_2021-06-06-0139_Web_Solutions_324df95b3d61-db.gz); db count is now 2
+0221.525 (0) 1622943581: db: over retain limit (2); will delete this database
+0221.525 (0) Delete file: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-db.gz, service=googledrive
+0222.876 (0) Google Drive: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-db.gz: Deletion successful
+0222.882 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0222.884 (0) Number of backup sets in history: 3; groups (files): 1
+0222.886 (0) Examining (for files) backup set with nonce=346f1e4451ce, datestamp=1628127841 (Aug 05 2021 01:44:01)
+0222.886 (0) This backup set is the backup set just made, so will not be deleted.
+0222.889 (0) This backup set is the backup set just made, so will not be deleted.
+0222.889 (0) This backup set is the backup set just made, so will not be deleted.
+0222.890 (0) This backup set is the backup set just made, so will not be deleted.
+0222.890 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0222.893 (0) Examining (for files) backup set with nonce=958578ba5632, datestamp=1625535554 (Jul 06 2021 01:39:14)
+0222.893 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0222.893 (0) Examining (for files) backup set with nonce=324df95b3d61, datestamp=1622943581 (Jun 06 2021 01:39:41)
+0222.894 (0) plugins: over retain limit (2); will delete this file entity
+0222.894 (0) themes: over retain limit (2); will delete this file entity
+0222.894 (0) uploads: over retain limit (2); will delete this file entity
+0222.894 (0) others: over retain limit (2); will delete this file entity
+0222.894 (0) Delete file: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-plugins.zip, service=googledrive
+0222.896 (0) Delete file: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-themes.zip, service=googledrive
+0222.900 (0) Delete file: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-uploads.zip, service=googledrive
+0222.902 (0) Delete file: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-uploads2.zip, service=googledrive
+0222.904 (0) Delete file: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-others.zip, service=googledrive
+0223.793 (0) Google Drive: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-others.zip: Deletion successful
+0224.316 (0) Google Drive: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-uploads2.zip: Deletion successful
+0224.877 (0) Google Drive: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-uploads.zip: Deletion successful
+0226.411 (0) Google Drive: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-themes.zip: Deletion successful
+0226.968 (0) Google Drive: backup_2021-06-06-0139_Web_Solutions_324df95b3d61-plugins.zip: Deletion successful
+0227.039 (0) This backup set is now empty; will remove from history
+0227.589 (0) Corresponding log file (log.324df95b3d61.txt) not found - must have already been deleted
+0227.591 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0227.597 (0) Resume backup (346f1e4451ce, 0): finish run
+0227.601 (0) Decremented the semaphore (fd) by 1
+0227.605 (0) Semaphore (fd) unlocked
+0227.609 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0227.614 (0) No email will/can be sent - the user has not configured an email address.
+0227.616 (0) The backup apparently succeeded and is now complete

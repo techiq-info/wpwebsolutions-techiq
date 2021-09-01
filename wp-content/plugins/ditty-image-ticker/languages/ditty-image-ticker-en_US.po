@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ditty Image Ticker v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-05 03:02:36+0000\n"
+"Last-Translator: admin <joe@metaphorcreations.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/functions.php:9
+#@ ditty-image-ticker
+msgid "Image"
+msgstr ""
+
+#: includes/functions.php:43
+#@ ditty-image-ticker
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/functions.php:44
+#@ ditty-image-ticker
+msgid "Medium Size"
+msgstr ""
+
+#: includes/functions.php:45
+#@ ditty-image-ticker
+msgid "Large Size"
+msgstr ""
+
+#: includes/functions.php:46
+#@ ditty-image-ticker
+msgid "Full Size"
+msgstr ""
+
+#: includes/meta-boxes.php:11
+#@ ditty-image-ticker
+msgid "Image Ticker Data"
+msgstr ""
+
+#: includes/meta-boxes.php:37
+#@ ditty-image-ticker
+msgid "Toggle image settings"
+msgstr ""
+
+#: includes/meta-boxes.php:38
+#: includes/meta-boxes.php:49
+#@ ditty-image-ticker
+msgid "Some description here."
+msgstr ""
+
+#: includes/meta-boxes.php:41
+#@ ditty-image-ticker
+msgid "Enable Titles"
+msgstr ""
+
+#: includes/meta-boxes.php:42
+#@ ditty-image-ticker
+msgid "Enable Descriptions"
+msgstr ""
+
+#: includes/meta-boxes.php:43
+#@ ditty-image-ticker
+msgid "Enable Links"
+msgstr ""
+
+#: includes/meta-boxes.php:48
+#@ ditty-image-ticker
+msgid "Select an image size"
+msgstr ""
+
+#: includes/meta-boxes.php:63
+#: includes/scripts.php:18
+#@ ditty-image-ticker
+msgid "Add Images"
+msgstr ""
+
+#: includes/meta-boxes.php:97
+#@ ditty-image-ticker
+msgid "Title"
+msgstr ""
+
+#: includes/meta-boxes.php:101
+#@ ditty-image-ticker
+msgid "Link"
+msgstr ""
+
+#: includes/meta-boxes.php:107
+#@ ditty-image-ticker
+msgid "Description"
+msgstr ""
+
+#: includes/meta-boxes.php:111
+#@ ditty-image-ticker
+msgid "Target"
+msgstr ""
+
+#: includes/meta-boxes.php:116
+#@ ditty-image-ticker
+msgid "nofollow"
+msgstr ""
+
+#: includes/scripts.php:19
+#@ ditty-image-ticker
+msgid "Insert as new tick(s)"
+msgstr ""
+
+#: ditty-image-ticker.php:70
+#, php-format
+#@ ditty-image-ticker
+msgid "<a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> must be installed and activated to use Ditty Image Ticker."
+msgstr ""
+

@@ -1,0 +1,267 @@
+.entry-content a {
+	color: #cc3366;
+}
+.no-touch a:hover {
+	color: #cc3366;
+}
+blockquote {
+	border-color: #cc3366;
+}
+.form-control:focus,
+.ginput_container input:focus,
+.ginput_container select:focus,
+.ginput_container textarea:focus {
+	border-color: #cc3366;
+}
+.btn,
+.gform_button,
+.comment-reply-link,
+.form-submit input[type="submit"] {
+	color: #cc3366;
+	border-color: #cc3366;
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn:focus,
+.gform_button:hover,
+.gform_button:active,
+.gform_button.active,
+.gform_button:focus,
+.comment-reply-link:hover,
+.form-submit input[type="submit"]:hover {
+	background-color: #cc3366;
+	border-color: #cc3366;
+}
+.apex-highlight,
+.apex-highlight * {
+	color: #cc3366;
+}
+.apex-readmore, 
+.apex-readmore * {
+	color: #cc3366 !important;
+}
+.mtphr-gallery-header i {
+	color: #cc3366;
+	border-color: #cc3366;
+}
+.mtphr-gallery-header a:hover i {
+	background-color: #cc3366;
+}
+.apex-style-dark .mtphr-dnt .mtphr-dnt-nav:hover {
+	border-color: #cc3366;
+}
+.mtphr-rotator-footer a:hover {
+	border-color: #cc3366;
+}
+.mtphr-rotator-footer a:hover i {
+	color: #cc3366;
+}
+.apex-hero-menu-container a:hover {
+	background-color: rgba(204, 51, 102, .8);
+}
+.apex-primary-menu-container li.active > a,
+.apex-primary-menu-container a:hover {
+	color: #cc3366;
+}
+.apex-primary-menu-container a:hover i {
+	color: #cc3366;
+}
+@media (min-width: 768px) {
+	.apex-primary-menu-container ul ul a:hover {
+		background-color: #cc3366;
+	}
+	.apex-primary-menu-container > ul > li > ul > li:first-child > a:hover .sub-menu-arrow {
+		border-bottom-color: #cc3366;
+	}
+}
+.apex-style-dark a:hover,
+.apex-style-dark a:hover *,
+.apex-style-dark h1 a:hover,
+.apex-style-dark h2 a:hover,
+.apex-style-dark h3 a:hover,
+.apex-style-dark h4 a:hover,
+.apex-style-dark h5 a:hover,
+.apex-style-dark h6 a:hover {
+	color: #cc3366;
+}
+.section-header-sep span {
+	border-top-color: #cc3366;
+}
+.mtphr-post-slider-header i {
+	color: #cc3366;
+	border-color: #cc3366;
+}
+.mtphr-post-slider-header a:hover i {
+	background-color: #cc3366;
+}
+.mtphr-tabs-links a:hover,
+.mtphr-tabbed-posts-link a:hover {
+	color: #cc3366;
+}
+.entry-featured-data .entry-data {
+	color: #cc3366;
+}
+.entry-featured-overlay {
+	background: #cc3366;
+	background: rgba(204, 51, 102, .8);
+}
+.entry-title a:hover {
+	color: #cc3366 !important;
+}
+.entry-featured-icons a:hover i {
+	color: #cc3366;
+}
+article.format-quote .entry-featured,
+.apex-post-format-quote .entry-featured,
+.mtphr-dnt-post-format-quote .apex-dnt-posts-quote-thumb,
+.mtphr-dnt-post-format-quote .apex-dnt-posts-quote-thumb,
+.mtphr-dnt-twitter-tick .mtphr-dnt-twitter-avatar {
+	border-color: #cc3366;
+}
+article.format-quote .entry-featured img,
+article.format-quote .entry-featured i,
+.apex-post-format-quote .entry-featured img,
+.apex-post-format-quote .entry-featured i,
+.mtphr-dnt-post-format-quote .apex-dnt-posts-quote-thumb img,
+.mtphr-dnt-post-format-quote .apex-dnt-posts-quote-thumb i,
+.mtphr-dnt-twitter-tick .mtphr-dnt-twitter-avatar img,
+.mtphr-dnt-twitter-tick .mtphr-dnt-twitter-avatar i {
+	background-color: rgba(204, 51, 102, .8);
+}
+article.format-quote .entry-title,
+article.format-quote .entry-title a,
+.apex-post-format-quote .entry-title,
+.apex-post-format-quote .entry-title a,
+.mtphr-dnt-post-format-quote .mtphr-dnt-posts-title,
+.mtphr-dnt-post-format-quote .mtphr-dnt-posts-title a,
+.mtphr-dnt-twitter-tick .mtphr-dnt-twitter-time {
+	color: #cc3366 !important;
+}
+.entry-meta a {
+	color: #cc3366;
+}
+.entry-comments:hover i {
+	color: #cc3366;
+}
+.content-nav li a:hover,
+#comment-nav li a:hover,
+.paginate-links a:hover span.paginate-links-number {
+	color: #cc3366;
+	border-color: #cc3366;
+}
+.content-nav li span,
+#comment-nav li span,
+.paginate-links > span.paginate-links-number {
+	background: #cc3366;
+	border-color: #cc3366;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #cc3366;
+	border-color: #cc3366; 
+}
+.nav-previous a:hover i,
+.nav-next a:hover i {
+	color: #cc3366;
+	border-color: #cc3366; 
+}
+.commentlist p.comment-awaiting-moderation {
+	color: #cc3366;
+}
+.apex-style-dark .comment-date {
+	color: #cc3366;
+}
+#cancel-comment-reply-link {
+	color: #cc3366;
+}
+.apex-icon i {
+	color: #cc3366;
+	border-color: #cc3366;
+}
+a.apex-icon:hover i {
+	background-color: #cc3366;
+}
+a.apex-icon-round:hover .apex-icon-title,
+a.apex-icon:hover .apex-icon-title {
+	color: #cc3366;
+}
+.apex-style-dark a.apex-icon:hover .apex-icon-title {
+	color: #cc3366;
+}
+.apex-icon-round .apex-icon {
+	border-color: #cc3366;
+}
+a.apex-icon-round:hover .apex-icon {
+	border-color: #cc3366;
+	background-color: #cc3366;
+}
+.apex-icon-round i {
+	color: #cc3366;
+}
+.apex-style-dark a.apex-icon-round:hover .apex-icon-title {
+	color: #cc3366;
+}
+.mtphr-slide-graph-fill {
+	background: #cc3366;
+}
+.mtphr-slide-graph-fill-bg {
+	background-color: rgba(204, 51, 102, .2);
+}
+.mtphr-social-widget-site:hover i {
+	background-color: #cc3366;
+}
+.search-container button[type="submit"]:hover {
+	color: #cc3366;
+}
+.widget_archive a:hover,
+.widget_categories a:hover,
+.mtphr-gallery-categories a:hover,
+.mtphr-post-navigation a:hover,
+.mtphr-comments-widget a:hover,
+.widget_pages a:hover,
+.widget_recent_entries a:hover,
+.widget_nav_menu a:hover,
+.widget_meta a:hover {
+	color: #cc3366;
+}
+.widget_archive a:hover span.count,
+.widget_categories a:hover span.count,
+.mtphr-gallery-categories a:hover span.count {
+	background-color: #cc3366;
+	border-color: #cc3366;
+}
+.widget_rss .rss-date {
+	color: #cc3366;
+}
+.widget_recent_comments a {
+	color: #cc3366;
+}
+.mtphr-posts-widget .readmore-wrapper a {
+	color: #cc3366;
+}
+.mtphr-comments-date {
+	color: #cc3366;
+}
+.tagcloud a:hover {
+	background-color: #cc3366;
+	border-color: #cc3366;
+}
+.mtphr-twitter-widget .mtphr-twitter-widget-date {
+	color: #cc3366;
+}
+.mtphr-tabbed-posts-widget .entry-meta {
+	color: #cc3366;
+}
+.mtphr-contact-widget a {
+	color: #cc3366;
+}
+#wp-calendar td#today {
+	background: #cc3366;
+}
+#wp-calendar td a {
+	color: #cc3366;
+}
+a#apex-totop-float:hover i {
+	color: #cc3366;
+}

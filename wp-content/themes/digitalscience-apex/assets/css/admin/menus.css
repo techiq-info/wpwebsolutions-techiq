@@ -1,0 +1,51 @@
+.apex-menu-icon {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	background: #FFF;
+	border: 1px solid #eaedf0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: -1px 8px -1px -8px;
+}
+.apex-menu-item-icon {
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	line-height: 36px;
+	border-color: #CCC;
+	margin: -6px 11px -6px -11px;
+}
+.apex-menu-icon.disabled {
+	cursor: default;
+}
+.apex-menu-toggle-link {
+	margin-right: 11px;
+}
+.menu-item.apex-menu-link-disabled .menu-item-handle,
+.menu-item.apex-menu-section-hidden .menu-item-handle {
+	background: none;
+	border-style: dashed;
+}
+.apex-menu-link-disabled .apex-menu-toggle-link {
+	color: #CCC;
+}
+.apex-menu-section-hidden .apex-menu-toggle-section {
+	color: #CCC;
+}
+.menu-item.apex-menu-section-hidden .menu-item-title {
+	/* color: #CCC; */
+}
+.menu-item.apex-menu-section-hidden .apex-menu-icon {
+	/* color: #CCC; */
+}
+.menu-item.apex-menu-section-hidden .apex-menu-icon:hover {
+	/* color: #2ea2cc; */
+}

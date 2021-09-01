@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ditty Image Ticker v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-20 17:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ ditty-image-ticker
+#: includes/functions.php:9
+msgid "Image"
+msgstr "Immagine"
+
+# @ ditty-image-ticker
+#: includes/functions.php:43
+msgid "Thumbnail Size"
+msgstr "Dimensione Thumbnail"
+
+# @ ditty-image-ticker
+#: includes/functions.php:44
+msgid "Medium Size"
+msgstr "Dimensione Media"
+
+# @ ditty-image-ticker
+#: includes/functions.php:45
+msgid "Large Size"
+msgstr "Dimensione Larga"
+
+# @ ditty-image-ticker
+#: includes/functions.php:46
+msgid "Full Size"
+msgstr "Dimensione Grande"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:11
+msgid "Image Ticker Data"
+msgstr "Dati image Ticker"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:37
+msgid "Toggle image settings"
+msgstr "Impostazioni Toggle image"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:38 includes/meta-boxes.php:49
+msgid "Some description here."
+msgstr "Qualche descrizione qui."
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:41
+msgid "Enable Titles"
+msgstr "Abilita Titoli"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:42
+msgid "Enable Descriptions"
+msgstr "Abilita descrizioni"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:43
+msgid "Enable Links"
+msgstr "Abilita Links"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:48
+msgid "Select an image size"
+msgstr "Seleziona una dimensione per l'immagine"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:63 includes/scripts.php:18
+msgid "Add Images"
+msgstr "Aggiungi Immagini"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:97
+msgid "Title"
+msgstr "Titolo"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:101
+msgid "Link"
+msgstr "Link"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:107
+msgid "Description"
+msgstr "Descrizione"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:111
+msgid "Target"
+msgstr "Target"
+
+# @ ditty-image-ticker
+#: includes/meta-boxes.php:116
+msgid "nofollow"
+msgstr "nofollow"
+
+# @ ditty-image-ticker
+#: includes/scripts.php:19
+msgid "Insert as new tick(s)"
+msgstr "Inserisci come nuovo tick(s)"
+
+# @ ditty-image-ticker
+#: ditty-image-ticker.php:70
+#, php-format
+msgid ""
+"<a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> "
+"must be installed and activated to use Ditty Image Ticker."
+msgstr ""
+"<a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> "
+"deve essere installato e attivato per usare Ditty Image Ticker."

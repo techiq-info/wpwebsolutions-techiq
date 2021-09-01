@@ -1,0 +1,109 @@
+$highlight-color: hsl(128, 52%, 57%);
+$highlight-color-hover: darken($highlight-color, 10%);
+$dark-gray: hsl(0, 0%, 20%);
+$dark-gray-hover: lighten($dark-gray, 10%);
+$medium-gray: hsl(0, 0%, 60%);
+$light-gray-hover: hsl(0, 0%, 80%);
+$light-gray: hsl(0, 0%, 85%);
+$lighter-gray: hsl(0, 0%, 95%);
+
+$green: $highlight-color;
+$red: hsl(0, 100%, 50%);
+
+.mtphr-dnt-data-image-preview {
+	box-sizing: border-box;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	line-height: 0;
+	border: 1px solid #333;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 9;
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		i {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -10px;
+			margin-left: -10px;
+			color: $green;
+			&.dashicons-no {
+				color: $red;
+			}
+		}
+	}
+}
+
+.mtphr-dnt-list-field-mtphr_dnt_image_ticks_image {
+	float: left;
+}
+.mtphr-dnt-list-field-mtphr_dnt_image_ticks_title {
+	margin-bottom: 10px;
+	padding-left: 110px;
+}
+.mtphr-dnt-list-field-mtphr_dnt_image_ticks_description {
+	padding-left: 110px;
+	margin-bottom: 0;
+	textarea {
+		height: 42px;
+	}
+}
+.mtphr-dnt-list-field-mtphr_dnt_image_ticks_link {
+	clear: both;
+}
+.mtphr-dnt-list-field-mtphr_dnt_image_ticks_target {
+	float: left;
+	margin-right: 2%;
+}
+.mtphr-dnt-list-field-mtphr_dnt_image_ticks_nofollow {
+	float: left;
+}
+
+@media (min-width: 366px) {
+}
+@media (min-width: 601px) {
+	.mtphr-dnt-field-mtphr_dnt_image_options_links,
+	.mtphr-dnt-field-mtphr_dnt_image_options_titles,
+	.mtphr-dnt-field-mtphr_dnt_image_options_descriptions {
+		float: left;
+		margin-right: 20px;
+	}
+	.mtphr-dnt-field-mtphr_dnt_image_options_data_display {
+		clear: both;
+	}
+	.mtphr-dnt-list-field-mtphr_dnt_image_ticks_link {
+		clear: both;
+		float: left;
+		width: 40%;
+		margin-right: 2%;
+	}
+	.mtphr-dnt-field-mtphr_dnt_image_options_data_display {
+		clear: both;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 0;
+	}
+	.mtphr-dnt-field-mtphr_dnt_image_options_data_hover {
+		float: left;
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 783px) {
+}
+@media (min-width: 961px) {
+}

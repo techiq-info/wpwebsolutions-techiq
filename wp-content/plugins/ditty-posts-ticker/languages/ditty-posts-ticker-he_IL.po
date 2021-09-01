@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ditty Posts Ticker v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-07 15:34:37+0000\n"
+"Last-Translator: Ahrale <contact@atar4u.com>\n"
+"Language-Team: Ahrale, Atar4U.com <contact@atar4u.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#  echo '<option value="IN" '.selected('IN', $operator, false).'>'.__('In', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="NOT IN" '.selected('NOT IN', $operator, false).'>'.__('Not In', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="AND" '.selected('AND', $operator, false).'>'.__('And', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 29d08dfa7d800f08d5d45ca2abe73edb
+#: includes/admin/meta-boxes.php:374
+#@ ditty-posts-ticker
+msgid "Not In"
+msgstr "לא ב"
+
+#  echo '<select name="_mtphr_dnt_posts_tax_query_args[operator]" data-name="_mtphr_dnt_posts_tax_query_args" data-key="operator">';
+#  echo '<option value="IN" '.selected('IN', $operator, false).'>'.__('In', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="NOT IN" '.selected('NOT IN', $operator, false).'>'.__('Not In', 'ditty-posts-ticker').'</option>';
+#  wpml-name: efeb369cccbd560588a756610865664c
+#: includes/admin/meta-boxes.php:373
+#@ ditty-posts-ticker
+msgid "In"
+msgstr "ב"
+
+#  echo '<option value="id" '.selected('id', $field, false).'>'.__('ID', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="slug" '.selected('slug', $field, false).'>'.__('Slug', 'ditty-posts-ticker').'</option>';
+#  echo '</td>';
+#  wpml-name: 0c908588520b3ef787bce443fc2b507c
+#: includes/admin/meta-boxes.php:362
+#@ ditty-posts-ticker
+msgid "Slug"
+msgstr "סלאג"
+
+#  echo '<option value="AND" '.selected('AND', $taxonomy_relation, false).'>'.__('And', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="OR" '.selected('OR', $taxonomy_relation, false).'>'.__('Or', 'ditty-posts-ticker').'</option>';
+#  echo '</select>';
+#  wpml-name: 3a2d5fe857d8f9541136a124c2edec6c
+#: includes/admin/meta-boxes.php:310
+#@ ditty-posts-ticker
+msgid "Or"
+msgstr "או"
+
+#  echo '<option value="NOT IN" '.selected('NOT IN', $operator, false).'>'.__('Not In', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="AND" '.selected('AND', $operator, false).'>'.__('And', 'ditty-posts-ticker').'</option>';
+#  echo '</td>';
+#  wpml-name: c33315685a0cba3ce53be378b3c7874b
+#: includes/admin/meta-boxes.php:309
+#: includes/admin/meta-boxes.php:375
+#@ ditty-posts-ticker
+msgid "And"
+msgstr "ו"
+
+#  echo '<label>'.__('Taxonomy relation', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Select the relation between multiple taxonomies', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 90d3f6b3be889b902d126e2b8c5a4a3e
+#: includes/admin/meta-boxes.php:305
+#@ ditty-posts-ticker
+msgid "Select the relation between multiple taxonomies"
+msgstr "בחר את היחס בין טקסונומיות מרובות"
+
+#  echo '<label>'.__('Taxonomy args', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Add taxonomy query args for advanced post queries', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 0d8d5a1b10b2ed6693e2d903fdd440a9
+#: includes/admin/meta-boxes.php:277
+#@ ditty-posts-ticker
+msgid "Add taxonomy query args for advanced post queries"
+msgstr "הוסף טיעוני שאילתת טקסונומיה עבור שאילתות פוסט מתקדמות"
+
+#  echo '<label>'.__('Query args', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Add query args for advanced post queries', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: afb06dbb556ef5ad6ea4e0c0ee07673b
+#: includes/admin/meta-boxes.php:251
+#@ ditty-posts-ticker
+msgid "Add query args for advanced post queries"
+msgstr "הוסף טיעוני שאילתה עבור שאילתות פוסט מתקדמות"
+
+#  echo '<label>'.__('Post arrangement', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Set the post assets and order', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 0e6adbf954aa8cee0a2ca55e1b6020ba
+#: includes/admin/meta-boxes.php:169
+#@ ditty-posts-ticker
+msgid "Set the post assets and order"
+msgstr "הגדר את נכסי הפוסטים והסדר שלהם"
+
+#  echo '<option value="ASC" '.selected('ASC', $order, false).'>'.__('Ascending', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="DESC" '.selected('DESC', $order, false).'>'.__('Descending', 'ditty-posts-ticker').'</option>';
+#  echo '</select></label>';
+#  wpml-name: e3cf5ac19407b1a62c6fccaff675a53b
+#: includes/admin/meta-boxes.php:160
+#@ ditty-posts-ticker
+msgid "Descending"
+msgstr "סדר יורד"
+
+#  echo '<label>'.__('Order', 'ditty-posts-ticker').' <select name="_mtphr_dnt_posts_order">';
+#  echo '<option value="ASC" '.selected('ASC', $order, false).'>'.__('Ascending', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="DESC" '.selected('DESC', $order, false).'>'.__('Descending', 'ditty-posts-ticker').'</option>';
+#  wpml-name: cf3fb1ff52ea1eed3347ac5401ee7f0c
+#: includes/admin/meta-boxes.php:159
+#@ ditty-posts-ticker
+msgid "Ascending"
+msgstr "סדר עולה"
+
+#  echo '<option value="meta_value_num" '.selected('meta_value_num', $orderby, false).'>'.__('Meta Value Number', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="post__in" '.selected('post__in', $orderby, false).'>'.__('Post In', 'ditty-posts-ticker').'</option>';
+#  echo '</select></label>';
+#  wpml-name: 6e6ece640135d634d320198a01109103
+#: includes/admin/meta-boxes.php:155
+#@ ditty-posts-ticker
+msgid "Post In"
+msgstr "פוסט ב"
+
+#  echo '<option value="meta_value" '.selected('meta_value', $orderby, false).'>'.__('Meta Value', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="meta_value_num" '.selected('meta_value_num', $orderby, false).'>'.__('Meta Value Number', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="post__in" '.selected('post__in', $orderby, false).'>'.__('Post In', 'ditty-posts-ticker').'</option>';
+#  wpml-name: bf34b36e1bf36e6c1882f08ca789b1ac
+#: includes/admin/meta-boxes.php:154
+#@ ditty-posts-ticker
+msgid "Meta Value Number"
+msgstr "מספר ערך מטא"
+
+#  echo '<option value="menu_order" '.selected('menu_order', $orderby, false).'>'.__('Menu Order', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="meta_value" '.selected('meta_value', $orderby, false).'>'.__('Meta Value', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="meta_value_num" '.selected('meta_value_num', $orderby, false).'>'.__('Meta Value Number', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 7359bc8bda0df4d9109515184652807c
+#: includes/admin/meta-boxes.php:153
+#@ ditty-posts-ticker
+msgid "Meta Value"
+msgstr "ערך מטא"
+
+#  echo '<option value="comment_count" '.selected('comment_count', $orderby, false).'>'.__('Comment Count', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="menu_order" '.selected('menu_order', $orderby, false).'>'.__('Menu Order', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="meta_value" '.selected('meta_value', $orderby, false).'>'.__('Meta Value', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 1c572c6837c919c881337a91c68f8894
+#: includes/admin/meta-boxes.php:152
+#@ ditty-posts-ticker
+msgid "Menu Order"
+msgstr "סדר התפריט"
+
+#  echo '<option value="rand" '.selected('rand', $orderby, false).'>'.__('Random', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="comment_count" '.selected('comment_count', $orderby, false).'>'.__('Comment Count', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="menu_order" '.selected('menu_order', $orderby, false).'>'.__('Menu Order', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 10e9703ec3912689ce14e52dff6b99c8
+#: includes/admin/meta-boxes.php:151
+#@ ditty-posts-ticker
+msgid "Comment Count"
+msgstr "ספירת תגובות"
+
+#  echo '<option value="parent" '.selected('parent', $orderby, false).'>'.__('Parent', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="rand" '.selected('rand', $orderby, false).'>'.__('Random', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="comment_count" '.selected('comment_count', $orderby, false).'>'.__('Comment Count', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 64663f4646781c9c0110838b905daa23
+#: includes/admin/meta-boxes.php:150
+#@ ditty-posts-ticker
+msgid "Random"
+msgstr "אקראי"
+
+#  echo '<option value="modified" '.selected('modified', $orderby, false).'>'.__('Modified', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="parent" '.selected('parent', $orderby, false).'>'.__('Parent', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="rand" '.selected('rand', $orderby, false).'>'.__('Random', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 30269022e9d8f51beaabb52e5d0de2b7
+#: includes/admin/meta-boxes.php:149
+#@ ditty-posts-ticker
+msgid "Parent"
+msgstr "הורה"
+
+#  echo '<option value="date" '.selected('date', $orderby, false).'>'.__('Date', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="modified" '.selected('modified', $orderby, false).'>'.__('Modified', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="parent" '.selected('parent', $orderby, false).'>'.__('Parent', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 35e0c8c0b180c95d4e122e55ed62cc64
+#: includes/admin/meta-boxes.php:148
+#@ ditty-posts-ticker
+msgid "Modified"
+msgstr "השתנה"
+
+#  echo '<option value="name" '.selected('name', $orderby, false).'>'.__('Name', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="date" '.selected('date', $orderby, false).'>'.__('Date', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="modified" '.selected('modified', $orderby, false).'>'.__('Modified', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 44749712dbec183e983dcd78a7736c41
+#: includes/admin/meta-boxes.php:147
+#@ ditty-posts-ticker
+msgid "Date"
+msgstr "תאריך"
+
+#  echo '<option value="title" '.selected('title', $orderby, false).'>'.__('Title', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="name" '.selected('name', $orderby, false).'>'.__('Name', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="date" '.selected('date', $orderby, false).'>'.__('Date', 'ditty-posts-ticker').'</option>';
+#  wpml-name: 49ee3087348e8d44e1feda1917443987
+#: includes/admin/meta-boxes.php:146
+#@ ditty-posts-ticker
+msgid "Name"
+msgstr "שם"
+
+#  echo '<option value="author" '.selected('author', $orderby, false).'>'.__('Author', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="title" '.selected('title', $orderby, false).'>'.__('Title', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="name" '.selected('name', $orderby, false).'>'.__('Name', 'ditty-posts-ticker').'</option>';
+#  wpml-name: b78a3223503896721cca1303f776159b
+#: includes/admin/meta-boxes.php:145
+#@ ditty-posts-ticker
+msgid "Title"
+msgstr "כותרת"
+
+#  echo '<option value="ID" '.selected('ID', $orderby, false).'>'.__('ID', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="author" '.selected('author', $orderby, false).'>'.__('Author', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="title" '.selected('title', $orderby, false).'>'.__('Title', 'ditty-posts-ticker').'</option>';
+#  wpml-name: a517747c3d12f99244ae598910d979c5
+#: includes/admin/meta-boxes.php:144
+#@ ditty-posts-ticker
+msgid "Author"
+msgstr "מחבר"
+
+#  echo '<select name="_mtphr_dnt_posts_tax_query_args[field]" data-name="_mtphr_dnt_posts_tax_query_args" data-key="field">';
+#  echo '<option value="id" '.selected('id', $field, false).'>'.__('ID', 'ditty-posts-ticker').'</option>';
+#  echo '<option value="slug" '.selected('slug', $field, false).'>'.__('Slug', 'ditty-posts-ticker').'</option>';
+#  wpml-name: b718adec73e04ce3ec720dd11a06a308
+#: includes/admin/meta-boxes.php:143
+#: includes/admin/meta-boxes.php:361
+#@ ditty-posts-ticker
+msgid "ID"
+msgstr "מזהה"
+
+#  echo '<label>'.__('Post order', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Set the order and orderby parameters', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 395c42d924d4e5a0bffd3548060d7101
+#: includes/admin/meta-boxes.php:139
+#@ ditty-posts-ticker
+msgid "Set the order and orderby parameters"
+msgstr "הגדר את הסדר ואת הפרמטרים שלו"
+
+#  echo '<td>';
+#  echo '<label><input type="number" name="_mtphr_dnt_posts_limit" value="'.$limit.'" /> '.__('Limit', 'ditty-posts-ticker').'</label>';
+#  echo '</td>';
+#  wpml-name: 80d2677cf518f4d04320042f4ea6c146
+#: includes/admin/meta-boxes.php:132
+#@ ditty-posts-ticker
+msgid "Limit"
+msgstr "מגבלה"
+
+#  echo '<label>'.__('Post limit', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Limit the number of posts to show per page (set to -1 for all)', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: 6b28c8cf1f208b774800499a7663ba9b
+#: includes/admin/meta-boxes.php:129
+#@ ditty-posts-ticker
+msgid "Limit the number of posts to show per page (set to -1 for all)"
+msgstr "הגבל את מספר הפוסטים להצגה בעמוד (הגדר -1 לכולם)"
+
+#  echo '<label class="mtphr-dnt-posts-format">'.__('Post format', 'ditty-posts-ticker').' <select name="_mtphr_dnt_posts_format">';
+#  echo '<option value="">'.__('Any Format', 'ditty-posts-ticker').'</option>';
+#  $post_formats = get_theme_support( 'post-formats' );
+#  wpml-name: 769fc508b316c64c380eabb186520422
+#: includes/admin/meta-boxes.php:114
+#@ ditty-posts-ticker
+msgid "Any Format"
+msgstr "מכל סוג"
+
+#  if( current_theme_supports('post-formats') ) {
+#  echo '<label class="mtphr-dnt-posts-format">'.__('Post format', 'ditty-posts-ticker').' <select name="_mtphr_dnt_posts_format">';
+#  echo '<option value="">'.__('Any Format', 'ditty-posts-ticker').'</option>';
+#  wpml-name: daa48c3d9a04c2320323ab95d0ea1761
+#: includes/admin/meta-boxes.php:113
+#@ ditty-posts-ticker
+msgid "Post format"
+msgstr "סוג הפוסט"
+
+#  $excerpt_more = get_post_meta( $post->ID, '_mtphr_dnt_posts_excerpt_more', true );
+#  $excerpt_more = ( $excerpt_more == '' ) ? '&hellip;{'.__('Read more', 'ditty-posts-ticker').'}' : $excerpt_more;
+#  $excerpt_link = get_post_meta( $post->ID, '_mtphr_dnt_posts_excerpt_link', true );
+#  wpml-name: 43340e6cc4e88197d57f8d6d5ea50a46
+#: includes/admin/meta-boxes.php:57
+#@ ditty-posts-ticker
+msgid "Read more"
+msgstr "קרא עוד"
+
+#  $url = get_bloginfo('wpurl').'/wp-admin/plugin-install.php?tab=plugin-information&plugin=ditty-news-ticker&TB_iframe=true&width=640&height=500';
+#  echo '<div class="error"><p>'.sprintf(__('<a class="thickbox" href="%s"><strong>Ditty News Ticker</strong></a> must be installed and activated to use Ditty Posts Ticker.', 'ditty-posts-ticker'), $url).'</p></div>';
+#  }
+#  wpml-name: a2801b0ea2f5b2e7cebf12c0b8509799
+#: ditty-posts-ticker.php:71
+#, php-format
+#@ ditty-posts-ticker
+msgid "<a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> must be installed and activated to use Ditty Posts Ticker."
+msgstr "התוסף <a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> חייב להיות מותקן ומופעל כדי להשתמש בתוסף Ditty Posts Ticker."
+
+#  add_meta_box( 'mtphr_dnt_posts_metabox', __('Posts Ticker Data', 'ditty-posts-ticker'), 'mtphr_dnt_posts_render_metabox', 'ditty_news_ticker', 'normal', 'high' );
+#  }
+#  wpml-name: ae930c18a635d8e009a4c35832f836f9
+#: includes/admin/meta-boxes.php:10
+#@ ditty-posts-ticker
+msgid "Posts Ticker Data"
+msgstr "נתוני מבזקי פוסטים"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Taxonomy relation', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Select the relation between multiple taxonomies', 'ditty-posts-ticker').'</small>';
+#  wpml-name: def8d36e673ac080f55b1aeb3c406fe0
+#: includes/admin/meta-boxes.php:304
+#@ ditty-posts-ticker
+msgid "Taxonomy relation"
+msgstr "יחס טקסונומיות"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Taxonomy args', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Add taxonomy query args for advanced post queries', 'ditty-posts-ticker').'</small>';
+#  wpml-name: 8fdbd20f50523ad093297f92f7018dd0
+#: includes/admin/meta-boxes.php:276
+#@ ditty-posts-ticker
+msgid "Taxonomy args"
+msgstr "טיעוני טקסונומיה"
+
+#  echo '<th class="mtphr-dnt-posts-query-children">'.__('Children', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-operator">'.__('Operator', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-list-delete"></th>';
+#  wpml-name: e1b3ec89ead7f83a9245ed5c9cacfdbf
+#: includes/admin/meta-boxes.php:287
+#@ ditty-posts-ticker
+msgid "Operator"
+msgstr "מפעיל"
+
+#  echo '<th class="mtphr-dnt-posts-query-terms">'.__('Term(s)', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-children">'.__('Children', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-operator">'.__('Operator', 'ditty-posts-ticker').'</th>';
+#  wpml-name: 64e4aca4297806247f62a7b5f8cbd3df
+#: includes/admin/meta-boxes.php:286
+#@ ditty-posts-ticker
+msgid "Children"
+msgstr "בנים"
+
+#  echo '<th class="mtphr-dnt-posts-query-field">'.__('Field', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-terms">'.__('Term(s)', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-children">'.__('Children', 'ditty-posts-ticker').'</th>';
+#  wpml-name: a0dcd9e18bc22056ca588240ec442ab6
+#: includes/admin/meta-boxes.php:285
+#@ ditty-posts-ticker
+msgid "Term(s)"
+msgstr "מונחים"
+
+#  echo '<th class="mtphr-dnt-posts-query-taxonomy">'.__('Taxonomy', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-field">'.__('Field', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-terms">'.__('Term(s)', 'ditty-posts-ticker').'</th>';
+#  wpml-name: 6f16a5f8ff5d75ab84c018adacdfcbb7
+#: includes/admin/meta-boxes.php:284
+#@ ditty-posts-ticker
+msgid "Field"
+msgstr "שדה"
+
+#  echo '<th class="mtphr-dnt-list-handle"></th>';
+#  echo '<th class="mtphr-dnt-posts-query-taxonomy">'.__('Taxonomy', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-field">'.__('Field', 'ditty-posts-ticker').'</th>';
+#  wpml-name: 30d10883c017c4fd6751c8982e20dae1
+#: includes/admin/meta-boxes.php:283
+#@ ditty-posts-ticker
+msgid "Taxonomy"
+msgstr "טקסונומיה"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Query args', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Add query args for advanced post queries', 'ditty-posts-ticker').'</small>';
+#  wpml-name: 7de92b787c96321b128798c7a3a985ad
+#: includes/admin/meta-boxes.php:250
+#@ ditty-posts-ticker
+msgid "Query args"
+msgstr "טיעוני שאילתה"
+
+#  echo '<td class="mtphr-dnt-posts-query-split">';
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_posts_query_args[split]" data-name="_mtphr_dnt_posts_query_args" data-key="split" value="1" '.checked(1, $split, false).' /> '.__('Split list', 'ditty-posts-ticker').'</label>';
+#  echo '</td>';
+#  wpml-name: 7fb25b468b9eac0de2df9f0f26b9dc9f
+#: includes/admin/meta-boxes.php:336
+#@ ditty-posts-ticker
+msgid "Split list"
+msgstr "פיצול הרשימה"
+
+#  echo '<th class="mtphr-dnt-posts-query-value">'.__('Value', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-split">'.__('Create array', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-list-delete"></th>';
+#  wpml-name: ce23ae8577152ffd945fc035850ac521
+#: includes/admin/meta-boxes.php:259
+#@ ditty-posts-ticker
+msgid "Create array"
+msgstr "צור מערך"
+
+#  echo '<th class="mtphr-dnt-posts-query-parameter">'.__('Parameter', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-value">'.__('Value', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-split">'.__('Create array', 'ditty-posts-ticker').'</th>';
+#  wpml-name: 689202409e48743b914713f96d93947c
+#: includes/admin/meta-boxes.php:258
+#@ ditty-posts-ticker
+msgid "Value"
+msgstr "ערך"
+
+#  echo '<th class="mtphr-dnt-list-handle"></th>';
+#  echo '<th class="mtphr-dnt-posts-query-parameter">'.__('Parameter', 'ditty-posts-ticker').'</th>';
+#  echo '<th class="mtphr-dnt-posts-query-value">'.__('Value', 'ditty-posts-ticker').'</th>';
+#  wpml-name: 83f499a540b1323009c200d6f8cc9396
+#: includes/admin/meta-boxes.php:257
+#@ ditty-posts-ticker
+msgid "Parameter"
+msgstr "פרמטר"
+
+#  echo '<td class="mtphr-dnt-label" colspan="2">';
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_posts_advanced_args_toggle" value="1" '.checked(1, $advanced, false).' /> '.__('Advanced options', 'ditty-posts-ticker').'</label>';
+#  echo '</td>';
+#  wpml-name: ee2d3754b6e7f57898d9d8670f78ae71
+#: includes/admin/meta-boxes.php:244
+#@ ditty-posts-ticker
+msgid "Advanced options"
+msgstr "אפשרויות מתקדמות"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Post arrangement', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Set the post assets and order', 'ditty-posts-ticker').'</small>';
+#  wpml-name: 696f2b0d0b0399f2935ae6786483bda1
+#: includes/admin/meta-boxes.php:168
+#@ ditty-posts-ticker
+msgid "Post arrangement"
+msgstr "סידור הפוסטים"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_posts_display_order[]" value="content" />';
+#  echo '<label><strong>'.__('Post content', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_content" value="1" '.checked(1, $content, false).' /></label>';
+#  echo '</td>';
+#  wpml-name: 82d2e15425ad357574e52f6c31b673a2
+#: includes/admin/meta-boxes.php:230
+#@ ditty-posts-ticker
+msgid "Post content"
+msgstr "תוכן הפוסט"
+
+#  echo '<label style="margin-right:20px;">'.__('Excerpt length', 'ditty-posts-ticker').' <input style="width:50px;" type="number" name="_mtphr_dnt_posts_excerpt_length" value="'.$excerpt_length.'" /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Excerpt more', 'ditty-posts-ticker').' <input style="width:80px;" type="text" name="_mtphr_dnt_posts_excerpt_more" value="'.$excerpt_more.'" /></label>';
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_posts_excerpt_link" value="1" '.checked(1, $excerpt_link, false).' /> '.__('Link to post', 'ditty-posts-ticker').'</label>';
+#  wpml-name: 4ec3f2072262d2c3dd8006b4ca5af70b
+#: includes/admin/meta-boxes.php:220
+#@ ditty-posts-ticker
+msgid "Excerpt more"
+msgstr "מובאה וקרא עוד"
+
+#  echo '<label style="margin-right:20px;"><strong>'.__('Post excerpt', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_excerpt" value="1" '.checked(1, $excerpt, false).' /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Excerpt length', 'ditty-posts-ticker').' <input style="width:50px;" type="number" name="_mtphr_dnt_posts_excerpt_length" value="'.$excerpt_length.'" /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Excerpt more', 'ditty-posts-ticker').' <input style="width:80px;" type="text" name="_mtphr_dnt_posts_excerpt_more" value="'.$excerpt_more.'" /></label>';
+#  wpml-name: 7f12aace71345e42e422f6f82ce82ade
+#: includes/admin/meta-boxes.php:219
+#@ ditty-posts-ticker
+msgid "Excerpt length"
+msgstr "אורך המובאה"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_posts_display_order[]" value="excerpt" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('Post excerpt', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_excerpt" value="1" '.checked(1, $excerpt, false).' /></label>';
+#  echo '<label style="margin-right:20px;">'.__('Excerpt length', 'ditty-posts-ticker').' <input style="width:50px;" type="number" name="_mtphr_dnt_posts_excerpt_length" value="'.$excerpt_length.'" /></label>';
+#  wpml-name: 0b0d1c21915d6448dcc621270a463515
+#: includes/admin/meta-boxes.php:218
+#@ ditty-posts-ticker
+msgid "Post excerpt"
+msgstr "מובאת הפוסט"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_posts_display_order[]" value="thumb" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('Post thumbnail', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_thumb" value="1" '.checked(1, $thumb, false).' /></label>';
+#  if( is_array($thumb_sizes) && count($thumb_sizes) > 0 ) {
+#  wpml-name: 92a5608642b2e9d3e5d36a3c50b88fc7
+#: includes/admin/meta-boxes.php:201
+#@ ditty-posts-ticker
+msgid "Post thumbnail"
+msgstr "תמונה ממוזערת של הפוסט"
+
+#  $thumb_sizes['large'] = __('Large Size', 'ditty-posts-ticker');
+#  $thumb_sizes['full'] = __('Full Size', 'ditty-posts-ticker');
+#  wpml-name: f49bcb4e90a6ab261904b6b50f4a24ce
+#: includes/admin/meta-boxes.php:72
+#@ ditty-posts-ticker
+msgid "Full Size"
+msgstr "גודל מלא"
+
+#  $thumb_sizes['medium'] = __('Medium Size', 'ditty-posts-ticker');
+#  $thumb_sizes['large'] = __('Large Size', 'ditty-posts-ticker');
+#  $thumb_sizes['full'] = __('Full Size', 'ditty-posts-ticker');
+#  wpml-name: e3399efeb8a558387893d1c5cbfab928
+#: includes/admin/meta-boxes.php:71
+#@ ditty-posts-ticker
+msgid "Large Size"
+msgstr "גודל גדול"
+
+#  $thumb_sizes['thumbnail'] = __('Thumbnail Size', 'ditty-posts-ticker');
+#  $thumb_sizes['medium'] = __('Medium Size', 'ditty-posts-ticker');
+#  $thumb_sizes['large'] = __('Large Size', 'ditty-posts-ticker');
+#  wpml-name: e6dd99ac7ff125e6b7b90e79a2bded5d
+#: includes/admin/meta-boxes.php:70
+#@ ditty-posts-ticker
+msgid "Medium Size"
+msgstr "גודל בינוני"
+
+#  $thumb_sizes = array();
+#  $thumb_sizes['thumbnail'] = __('Thumbnail Size', 'ditty-posts-ticker');
+#  $thumb_sizes['medium'] = __('Medium Size', 'ditty-posts-ticker');
+#  wpml-name: 2ab8967afcb3451ce92287634f1f22d6
+#: includes/admin/meta-boxes.php:69
+#@ ditty-posts-ticker
+msgid "Thumbnail Size"
+msgstr "גודל תמונה ממוזערת"
+
+#  echo '<label style="margin-right:20px;"><strong>'.__('Post date', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_date" value="1" '.checked(1, $date, false).' /></label>';
+#  echo '<label>'.__('Format', 'ditty-posts-ticker').' <input style="width:80px;" type="text" name="_mtphr_dnt_posts_date_format" value="'.$date_format.'" /></label>';
+#  echo '</td>';
+#  wpml-name: 520d0db389f362bf79ef56ca0af3dcab
+#: includes/admin/meta-boxes.php:192
+#@ ditty-posts-ticker
+msgid "Format"
+msgstr "פורמט"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_posts_display_order[]" value="date" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('Post date', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_date" value="1" '.checked(1, $date, false).' /></label>';
+#  echo '<label>'.__('Format', 'ditty-posts-ticker').' <input style="width:80px;" type="text" name="_mtphr_dnt_posts_date_format" value="'.$date_format.'" /></label>';
+#  wpml-name: bec60391604287aee5be8e970f2486a6
+#: includes/admin/meta-boxes.php:191
+#@ ditty-posts-ticker
+msgid "Post date"
+msgstr "תאריך הפוסט"
+
+#  }
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_posts_thumb_link" value="1" '.checked(1, $thumb_link, false).' /> '.__('Link to post', 'ditty-posts-ticker').'</label>';
+#  echo '</td>';
+#  wpml-name: 3fafabd81fa5110b747f329c006c443f
+#: includes/admin/meta-boxes.php:182
+#: includes/admin/meta-boxes.php:209
+#: includes/admin/meta-boxes.php:221
+#@ ditty-posts-ticker
+msgid "Link to post"
+msgstr "קשר לפוסט"
+
+#  echo '<input type="hidden" name="_mtphr_dnt_posts_display_order[]" value="title" />';
+#  echo '<label style="margin-right:20px;"><strong>'.__('Post title', 'ditty-posts-ticker').'</strong> <input type="checkbox" name="_mtphr_dnt_posts_title" value="1" '.checked(1, $title, false).' /></label>';
+#  echo '<label><input type="checkbox" name="_mtphr_dnt_posts_title_link" value="1" '.checked(1, $title_link, false).' /> '.__('Link to post', 'ditty-posts-ticker').'</label>';
+#  wpml-name: 7ede3ad483a76ed293fdf6aa95596103
+#: includes/admin/meta-boxes.php:181
+#@ ditty-posts-ticker
+msgid "Post title"
+msgstr "כותרת הפוסט"
+
+#  echo '<label class="mtphr-dnt-posts-orderby-meta-key" style="margin-right:20px;">'.__('Meta Key', 'ditty-posts-ticker').' <input style="width:100px;" type="text" name="_mtphr_dnt_posts_orderby_meta_key" value="'.$orderby_meta.'" /></label>';
+#  echo '<label>'.__('Order', 'ditty-posts-ticker').' <select name="_mtphr_dnt_posts_order">';
+#  echo '<option value="ASC" '.selected('ASC', $order, false).'>'.__('Ascending', 'ditty-posts-ticker').'</option>';
+#  wpml-name: a240fa27925a635b08dc28c9e4f9216d
+#: includes/admin/meta-boxes.php:158
+#@ ditty-posts-ticker
+msgid "Order"
+msgstr "סדר"
+
+#  echo '</select></label>';
+#  echo '<label class="mtphr-dnt-posts-orderby-meta-key" style="margin-right:20px;">'.__('Meta Key', 'ditty-posts-ticker').' <input style="width:100px;" type="text" name="_mtphr_dnt_posts_orderby_meta_key" value="'.$orderby_meta.'" /></label>';
+#  echo '<label>'.__('Order', 'ditty-posts-ticker').' <select name="_mtphr_dnt_posts_order">';
+#  wpml-name: 7b8cc3b7f15a8d7df91f8225094b8efd
+#: includes/admin/meta-boxes.php:157
+#@ ditty-posts-ticker
+msgid "Meta Key"
+msgstr "מפתח תיאור"
+
+#  echo '<td>';
+#  echo '<label style="margin-right:20px;">'.__('Orderby', 'ditty-posts-ticker').' <select name="_mtphr_dnt_posts_orderby">';
+#  echo '<option value="ID" '.selected('ID', $orderby, false).'>'.__('ID', 'ditty-posts-ticker').'</option>';
+#  wpml-name: c6534d67dc777f7ac4cdb6cfcbe5cd73
+#: includes/admin/meta-boxes.php:142
+#@ ditty-posts-ticker
+msgid "Orderby"
+msgstr "סדר לפי"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Post order', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Set the order and orderby parameters', 'ditty-posts-ticker').'</small>';
+#  wpml-name: 11de022117f930ef0846c53c4559538e
+#: includes/admin/meta-boxes.php:138
+#@ ditty-posts-ticker
+msgid "Post order"
+msgstr "סדר הפוסטים"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Post limit', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Limit the number of posts to show per page (set to -1 for all)', 'ditty-posts-ticker').'</small>';
+#  wpml-name: 055fef43c2c1d085d19e9e64ea66b41a
+#: includes/admin/meta-boxes.php:128
+#@ ditty-posts-ticker
+msgid "Post limit"
+msgstr "מגבלת פוסטים"
+
+#  echo '<label>'.__('Post type', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Select the post type to display', 'ditty-posts-ticker').'</small>';
+#  echo '</td>';
+#  wpml-name: f6b4ee27ed1c49b83b2bc1e7078dcd0b
+#: includes/admin/meta-boxes.php:100
+#@ ditty-posts-ticker
+msgid "Select the post type to display"
+msgstr "בחר את סוג הפוסט להצגה"
+
+#  echo '<td class="mtphr-dnt-label">';
+#  echo '<label>'.__('Post type', 'ditty-posts-ticker').'</label>';
+#  echo '<small>'.__('Select the post type to display', 'ditty-posts-ticker').'</small>';
+#  wpml-name: 363c969ebde35c09236f5355c6dff165
+#: includes/admin/meta-boxes.php:99
+#@ ditty-posts-ticker
+msgid "Post type"
+msgstr "סוג פוסט"
+
+#  $types['posts'] = array(
+#  'button' => __('Posts', 'ditty-posts-ticker'),
+#  'metaboxes' => array( 'mtphr_dnt_posts_metabox' )
+#  wpml-name: 5dc52ca9ffdc26147075682c92a0a853
+#: includes/admin/filters.php:16
+#@ ditty-posts-ticker
+msgid "Posts"
+msgstr "פוסטים"
+

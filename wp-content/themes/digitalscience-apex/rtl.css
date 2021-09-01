@@ -1,0 +1,665 @@
+/*
+Theme Name: Apex
+Theme URI: http://themeforest.net/item/apex-responsive-wordpress-theme/4350000
+Author: Digital Science
+Author URI: http://www.digitalscience.za.org/
+Description: Apex Responsive WordPress Theme offers a unique intuitive interface, featuring the ability to create a trendy one page layout design, and 6 built in colour themes. You can also easily customize colours and styling with many built-in content settings. Built on Bootstrap 3, Apex has been carefully crafted to offer a reliable and robust theme for your project.
+Version: 1.0.12
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-menu, editor-style, featured-images, theme-options, translation-ready
+Text Domain: apex
+*/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
+
+
+/* Table of Contents
+
+* Bootstrap
+* General
+* Required
+* Classes
+* Gravity Forms Bootstrap 3 Styles
+* Forms
+* Metphor Rotator
+* Apex Hero
+* Apex Header
+* Breadcrumbs
+* Header
+* Apex Sections
+* General Content
+* Metaphor Slider
+* Metaphor Tabs
+* Post Blocks
+* Member Blocks
+* Quotes & Tweets
+* Blog
+* Content Nav
+* Comments
+* Shortcodes
+* Widgets
+* Footer
+
+*/
+
+
+/* --------------------------------------------------------- */
+/* !General */
+/* --------------------------------------------------------- */
+
+body {
+	direction: rtl;
+  unicode-bidi: embed;
+}
+ol, ul {
+	padding: 0 20px 0 0;
+}
+blockquote {
+	border-left: none;
+	border-right: 4px solid #29bef0;
+	margin: 40px 8% 40px 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Gravity Forms Bootstrap 3 Styles */
+/* --------------------------------------------------------- */
+
+.gform_wrapper ul {
+  padding-right: 0;
+}
+.gform_wrapper .gfield_required {
+  padding-left: 0;
+  padding-right: 1px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Forms */
+/* --------------------------------------------------------- */
+
+input[type="submit"].btn i.apex-spinner,
+button[type="submit"].btn i.apex-spinner {
+	left: auto;
+	right: 30px;
+}
+.btn.loading {
+	padding-left: 0;
+	padding-right: 45px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Required */
+/* --------------------------------------------------------- */
+
+.alignleft {
+	float: right;
+	margin: 5px 0 5px 20px;
+}
+.alignright {
+	float: left;
+	margin: 5px 20px 5px 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Metaphor Rotator */
+/* --------------------------------------------------------- */
+
+.mtphr-rotator-header {
+	direction: ltr;
+}
+.mtphr-rotator-footer {
+	direction: ltr;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Apex Hero */
+/* --------------------------------------------------------- */
+
+	/* --------------------------------------------------------- */
+	/* !Hero Menu */
+	/* --------------------------------------------------------- */
+	
+	.apex-hero-menu-container ul li {
+		margin-left: 0;
+		margin-right: -3px;
+	}
+	.apex-hero-menu-container > ul > li:first-child {
+		margin-right: 0;
+	}
+
+
+/* --------------------------------------------------------- */
+/* !Header */
+/* --------------------------------------------------------- */
+
+#logo {
+	float: right;
+}
+
+	/* --------------------------------------------------------- */
+	/* !Primary Menu */
+	/* --------------------------------------------------------- */
+	
+	#mobile-menu-toggle {
+		float: left;
+	}
+	.apex-primary-menu-container {
+		left: auto;
+		right: 0;
+	}
+	.apex-primary-menu-container ul ul ul a {
+		padding-left: 0;
+		padding-right: 40px;
+	}
+	.apex-primary-menu-container ul ul ul ul a {
+		padding-left: 0;
+		padding-right: 60px;
+	}
+	.apex-primary-menu-container ul ul ul ul ul a {
+		padding-left: 0;
+		padding-right: 80px;
+	}
+	.apex-primary-menu-container i {
+		float: right;
+		margin: 1px 0 0 10px;
+	}
+	.apex-primary-menu-container ul ul i {
+		margin-left: 20px;
+		margin-right: 8px;
+	}
+	@media (min-width: 768px) {
+		.apex-primary-menu-container {
+			float: left;
+		}
+		.apex-primary-menu-container ul ul {
+			left: auto;
+			right: -9999px;
+		}
+		.apex-primary-menu-container ul li:hover > ul {
+			left: auto;
+			right: 50%;
+		}
+		.apex-primary-menu-container ul ul li:hover > ul {
+			left: auto;
+			right: 100%;
+		}
+		.apex-primary-menu-container li {
+			float: right;
+			margin-left: 0;
+			margin-right: 28px;
+		}
+		.apex-primary-menu-container ul ul li {
+			margin-right: 0;
+		}
+		.sub-menu-arrow {
+			left: auto;
+			right: 50%;
+			margin-left: 0;
+			margin-right: -5px;
+		}
+		.apex-primary-menu-container ul ul a {
+			float: right;
+		}
+		.apex-primary-menu-container ul ul ul a,
+		.apex-primary-menu-container ul ul ul ul a,
+		.apex-primary-menu-container ul ul ul ul ul a {
+			padding-left: 0;
+			padding-right: 15px;
+		}
+	}
+
+	
+/* --------------------------------------------------------- */
+/* !General Content */
+/* --------------------------------------------------------- */
+
+.post-edit-link {
+	left: auto;
+	right: 10px;	
+}
+.post-edit-link i {
+	float: right;
+	margin: 1px 0 0 3px;
+}
+.section-header-sep span {
+	left: auto;
+	right: 50%;
+  margin-left: 0;
+  margin-right: -35px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Metaphor Slider */
+/* --------------------------------------------------------- */
+
+.mtphr-gallery-header {
+	direction: ltr;
+}
+.mtphr-post-slider-navigation {
+	direction: ltr;
+}
+.mtphr-post-slider-block {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+@media (min-width: 768px) {
+	.mtphr-post-slider-block {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+}
+@media (min-width: 1200px) {
+	.mtphr-post-slider-block {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+}
+
+
+/* --------------------------------------------------------- */
+/* !Metaphor Tabs */
+/* --------------------------------------------------------- */
+
+.mtphr-tabs-links td:first-child,
+.mtphr-tabbed-posts-widget table td.mtphr-tabbed-posts-link:first-child {
+	padding-left: 2px;
+	padding-right: 0;
+}
+.mtphr-tabs-links td:last-child,
+.mtphr-tabbed-posts-widget table td.mtphr-tabbed-posts-link:last-child {
+	padding-right: 2px;
+	padding-left: 0;
+}
+	
+
+/* --------------------------------------------------------- */
+/* !Post Blocks */
+/* --------------------------------------------------------- */
+
+.entry-featured-data {
+	left: auto;
+	right: 0;
+}
+.entry-featured-overlay-toggle {
+	right: auto;
+	left: 22px;
+}
+.entry-featured-overlay-toggle.active {
+	right: auto;
+	left: 21px;
+}
+.entry-featured-overlay {
+	left: auto;
+	right: 0;
+}
+.entry-featured-icons i {
+	float: right;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Post Format */
+/* --------------------------------------------------------- */
+
+.mtphr-post-post-slider-block {
+	float: right;
+}
+.entry-featured-data .entry-date {
+	float: right;
+}
+.entry-featured-data .entry-comments {
+	float: left;
+}
+.entry-comments-arrow {
+	left: auto;
+	right: 10px;
+	border-width: 8px 9px 0 0;
+}
+.entry-post-data td.entry-icon {
+	padding-left: 0;
+	padding-right: 24px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Member Format */
+/* --------------------------------------------------------- */
+
+@media (min-width: 768px) {
+	.single-mtphr_member .apex-section-mtphr_member.apex-layout-sidebar-right article {
+		margin-right: 0;
+		margin-left: 35px;
+	}
+	.single-mtphr_member .apex-section-mtphr_member.apex-layout-sidebar-left article {
+		margin-left: 0;
+		margin-right: 35px;
+	}
+}
+
+/* --------------------------------------------------------- */
+/* !Project Blocks */
+/* --------------------------------------------------------- */
+
+@media (min-width: 768px) {
+	.single-mtphr_gallery .apex-section-mtphr_gallery.apex-layout-sidebar-right article {
+		margin-right: 0;
+		margin-left: 35px;
+	}
+	.single-mtphr_gallery .apex-section-mtphr_gallery.apex-layout-sidebar-left article {
+		margin-left: 0;
+		margin-right: 35px;
+	}
+}
+
+
+/* --------------------------------------------------------- */
+/* !Blog */
+/* --------------------------------------------------------- */
+
+.entry-left {
+	left: auto;
+	right: 0;
+}
+.entry-right {
+	margin-left: 0;
+	margin-right: 55px;
+}
+.entry-meta > span {
+	margin-right: 0;
+	margin-left: 16px;
+}
+.entry-meta > span:last-child {
+	margin-left: 16px;
+}
+.entry-meta > span:first-child {
+	margin-left: 0;
+}
+.entry-content .entry-comments {
+	float: left;
+}
+.entry-comments i {
+	float: right;
+	line-height: 28px;
+	margin-right: auto;
+	margin-left: 10px;
+}
+@media (min-width: 321px) {
+	.entry-right {
+		margin-left: 0;
+		margin-right: 90px;
+	}
+}
+@media (min-width: 1200px) {
+	.entry-right {
+		margin-left: 0;
+		margin-right: 100px;
+	}
+}
+
+
+/* --------------------------------------------------------- */
+/* !Content Navigation */
+/* --------------------------------------------------------- */
+
+.content-nav ul,
+#comment-nav ul {
+	padding-right: 0;
+}
+.nav-previous {
+	float: left;
+}
+.nav-next {
+	float: right;
+}
+@media (min-width: 768px) {
+	.apex-layout-sidebar-right .content-nav ul {
+		margin-right: 0;
+		margin-left: 35px;
+	}
+	.apex-layout-sidebar-left .content-nav ul {
+		margin-left: 0;
+		margin-right: 35px;
+	}
+}
+
+/* --------------------------------------------------------- */
+/* !Comments */
+/* --------------------------------------------------------- */
+
+@media (min-width: 768px) {
+	.apex-layout-sidebar-right #comments {
+		margin-right: 0;
+		margin-left: 35px;
+	}
+	.apex-layout-sidebar-left #comments {
+		margin-left: 0;
+		margin-right: 35px;
+	}
+}
+.commentlist ul {
+	margin-left: 0;
+	margin-right: 70px;
+}
+.comment-avatar {
+	padding-right: 0;
+	padding-left: 20px;
+}
+.comment-author {
+	margin-right: 0;
+}
+.comment-date {
+	margin-left: 15px;
+}
+@media (min-width: 768px) {
+	.comment-avatar {
+		padding-right: 0;
+		padding-left: 30px;
+	}
+	.commentlist ul {
+		margin-left: 0;
+		margin-right: 100px;
+	}
+}
+
+
+/* --------------------------------------------------------- */
+/* !Reply */
+/* --------------------------------------------------------- */
+
+#cancel-comment-reply-link {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+	
+/* --------------------------------------------------------- */
+/* !Shortcodes */
+/* --------------------------------------------------------- */
+
+	/* --------------------------------------------------------- */
+	/* !Icon */
+	/* --------------------------------------------------------- */
+	
+	.apex-icon-title {
+		padding-left: 0;
+		padding-right: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	/* !Round Icon */
+	.apex-icon-round .apex-icon-title {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	/* --------------------------------------------------------- */
+	/* !Slide graph */
+	/* --------------------------------------------------------- */
+	
+	.mtphr-slide-graph-container {
+		padding-left: 0;
+		padding-right: 20px;
+		margin-left: 0;
+		margin-right: 80px;
+	}
+	.mtphr-slide-graph-title {
+		left: auto;
+		right: 0;
+	}
+	.mtphr-slide-graph-fill {
+		-webkit-border-top-left-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-topleft: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		
+		-webkit-border-top-right-radius: 5px;
+		-webkit-border-bottom-right-radius: 5px;
+		-moz-border-radius-topright: 5px;
+		-moz-border-radius-bottomright: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+
+/* --------------------------------------------------------- */
+/* !Widgets */
+/* --------------------------------------------------------- */
+
+.mtphr-right-widget-site {
+	float: left;
+	margin: 0 4px 4px 0;
+}
+
+	/* --------------------------------------------------------- */
+	/* !Search */
+	/* --------------------------------------------------------- */
+	
+	.search-container input[type="text"] {
+		padding-right: 0;
+		padding-left: 40px;
+	}
+	.search-container button[type="submit"] {
+		right: auto;
+		left: 0;
+	}
+
+	/* --------------------------------------------------------- */
+	/* !Widget Lists */
+	/* --------------------------------------------------------- */
+	
+	.widget_archive ul ul,
+	.widget_categories ul ul,
+	.mtphr-gallery-categories ul ul,
+	.mtphr-posts-widget ul ul,
+	.mtphr-post-navigation ul ul,
+	.mtphr-comments-widget ul ul,
+	.widget_pages ul ul,
+	.widget_recent_entries ul ul,
+	.widget_nav_menu ul ul,
+	.widget_meta ul ul,
+	.widget_recent_comments ul ul,
+	.widget_rss ul ul {
+		padding-left: 0;
+		padding-right: 15px;
+	}
+	.widget_archive span.count,
+	.widget_categories span.count,
+	.mtphr-gallery-categories span.count {
+		float: left;
+	}
+	
+	/* --------------------------------------------------------- */
+	/* !Twitter */
+	/* --------------------------------------------------------- */
+	
+	.mtphr-twitter-widget ul li.show-image {
+		padding-left: 0;
+		padding-right: 50px;
+	}
+	.mtphr-twitter-widget li i {
+		left: auto;
+		right: 0;
+	}
+	
+
+	/* --------------------------------------------------------- */
+	/* !Contact Table */
+	/* --------------------------------------------------------- */
+	
+	.mtphr-contact-widget td.mtphr-contact-widget-title {
+		padding-right: 0;
+		padding-left: 15px;
+	}
+
+	
+	/* --------------------------------------------------------- */
+	/* !Calendar */
+	/* --------------------------------------------------------- */
+	
+	#wp-calendar td#prev {
+		text-align: right;
+	}
+	#wp-calendar td#prev a {
+		margin-left: 0;
+		margin-right: 8px;
+	}
+	#wp-calendar td#next {
+		text-align: left;
+	}
+	#wp-calendar td#next a {
+		margin-right: 0;
+		margin-left: 8px;
+	}
+	
+	
+	/* --------------------------------------------------------- */
+	/* !Social Links */
+	/* --------------------------------------------------------- */
+	
+	.mtphr-social-widget-site {
+		float: right;
+		margin: 0 4px 4px 0;
+	}
+
+
+/* --------------------------------------------------------- */
+/* !Footer */
+/* --------------------------------------------------------- */
+
+#site-footer {
+	left: auto;
+	left: right;
+}
+#site-footer .mtphr-social-widget-site:first-child {
+	margin-left: 4px;
+	margin-right: 0;
+}
+#site-footer .mtphr-social-widget-site:last-child {
+	margin-right: 4px;
+	margin-lft: 0;
+}
+a#apex-totop-float {
+	right: auto;
+	left: 20px;
+}
+@media (min-width: 768px) {
+	#apex-copyright {
+		text-align: right;
+	}
+	#apex-social-links > .wrapper {
+		float: left;
+	}
+}
+

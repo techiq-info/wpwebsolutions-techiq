@@ -1,0 +1,869 @@
+/* --------------------------------------------------------- */
+/* !General */
+/* --------------------------------------------------------- */
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* --------------------------------------------------------- */
+/* !Settings pages */
+/* --------------------------------------------------------- */
+
+.appearance_page_apex .form-table td {
+	background: #FFF;
+}
+.appearance_page_apex .subsubsub {
+	float: none;
+}
+.appearance_page_apex .form-table {
+	max-width: 1000px;
+	border: 1px solid #dfdfdf;
+	margin-top: 0;
+	margin-bottom: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.appearance_page_apex .form-table > tbody > tr > th {
+	background: #fefefe;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: 1px solid #f7f7f7;
+	padding-left: 10px;
+}
+.appearance_page_apex .form-table > tbody > tr > td {
+	border-bottom: 1px solid #f7f7f7;
+}
+.appearance_page_apex .form-table > tbody > tr:last-child th,
+.appearance_page_apex .form-table > tbody > tr:last-child td {
+	border-bottom: none;
+}
+.appearance_page_apex #wpbody-content h3 {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	max-width: 1000px;
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	border-bottom-width: 0;
+	padding: 10px;
+	margin-bottom: 0;
+}
+.appearance_page_apex #wpbody-content h3 input {
+	float: right;
+	font-weight: normal;
+	margin-top: -4px;
+}
+.appearance_page_apex #wpbody-content h3 + p {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	max-width: 1000px;
+	background: #fafafa;
+	border: 1px solid #dfdfdf;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	padding: 0 10px 10px;
+	margin: 0;
+}
+.appearance_page_apex textarea {
+	width: 100%;
+}
+.appearance_page_apex #wpbody-content .postbox {
+	margin-bottom: 10px;
+}
+.appearance_page_apex #wpbody-content .postbox h3 {
+	font-size: 14px;
+	border: none;
+}
+.appearance_page_apex #wpbody-content .postbox p {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.appearance_page_apex #wpbody-content .postbox .inside {
+	padding-bottom: 3px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Settings title table */
+/* --------------------------------------------------------- */
+
+table.apex-settings-title {
+	width: 100%;
+	border-spacing: 0;
+}
+table.apex-settings-title td {
+	padding: 0;
+}
+table.apex-settings-title td.apex-settings-title-icon {
+	padding-right: 10px;
+}
+table.apex-settings-title i {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Page tabs */
+/* --------------------------------------------------------- */
+
+#apex-page-tabs {
+	font-family: inherit;
+	color: #333;
+	background: none;
+	border: none;
+	margin-top: 15px;
+}
+li[aria-controls="apex-page-tabs-4"],
+li[aria-controls="apex-page-tabs-5"] {
+	display: none;
+}
+#apex-page-tabs ul {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding: 0;
+	margin-bottom: 10px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+#apex-page-tabs ul li {
+	background: none;
+	padding: 0;
+}
+#apex-page-tabs .ui-corner-top {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+#apex-page-tabs ul li.ui-state-hover {
+	border-color: #ccc #ccc #fff;
+}
+#apex-page-tabs ul li.ui-state-active {
+	border-color: #ccc #ccc #f5f5f5;
+	border-width: 1px;
+}
+#apex-page-tabs ul li a {
+	display: inline-block;
+	color: #aaa;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	padding: 4px 14px 6px;
+}
+#apex-page-tabs ul li.ui-state-active a {
+	color: #464646;
+}
+#apex-page-tabs ul li a:hover {
+	color: #d54e21;
+}
+.ui-tabs .apex-page-tabs-page {
+	display: none;
+	color: #333;
+	padding: 0 !important;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Table */
+/* --------------------------------------------------------- */
+
+.apex-table {
+	width: 100%;
+	border-spacing: 0;
+	font-size: 13px;
+}
+.apex-table > tbody > tr > td {
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #f7f7f7;
+	padding: 10px 2px;
+}
+.apex-table > tbody > tr:first-child > td {
+	border-top: 1px solid #dfdfdf;
+}
+.apex-table > tbody > tr:last-child > td,
+.apex-table > tbody > tr:last-child > td.apex-label {
+	border-bottom-color: #dfdfdf;
+}
+.apex-table > tbody > tr > td.apex-label {
+	width: 20%;
+	max-width: 200px;
+	background: #fefefe;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: 1px solid #f7f7f7;
+}
+.apex-table > tbody > tr > td:last-child,
+.apex-table > tbody > tr > td.apex-label {
+	border-right: 1px solid #dfdfdf;
+}
+.apex-table > tbody > tr > td:first-child,
+.apex-table > tbody > tr > td.apex-label + td {
+	padding-left: 10px;
+}
+.apex-table > tbody > tr > td:last-child,
+.apex-table > tbody > tr > td.apex-label {
+	padding-right: 10px;
+}
+.apex-table label {
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+.apex-table label.checkbox-label {
+	font-weight: normal;
+	margin: 0;
+}
+.apex-table input[type="text"],
+.apex-table textarea {
+	/* width: 100%; */
+}
+.apex-table input[type="number"] {
+	width: 60px;
+}
+.apex-table .mceIframeContainer {
+	background: #FFF;
+}
+.apex-label-alt {
+	display: block;
+	width: auto;
+	padding-right: none !important;
+	margin-bottom: 5px;
+}
+.apex-label label,
+.apex-label-alt label {
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0;
+}
+.apex-label small,
+.apex-label-alt small {
+	display: block;
+	font-size: 10px;
+	line-height: 13px;
+	font-style: italic;
+	font-weight: normal;
+}
+.apex-radio,
+.apex-table label.apex-radio {
+	font-weight: normal;
+	margin-right: 8px;
+	margin-left: 2px;
+}
+.apex-radio input,
+.apex-table label.apex-radio input {
+	margin-top: -1px;
+	margin-right: 2px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Extra content settings */
+/* --------------------------------------------------------- */
+
+.form-table .apex-extra-content-settings td {
+	padding: 0;
+}
+.apex-extra-content-settings select {
+	margin-right: 5px;
+}
+.apex-extra-content-settings label,
+.apex-table .apex-extra-content-settings label {
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Sub tables */
+/* --------------------------------------------------------- */
+
+.apex-sub-table {
+	width: 100%;
+	border-spacing: 0;
+}
+.apex-sub-table label {
+	margin: 0;
+}
+.apex-sub-table td {
+	padding: 2px;
+}
+.apex-sub-table tr > td:first-child {
+	padding-left: 0;
+}
+.apex-sub-table tr > td:last-child {
+	padding-right: 0;
+}
+.apex-sub-table tr:first-child > td {
+	padding-top: 0;
+}
+.apex-sub-table tr:last-child > td {
+	padding-bottom: 0;
+}
+.apex-sub-table input[type="text"],
+.apex-sub-table textarea {
+	display: block;
+	width: 100%;
+}
+.apex-sub-label {
+	display: block;
+	font-style: italic;
+	line-height: 16px;
+	padding: 0 3px;
+}
+
+
+
+/* --------------------------------------------------------- */
+/* !List elements */
+/* --------------------------------------------------------- */
+
+.apex-list {
+	width: 100%;
+}
+.apex-list-add-new + .apex-list {
+	border-top: 1px solid #dfdfdf;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+.apex-list th {
+	padding: 3px;
+}
+.apex-list td {
+	width: 100%;
+	padding: 3px;
+}
+.apex-list td.apex-list-handle,
+.apex-list td.apex-list-add,
+.apex-list td.apex-list-delete {
+	width: 16px;
+}
+.apex-list td.apex-list-handle a,
+.apex-list td.apex-list-add a,
+.apex-list td.apex-list-delete a {
+	display: block;
+	line-height: 25px;
+	color: #333;
+	text-decoration: none;
+}
+.apex-list td.apex-list-handle {
+	padding-left: 0;
+}
+.apex-list td.apex-list-add,
+.apex-list td.apex-list-delete {
+	padding-right: 0;
+}
+.apex-list input[type="text"] {
+	width: 100%;
+	margin: 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Image select */
+/* --------------------------------------------------------- */
+
+.apex-image-select {
+	text-align: center;
+}
+.apex-image-select a {
+	float: left;
+	text-decoration: none;
+	margin: 0 10px 10px 0;
+	outline: none;
+}
+.apex-image-select img {
+	border: 2px solid #d3d3d3;
+	padding: 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.apex-image-select a.active img {
+	border-color: #21759b;
+}
+.apex-image-select small {
+	display: block;
+	font-size: 10px;
+	line-height: 11px;
+	font-weight: bold;
+	color: #333;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Pattern select */
+/* --------------------------------------------------------- */
+
+.apex-pattern-select a {
+	border: 2px solid #d3d3d3;
+	margin: 0 5px 5px 0;
+	padding: 2px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.apex-pattern-select a.active {
+	border-color: #21759b;
+}
+.apex-pattern-select span {
+	display: block;
+	min-width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background-repeat: repeat;
+	background-color: #f5f5f5;
+}
+
+
+/* --------------------------------------------------------- */
+/* !MiniColors */
+/* --------------------------------------------------------- */
+
+.ui-slider-handle:active,
+.ui-slider-handle:focus,
+.ui-slider-handle:hover,
+.ui-slider-handle:visited {
+	outline: none;
+}
+.apex-minicolors-td,
+.form-table td.apex-minicolors-td {
+	padding: 0 10px 0 0;
+}
+.apex-ui-slider-label-td,
+.form-table td.apex-ui-slider-label-td {
+	padding-right: 10px;
+	padding-left: 0;
+}
+.apex-ui-slider-label-td label,
+.form-table td.apex-ui-slider-label-td label {
+	margin: 0;
+}
+.apex-ui-slider-td,
+.form-table td.apex-ui-slider-td {
+	padding-right: 10px;
+	padding-left: 0;
+}
+.apex-ui-slider-value-td,
+.form-table td.apex-ui-slider-value-td {
+	font-weight: bold;
+	padding-left: 0;
+}
+.apex-minicolors input[type="text"] {
+	width: auto;
+	height: 24px;
+	border-width: 1px;
+}
+.apex-minicolors .minicolors-theme-default .minicolors-swatch {
+	width: 15px;
+	height: 15px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Text Colors */
+/* --------------------------------------------------------- */
+
+.apex-text-colors-table th {
+	white-space: nowrap;
+	padding: 0;
+}
+.apex-text-colors-table th,
+.apex-text-colors-table td {
+	width: 1px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Animations */
+/* --------------------------------------------------------- */
+
+.apex-wow-animations-table th,
+.apex-wow-animations-table td {
+	vertical-align: middle;
+	padding: 0;
+}
+.apex-wow-animations-table td label {
+	margin: 0 !important;
+}
+.apex-wow-animations-table th.apex-wow-animations-heading {
+	width: 1px;
+	padding-right: 10px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Sliders */
+/* --------------------------------------------------------- */
+
+.apex-opacity-slider {
+	width: 100px;
+}
+.apex-parallax-slider {
+	width: 100px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !CodeMirror */
+/* --------------------------------------------------------- */
+
+.apex-codemirror {
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Single image */
+/* --------------------------------------------------------- */
+
+.apex-single-image {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	float: left;
+	background: #FFF;
+	border: 1px solid #dfdfdf;
+	padding: 3px 24px 3px 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.apex-single-image img {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	max-height: 26px;
+	margin-right: 7px;
+}
+.apex-single-image-title {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 5px 7px 5px 0;
+}
+.apex-single-image .apex-delete {
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	z-index: 999;
+	color: #333;
+	text-decoration: none;
+	margin-top: -7px;
+}
+.apex-single-image .apex-delete:hover {
+	color: #dd3d36;
+}
+.apex-single-image-td select {
+	margin-left: 5px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Background options */
+/* --------------------------------------------------------- */
+
+.form-table .apex-bg-options th,
+.form-table .apex-bg-options td {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.apex-bg-options table {
+	border-spacing: 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Taxonomy Options */
+/* --------------------------------------------------------- */
+
+.apex-taxonomy-filter-options {
+	display: none;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Page Icon */
+/* --------------------------------------------------------- */
+
+.apex-page-icon {
+	display: block;
+	float: left;
+	width: 45px;
+	height: 45px;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	background: #FFF;
+	border: 1px solid #eaedf0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Hero Rotator */
+/* --------------------------------------------------------- */
+
+.apex-settings-hero-rotators th,
+.apex-settings-hero-rotators td {
+	width: 1px;
+	padding: 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Icon selects */
+/* --------------------------------------------------------- */
+
+#apex-icon-selects {
+	padding: 10px 10px 0;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Typography */
+/* --------------------------------------------------------- */
+
+.apex-typography-settings-render table {
+	border-spacing: 1px;
+	padding: 0;
+}
+.apex-typography-settings-render table th {
+	vertical-align: top;
+	font-size: 10px;
+	font-style: italic;
+	line-height: 12px;
+	padding: 0 3px;
+}
+.apex-typography-settings-render table td {
+	vertical-align: top;
+	position: relative;
+	padding: 2px 0;
+}
+.apex-typography-settings-render .apex-typography-settings-enable {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.apex-typography-settings-render .apex-typography-settings-preview {
+	font-size: 14px;
+	line-height: 24px;
+}
+.apex-typography-settings-render .apex-typography-settings-preview textarea {
+	width: 100%;
+}
+.apex-typography-settings-render table td.apex-typography-settings-reset {
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 5px;
+}
+.apex-typography-settings-render table td.apex-typography-settings-reset a {
+	color: #d54e21;
+	text-decoration: none;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Social icons */
+/* --------------------------------------------------------- */
+
+#apex-social-settings-icon-container {
+	border-bottom: 1px solid #f7f7f7;
+	padding-bottom: 10px;
+	margin-bottom: 13px;
+}
+.apex-social-settings-icon,
+.apex-social-settings-site a {
+	float: left;
+	display: block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	text-decoration: none;
+	background: #FFF;
+	border: 2px solid #d3d3d3;
+	margin: 0 5px 5px 0;
+	padding: 2px;
+}
+.apex-social-settings-site a {
+	float: none;
+}
+.apex-social-settings-icon.active {
+	border-color: #21759b;
+}
+.apex-social-settings-icon i,
+.apex-social-settings-site i {
+	font-size: 20px;
+	line-height: 25px;
+	color: #333;
+}
+.apex-social-settings-icon i:before {
+	line-height: 1.3;
+}
+.apex-social-settings-site i:before {
+	line-height: 1.4;
+}
+.apex-social-settings-icon.active i {
+	color: #21759b;
+}
+.apex-social-settings-icon:hover i,
+.apex-social-settings-icon.active:hover i {
+	color: #d54e21;
+}
+#apex-social-settings-sites {
+	width: 100%;
+}
+#apex-social-settings-sites td {
+	padding: 0;
+}
+.apex-social-settings-site-icon {
+	width: 1px;
+}
+#apex-social-settings-sites input {
+	width: 100%;
+}
+.apex-social-settings-site a {
+	width: 20px;
+	height: 20px;
+	background: #FFF;
+	margin-bottom: 0;
+}
+.apex-social-settings-site i {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Rearranger */
+/* --------------------------------------------------------- */
+
+.apex-rearranger-item {
+	background: #FFF;
+	border: 1px solid #d3d3d3;
+	padding: 2px 5px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Modals */
+/* --------------------------------------------------------- */
+
+.apex-modal-backdrop {
+	display: none;
+}
+.apex-modal-backdrop {
+	display: none;
+}
+.apex-modal {
+	display: none;
+}
+.apex-frame-title {
+	left: 0;
+}
+.apex-frame-content {
+	left: 0;
+	top: 60px;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Widget Import */
+/* --------------------------------------------------------- */
+
+#apex-widgets-imported,
+#apex-member-widgets-update {
+	display: none;
+}
+
+@media (max-width: 782px) { 
+	.form-table td {
+		padding-left: 10px;
+	}
+	.apex-social-settings-site td {
+		display: table-cell;
+	}
+	.appearance_page_apex #wpbody-content h3 {
+		margin-bottom: 0;
+	}
+	.appearance_page_apex #wpbody-content h3:before,
+	.appearance_page_apex #wpbody-content h3:after {
+	  display: table;
+	  content: " ";
+	}
+	.appearance_page_apex #wpbody-content h3:after {
+	  clear: both;
+	}
+	.appearance_page_apex #wpbody-content h3 input {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.appearance_page_apex .form-table th {
+		padding-bottom: 10px;
+	}
+	.appearance_page_apex .form-table td {
+		margin-bottom: 0;
+	}
+	.apex-label-alt {
+		margin-bottom: 0;
+	}
+	.apex-social-settings-site td.apex-social-settings-site-icon {
+		width: 1px;
+	}
+	.apex-social-settings-site td.apex-social-settings-site-icon a {
+		width: 32px;
+		height: 32px;
+	}
+	.apex-social-settings-site td.apex-social-settings-site-icon a i {
+		font-size: 18px;
+	}
+	.apex-social-settings-site td.apex-social-settings-site-icon a i:before {
+		line-height: 1.8;
+	}
+}
+
+
+/* --------------------------------------------------------- */
+/* !Notices */
+/* --------------------------------------------------------- */
+
+.apex-dismiss-notice {
+	float: right;
+	color: #a00;
+}
+.apex-dismiss-notice:hover {
+	color: red;
+}
+.apex-dismiss-notice i {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #a00;
+	margin-right: 2px;
+}
+.apex-dismiss-notice:hover i {
+	color: red;
+}
+
+
+
+

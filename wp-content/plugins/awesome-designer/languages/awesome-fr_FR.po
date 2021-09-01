@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Designer\n"
+"POT-Creation-Date: 2016-08-08 15:12+0200\n"
+"PO-Revision-Date: 2016-08-23 16:03+0200\n"
+"Language-Team: netfx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;e_\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin/galerie.php:18
+msgid "Your Gallery"
+msgstr "Votre photothèque"
+
+#: includes/admin/galerie.php:57
+msgid "Images already used"
+msgstr "Images déjà utilisées"
+
+#: includes/admin/galerie.php:79
+msgid "Images downloaded"
+msgstr "Images téléchargées"
+
+#: includes/admin/module-accueil.php:56
+msgid "Create New Product"
+msgstr "Créer un nouveau produit"
+
+#: includes/admin/module-accueil.php:65
+msgid "Edit Existing Product"
+msgstr "Editer un produit existant"
+
+#: includes/admin/module-accueil.php:77
+msgid "Manage Cliparts"
+msgstr "Gestion des cliparts"
+
+#: includes/admin/module-accueil.php:86
+msgid "Manage Fonts"
+msgstr "Gestion des fontes"
+
+#: includes/admin/module-accueil.php:98
+msgid "Do the housework!"
+msgstr "Faites le ménage !"
+
+#: includes/admin/module-admin.php:72 includes/admin/module-admin.php:118
+msgid "Files deleted"
+msgstr "Fichiers effacés"
+
+#: includes/admin/module-admin.php:150
+msgid "DELETE ALL UNUSED IMAGES, UPLOADED BY YOURSELF"
+msgstr "EFFACER TOUTES LES IMAGES NON UTILISEES QUE VOUS AVEZ TELECHARGE"
+
+#: includes/admin/module-admin.php:153
+msgid "CLEAR UNUSED PRODUCT PHOTOS"
+msgstr "EFFACER LES PHOTOS DE PRODUIT NON UTILISEES"
+
+#: includes/admin/module-admin.php:157
+msgid ""
+"DELETE ALL UNUSED IMAGES, UPLOADED BY YOUR CLIENTS UP TO (number of days "
+"ago)&nbsp;:"
+msgstr ""
+"EFFACER TOUTES LES IMAGES NON UTILISEES, TELECHARGEES PAR VOS CLIENTS "
+"JUSQU'A (nombre de jours a conserver)&nbsp;:"
+
+#: includes/admin/module-admin.php:164
+msgid "CLEAR UNUSED CLIENT'S PHOTOS"
+msgstr "EFFACER LES PHOTO DE CLIENT NON UTILISEES"
+
+#: includes/admin/module-clipart.php:155
+msgid "MANAGE YOUR CLIPARTS"
+msgstr "GEREZ VOS CLIPARTS"
+
+#: includes/admin/module-clipart.php:166
+msgid "SELECT ALL"
+msgstr "SELECTIONNEZ TOUT"
+
+#: includes/admin/module-clipart.php:169
+msgid "DELETE SELECTED"
+msgstr "EFFACEZ LA SELECTION"
+
+#: includes/admin/module-clipart.php:172
+msgid "HIDE SELECTED"
+msgstr "CACHEZ LA SELECTION"
+
+#: includes/admin/module-clipart.php:175
+msgid "SHOW SELECTED"
+msgstr "AFFICHEZ LA SELECTION"
+
+#: includes/admin/module-clipart.php:178
+msgid "MOVE SELECTED TO"
+msgstr "DEPLACER LA SELECTION VERS"
+
+#: includes/admin/module-clipart.php:215 includes/admin/module-creation.php:432
+#: includes/admin/module-modif.php:490 includes/front/awesome-mobile.php:262
+#: includes/front/awesome.php:179
+msgid "Upload"
+msgstr "Télécharger"
+
+#: includes/admin/module-clipart.php:219
+msgid ""
+"SVG or PNG format only, make sure the size is large enough for printing."
+"<br>All the new cliparts will be placed in the first category."
+msgstr ""
+"Uniquement les formats SVG ou PNG, assuez-vous que la taille est suffisante "
+"pour l'impression.<br>Tous les nouveaux cliparts seront placés dans la "
+"première catégorie."
+
+#: includes/admin/module-clipart.php:225
+msgid "Add a new Category"
+msgstr "Ajoutez une catégorie"
+
+#: includes/admin/module-clipart.php:248 includes/front/awesome.php:480
+msgid "CATEGORY"
+msgstr "CATEGORIE"
+
+#: includes/admin/module-clipart.php:255
+msgid "delete category and cliparts"
+msgstr "éffacez la catégorie et les cliparts"
+
+#: includes/admin/module-clipart.php:258
+msgid "hide category"
+msgstr "cacher la catégorie"
+
+#: includes/admin/module-clipart.php:274
+msgid "Change Name"
+msgstr "Changez le nom"
+
+#: includes/admin/module-clipart.php:362 includes/admin/module-creation.php:643
+#: includes/admin/module-modif.php:640 includes/front/awesome-master.php:328
+msgid "Drag'n drop your photos"
+msgstr "Glissez-déposez vos photos"
+
+#: includes/admin/module-creation.php:14
+msgid "Type your colors here"
+msgstr "Entrez vos couleurs ici"
+
+#: includes/admin/module-creation.php:242
+msgid "YOUR PRODUCT IS CREATED"
+msgstr "VOTRE PRODUIT EST CREE"
+
+#: includes/admin/module-creation.php:245
+msgid "CREATE NEW PRODUCTS"
+msgstr "CREER DE NOUVEAUX PRODUITS"
+
+#: includes/admin/module-creation.php:250
+msgid "Create your own product ! You're the boss"
+msgstr "Créez votre propre produit ! C'est vous le boss"
+
+#: includes/admin/module-creation.php:261
+msgid "Single Print"
+msgstr "Une seule face"
+
+#: includes/admin/module-creation.php:268
+msgid "Multi Print"
+msgstr "Plusieurs faces"
+
+#: includes/admin/module-creation.php:285
+msgid "Full Size Print Zone</br>with Mask above"
+msgstr "Impression zone entière</br>avec masque au-dessus"
+
+#: includes/admin/module-creation.php:292
+msgid "Print Zone inside</br>with Background"
+msgstr "Zone d'impression restreinte</br>avec fond uniquement"
+
+#: includes/admin/module-creation.php:312
+msgid "Name your Product"
+msgstr "Nommez votre produit"
+
+#: includes/admin/module-creation.php:318
+msgid "Number of printing zone"
+msgstr "Nombre de zone d'impression"
+
+#: includes/admin/module-creation.php:329
+msgid "RESET"
+msgstr "REINITIALISER"
+
+#: includes/admin/module-creation.php:337
+#: includes/admin/module-creation.php:409
+#: includes/admin/module-creation.php:571
+msgid "NEXT"
+msgstr "SUIVANT"
+
+#: includes/admin/module-creation.php:357
+#: includes/admin/module-creation.php:540
+msgid "Define the Colors of the Product (default : white)"
+msgstr "Définir les couleurs du produit (Blanc par défaut)"
+
+#: includes/admin/module-creation.php:357
+#: includes/admin/module-creation.php:540
+msgid "hexadecimal, separated with commas"
+msgstr "hexadecimal, separés par des virgules"
+
+#: includes/admin/module-creation.php:370
+#: includes/admin/module-creation.php:552 includes/admin/module-modif.php:306
+msgid "Colors already used (you can pick them)"
+msgstr "Couleurs déjà utilisées (vous pouvez les sélectionner de nouveau)"
+
+#: includes/admin/module-creation.php:383
+msgid "Choose the display type"
+msgstr "Choisir le type d'affichage"
+
+#: includes/admin/module-creation.php:383
+msgid "For the front office"
+msgstr "Pour le front office"
+
+#: includes/admin/module-creation.php:386 includes/admin/module-modif.php:335
+#: includes/admin/module-modif.php:336
+msgid "Printing zone name"
+msgstr "Nom de la zone"
+
+#: includes/admin/module-creation.php:386 includes/admin/module-modif.php:335
+#: includes/admin/module-modif.php:336
+msgid "Printing zone picture"
+msgstr "Photo de la zone"
+
+#: includes/admin/module-creation.php:389
+#: includes/admin/module-creation.php:565 includes/admin/module-modif.php:587
+msgid "OK, DONE"
+msgstr "OK, SUIVANT"
+
+#: includes/admin/module-creation.php:395
+msgid "Printing zone number"
+msgstr "Nombre de zones"
+
+#: includes/admin/module-creation.php:402
+msgid "Name your printing zone "
+msgstr "Nommez votre zone"
+
+#: includes/admin/module-creation.php:413
+#: includes/admin/module-creation.php:443
+#: includes/admin/module-creation.php:466 includes/admin/module-modif.php:479
+msgid "CHANGE IMAGE"
+msgstr "CHANGER D'IMAGE"
+
+#: includes/admin/module-creation.php:424 includes/admin/module-modif.php:482
+msgid "Upload A Background"
+msgstr "Télécharger un fond"
+
+#: includes/admin/module-creation.php:427 includes/admin/module-modif.php:485
+msgid "Upload A Mask"
+msgstr "Télécharger un masque"
+
+#: includes/admin/module-creation.php:436 includes/admin/module-modif.php:494
+msgid "OR CHOOSE FROM GALLERY"
+msgstr "OU CHOISISSEZ DANS LA GALERIE"
+
+#: includes/admin/module-creation.php:448
+msgid "If needed, crop your image"
+msgstr "Si besoin, recadrez votre image"
+
+#: includes/admin/module-creation.php:448 includes/admin/module-modif.php:479
+#: includes/admin/module-modif.php:502
+msgid "(keep what your client will see)"
+msgstr "(Conservez la partie que verra votre client)"
+
+#: includes/admin/module-creation.php:456 includes/admin/module-modif.php:510
+msgid "CROP IT"
+msgstr "RECADRER"
+
+#: includes/admin/module-creation.php:469 includes/admin/module-modif.php:518
+msgid "Define the customization zone"
+msgstr "Définir la zone de personnalisation"
+
+#: includes/admin/module-creation.php:469 includes/admin/module-modif.php:518
+msgid "(Adjust the area and don't forget the bleeds)"
+msgstr "(Ajustez la zone et n'oubliez pas les marges)"
+
+#: includes/admin/module-creation.php:473 includes/admin/module-modif.php:522
+msgid ""
+"Type the <span style=\"font-weight:700\">EXACT FINAL PRINT SIZE</span> of "
+"this product "
+msgstr ""
+"Entrez la <span style=\"font-weight:700\">TAILLE EXACTE D'IMPRESSION</span> "
+"de ce produit"
+
+#: includes/admin/module-creation.php:473 includes/admin/module-modif.php:522
+msgid "(round numbers, no comma)"
+msgstr "(nombres entiers, par de virgule)"
+
+#: includes/admin/module-creation.php:477 includes/admin/module-modif.php:526
+msgid "WIDTH"
+msgstr "LARGEUR"
+
+#: includes/admin/module-creation.php:484 includes/admin/module-modif.php:533
+msgid "HEIGHT"
+msgstr "HAUTEUR"
+
+#: includes/admin/module-creation.php:493 includes/admin/module-modif.php:542
+msgid "Millimeters"
+msgstr "Millimetres"
+
+#: includes/admin/module-creation.php:494 includes/admin/module-modif.php:543
+msgid "Inches"
+msgstr "Pouces"
+
+#: includes/admin/module-creation.php:502 includes/admin/module-modif.php:551
+msgid "DEFINE AREA"
+msgstr "DEFINIR LA ZONE"
+
+#: includes/admin/module-creation.php:511 includes/admin/module-modif.php:560
+msgid ""
+"Optional: if your image doesn’t fit perfectly with</br>the Print Area, "
+"please adjust it"
+msgstr ""
+"Optionnel: si votre image de s'ajuste pas parfaitement à</br>la zone "
+"d'impression, ajustez-la"
+
+#: includes/admin/module-creation.php:522
+#: includes/admin/module-creation.php:525 includes/admin/module-modif.php:571
+#: includes/admin/module-modif.php:574
+msgid "horizontal</br>stretch"
+msgstr "étirement</br>horizontal"
+
+#: includes/admin/module-creation.php:528
+#: includes/admin/module-creation.php:531 includes/admin/module-modif.php:577
+#: includes/admin/module-modif.php:580
+msgid "vertical</br>stretch"
+msgstr "étirement</br>vertical"
+
+#: includes/admin/module-creation.php:701
+#: includes/admin/module-creation.php:704
+msgid "A color is incorrect"
+msgstr "Une couleur est incorrecte"
+
+#: includes/admin/module-creation.php:708
+#: includes/admin/module-creation.php:712
+msgid "Name of product already exist"
+msgstr "Ce nom de produit existe déjà"
+
+#: includes/admin/module-creation.php:756 includes/admin/module-modif.php:638
+msgid "Printing zone"
+msgstr "Zone d'impression"
+
+#: includes/admin/module-font.php:105
+msgid "Choose a Font"
+msgstr "Choisissez une fonte"
+
+#: includes/admin/module-font.php:113
+msgid "ADD FONT"
+msgstr "AJOUTER FONTE"
+
+#: includes/admin/module-font.php:121
+msgid "Demo Text"
+msgstr "Texte de démo"
+
+#: includes/admin/module-font.php:130
+msgid "Default font for your customer"
+msgstr "Fonte par défaut"
+
+#: includes/admin/module-font.php:154
+msgid "My Fonts"
+msgstr "Mes fontes"
+
+#: includes/admin/module-modif.php:232
+msgid "YOUR PRODUCT IS MODIFIED"
+msgstr "VOTRE PRODUIT EST MODIFIE"
+
+#: includes/admin/module-modif.php:236
+msgid "Choose and change your product"
+msgstr "Choisissez et modifiez votre produit"
+
+#: includes/admin/module-modif.php:258
+msgid "MODIFY"
+msgstr "MODIFIER"
+
+#: includes/admin/module-modif.php:284
+msgid "NAME"
+msgstr "NOM"
+
+#: includes/admin/module-modif.php:296
+msgid "Define the Colors of the product"
+msgstr "Définir les couleurs du produit"
+
+#: includes/admin/module-modif.php:320
+msgid "DELETE THIS PRODUCT"
+msgstr "EFFACER CE PRODUIT"
+
+#: includes/admin/module-modif.php:331
+msgid "Display type"
+msgstr "Type d'affichage"
+
+#: includes/admin/module-modif.php:346
+msgid "SAVE CHANGES"
+msgstr "SAUVEGARDER LES MODIFICATIONS"
+
+#: includes/admin/module-modif.php:376 includes/admin/module-modif.php:427
+msgid "CHANGE PICTURE OR CROP"
+msgstr "CHANGER DE PHOTO OU RECADRER"
+
+#: includes/admin/module-modif.php:379 includes/admin/module-modif.php:430
+msgid "CHANGE PRINT AREA"
+msgstr "MODIFIER LA ZONE D'IMPRESSION"
+
+#: includes/admin/module-modif.php:391 includes/admin/module-modif.php:442
+msgid "PRINT AREA SIZE"
+msgstr "TAILLE DE LA ZONE D'IMPRESSION"
+
+#: includes/admin/module-modif.php:473
+msgid "CANCEL CHANGE"
+msgstr "ANNULER LES MODIFICATIONS"
+
+#: includes/admin/module-modif.php:502
+msgid "CHANGE CROP"
+msgstr "MODIFIER LE CADRAGE"
+
+#: includes/admin/module-order.php:135
+msgid ""
+"DO YOU WANT TO SAVE TIME ? YOU CAN RECOVER <span style=\"font-"
+"weight:700\">READY TO PRINT</span> IMAGE"
+msgstr ""
+"VOUS SOUHAITEZ GAGNER DU TEMPS ? VOUS POUVEZ RECUPERER <span style=\"font-"
+"weight:700\">VOS IMAGES PRETES A IMPRIMER</span>"
+
+#: includes/admin/module-order.php:139
+msgid ""
+"LEARN MORE ABOUT</br><span style=\"color:#fff\">OUR WEB TO PRINT</span></"
+"br>TECHNOLOGY"
+msgstr ""
+"PLUS D'INFORMATIONS SUR</br><span style=\"color:#fff\">NOTRE TECHNOLOGIE</"
+"span></br>WEB TO PRINT"
+
+#: includes/admin/module-order.php:186
+msgid "Add reference points"
+msgstr "Ajouter les points de référence"
+
+#: includes/admin/module-order.php:189
+msgid "Remove reference points"
+msgstr "Retirer les points de référence"
+
+#: includes/admin/module-order.php:192
+msgid "Composition only"
+msgstr "Composition seule"
+
+#: includes/admin/module-order.php:195
+msgid "Full preview"
+msgstr "Previsualisation complète"
+
+#: includes/admin/module-order.php:204
+msgid "PRINT THESE INFORMATIONS"
+msgstr "IMPRIMER CES INFORMATIONS"
+
+#: includes/admin/module-order.php:215
+msgid "FINAL DOCUMENT SIZE"
+msgstr "TAILLE DU DOCUMENT"
+
+#: includes/admin/module-order.php:247 includes/front/awesome-mobile.php:232
+#: includes/front/awesome.php:50
+msgid "BACKGROUND COLOR"
+msgstr "COULEUR DE FOND"
+
+#: includes/admin/module-order.php:280
+msgid "IMAGE NUMBER"
+msgstr "IMAGE NUMERO"
+
+#: includes/admin/module-order.php:285 includes/admin/module-order.php:520
+#: includes/admin/module-order.php:522
+msgid "DOWNLOAD"
+msgstr "TELECHARGER"
+
+#: includes/admin/module-order.php:290
+msgid "Original image"
+msgstr "Image originale"
+
+#: includes/admin/module-order.php:295
+msgid "CROP LEFT"
+msgstr "RECADRAGE GAUCHE"
+
+#: includes/admin/module-order.php:303
+msgid "CROP TOP"
+msgstr "RECADRAGE HAUT"
+
+#: includes/admin/module-order.php:311
+msgid "CROP WIDTH"
+msgstr "RECADRAGE LARGEUR"
+
+#: includes/admin/module-order.php:319
+msgid "CROP HEIGHT"
+msgstr "RECADRAGE HAUTEUR"
+
+#: includes/admin/module-order.php:328
+msgid "FINAL IMAGE SIZE"
+msgstr "TAILLE FINALE"
+
+#: includes/admin/module-order.php:338
+msgid "IMAGE SHAPE"
+msgstr "FORME DE CONTOUR"
+
+#: includes/admin/module-order.php:342
+msgid "GET SHAPE"
+msgstr "RECUPERER LA FORME"
+
+#: includes/admin/module-order.php:348 includes/admin/module-order.php:446
+#: includes/admin/module-order.php:544
+msgid "ROTATION"
+msgstr "ROTATION"
+
+#: includes/admin/module-order.php:352 includes/admin/module-order.php:450
+#: includes/admin/module-order.php:548
+msgid "Clockwork"
+msgstr "Sens des aiguilles d'une montre"
+
+#: includes/admin/module-order.php:358 includes/admin/module-order.php:456
+#: includes/admin/module-order.php:554
+msgid "POSITION"
+msgstr "POSITION"
+
+#: includes/admin/module-order.php:359 includes/admin/module-order.php:457
+#: includes/admin/module-order.php:555
+msgid "Bounding Box if Rotated"
+msgstr "Bounding Box si rotation"
+
+#: includes/admin/module-order.php:363 includes/admin/module-order.php:461
+#: includes/admin/module-order.php:559
+msgid "LEFT POSITION"
+msgstr "POSITION GAUCHE"
+
+#: includes/admin/module-order.php:370 includes/admin/module-order.php:468
+#: includes/admin/module-order.php:566
+msgid "TOP POSITION"
+msgstr "POSITION HAUT"
+
+#: includes/admin/module-order.php:379 includes/admin/module-order.php:477
+#: includes/admin/module-order.php:575
+msgid "OPACITY"
+msgstr "OPACITE"
+
+#: includes/admin/module-order.php:389 includes/admin/module-order.php:487
+#: includes/admin/module-order.php:585
+msgid "FLIP HORIZONTAL"
+msgstr "MIROIR"
+
+#: includes/admin/module-order.php:390 includes/admin/module-order.php:488
+#: includes/admin/module-order.php:586
+msgid "TRUE"
+msgstr "OUI"
+
+#: includes/admin/module-order.php:397
+msgid "BORDER INSIDE"
+msgstr "BORDURE INTERIEURE"
+
+#: includes/admin/module-order.php:401 includes/admin/module-order.php:592
+msgid "COLOR"
+msgstr "COULEUR"
+
+#: includes/admin/module-order.php:421
+msgid "TEXTE NUMBER"
+msgstr "TEXTE NUMERO"
+
+#: includes/admin/module-order.php:425
+msgid "GET TEXT"
+msgstr "RECUPERER LE TEXTE"
+
+#: includes/admin/module-order.php:430 includes/admin/module-order.php:528
+msgid "SIZE WIDTH"
+msgstr "LARGEUR"
+
+#: includes/admin/module-order.php:437 includes/admin/module-order.php:535
+msgid "SIZE HEIGHT"
+msgstr "HAUTEUR"
+
+#: includes/admin/module-order.php:493
+msgid "For Your Information the Font Is"
+msgstr "Pour info, la fonte est"
+
+#: includes/admin/module-order.php:514
+msgid "CLIPART NUMBER"
+msgstr "CLIPART NUMERO"
+
+#: includes/admin/module-order.php:600
+msgid "For Your Information the Clipart Is"
+msgstr "Pour info, la clipart est"
+
+#: includes/class-wc-awesome-back.php:87
+msgid ""
+"Please update WooCommerce to the latest version! Awesome Designer only works "
+"with version 2.1 or newer."
+msgstr ""
+"Merci de mettre à joutr votre version de WooCommerce ! The Awesome Designer "
+"ne fonctionne qu'à partir de la version 2.1 ou supérieur"
+
+#: includes/class-wc-awesome-back.php:93
+msgid ""
+"GD library is not installed on your web server. If you do not know how to "
+"install GD library, please ask your server provider!"
+msgstr ""
+"La librairie GD n'est pas installée sur votre serveur. Si vous ne savez pas "
+"comment procéder à l'installation, veuillez demander à votre prestataire !"
+
+#: includes/class-wc-awesome-back.php:128
+#: includes/class-wc-awesome-back.php:152
+#: includes/class-wc-awesome-back.php:191
+msgid "Awesome product"
+msgstr "Produit Awesome"
+
+#: includes/class-wc-awesome-back.php:226
+msgid "Image information"
+msgstr "Informations sur la composition"
+
+#: includes/class-wc-awesome-back.php:228
+msgid "Get HD image"
+msgstr "Récuperer la composition HD"
+
+#: includes/class-wc-awesome-back.php:289
+msgid "For more information go to theawesomedesigner.com"
+msgstr "Pour plus d'informations, rendez-vous sur www.theawesomedesigner.com"
+
+#: includes/class-wc-awesome-back.php:302
+msgid " Enter your API KEY or create a free one at "
+msgstr "Entrez votre clé API ou demandez en une gratuitement sur"
+
+#: includes/class-wc-awesome-back.php:308
+msgid ""
+"Can't exceed the upload_max_filesize directive in php.ini. For your "
+"information"
+msgstr ""
+"Ne peut pas excéder les directives de upload_max_filesize dans le fichier "
+"php.ini. Pour information"
+
+#: includes/class-wc-awesome-back.php:318
+msgid "The mobile version has no colorpicker but a list of colors"
+msgstr ""
+"La version mobile ne propose pas de colorpicker mais d'une liste de couleurs "
+"définies"
+
+#: includes/class-wc-awesome-front.php:137
+msgid "Product color"
+msgstr "Couleur du produit"
+
+#: includes/class-wc-awesome-front.php:160
+msgid "View Product"
+msgstr "Voir le produit"
+
+#: includes/class-wc-awesome-front.php:163
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: includes/class-wc-awesome-front.php:176
+#: includes/class-wc-awesome-front.php:197
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: includes/class-wc-awesome-front.php:176
+#: includes/class-wc-awesome-front.php:197
+msgid "Customize mobile"
+msgstr "Personnaliser sur mobile"
+
+#: includes/front/awesome-master.php:250
+msgid "Please wait while downloading your photos"
+msgstr "Veuillez attendre durant le téléchargement de vos photos"
+
+#: includes/front/awesome-master.php:253
+msgid "Generation rendering and data backup"
+msgstr "Génération, rendu et récupération des données"
+
+#: includes/front/awesome-master.php:256 includes/front/awesome-mobile.php:181
+#: includes/front/awesome.php:119
+msgid "CANCEL"
+msgstr "ANNULER"
+
+#: includes/front/awesome-master.php:306 includes/front/awesome-mobile.php:370
+#: includes/front/awesome.php:299
+msgid "Your text..."
+msgstr "Votre texte..."
+
+#: includes/front/awesome-mobile.php:184 includes/front/awesome.php:122
+msgid "VALID"
+msgstr "VALIDER"
+
+#: includes/front/awesome-mobile.php:198
+msgid "BORDER COLOR"
+msgstr "COULEUR DE LA BORDURE"
+
+#: includes/front/awesome-mobile.php:207
+msgid "TEXT COLOR"
+msgstr "COULEUR DU TEXTE"
+
+#: includes/front/awesome-mobile.php:216 includes/front/awesome.php:470
+msgid "CLIPART COLOR"
+msgstr "COULEUR DU CLIPART"
+
+#: includes/front/awesome-mobile.php:225
+msgid "OBJECT COLOR"
+msgstr "COULEUR DE L'OBJET"
+
+#: includes/front/awesome-mobile.php:243
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/front/awesome-mobile.php:266 includes/front/awesome.php:188
+msgid "Collage options"
+msgstr "Options de pêle-mêle"
+
+#: includes/front/awesome-mobile.php:270 includes/front/awesome.php:259
+msgid "Photo options"
+msgstr "Options de photo"
+
+#: includes/front/awesome-mobile.php:285 includes/front/awesome.php:197
+msgid "Zoom"
+msgstr "Zoom"
+
+#: includes/front/awesome-mobile.php:298 includes/front/awesome.php:212
+#: includes/front/awesome.php:362
+msgid "Border"
+msgstr "Bordure"
+
+#: includes/front/awesome-mobile.php:311 includes/front/awesome.php:229
+msgid "No shape"
+msgstr "Pas de forme"
+
+#: includes/front/awesome-mobile.php:343 includes/front/awesome.php:268
+msgid "Photo spacing"
+msgstr "Espacement"
+
+#: includes/front/awesome-mobile.php:456
+msgid "Category"
+msgstr "Catégorie"
+
+#: includes/front/awesome.php:12
+msgid "PRODUCT COLOR"
+msgstr "COULEUR DU PRODUIT"
+
+#: includes/front/awesome.php:27
+msgid "FINISH"
+msgstr "FINIR"
+
+#: includes/front/awesome.php:32
+msgid "Redo"
+msgstr "Rétablir action"
+
+#: includes/front/awesome.php:35
+msgid "Undo"
+msgstr "Annuler action"
+
+#: includes/front/awesome.php:38
+msgid "New"
+msgstr "Nouveau"
+
+#: includes/front/awesome.php:44
+msgid "No bg color"
+msgstr "Pas de couleur de fond"
+
+#: includes/front/awesome.php:137
+msgid "Opacity"
+msgstr "Opacité"
+
+#: includes/front/awesome.php:147
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/front/awesome.php:149
+msgid "Set to background"
+msgstr "Envoyer en fond"
+
+#: includes/front/awesome.php:152
+msgid "Flip"
+msgstr "Miroir"
+
+#: includes/front/awesome.php:155
+msgid "Move to back"
+msgstr "Déplacer vers l'arrière"
+
+#: includes/front/awesome.php:159
+msgid "Move to front"
+msgstr "Déplacer vers l'avant"
+
+#: includes/front/awesome.php:169
+msgid "PHOTOS"
+msgstr "PHOTOS"
+
+#: includes/front/awesome.php:178
+msgid "Click on your photos or drag and drop them"
+msgstr "Cliquez sur vos photos ou déplacez-les dans la zone"
+
+#: includes/front/awesome.php:292
+msgid "TEXT"
+msgstr "TEXTE"
+
+#: includes/front/awesome.php:307
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: includes/front/awesome.php:347
+msgid "Text spacing"
+msgstr "Espacement des lettres"
+
+#: includes/front/awesome.php:376
+msgid "Border color"
+msgstr "Couleur du contour"
+
+#: includes/front/awesome.php:398
+msgid "No curve"
+msgstr "Pas d'arc de texte"
+
+#: includes/front/awesome.php:401
+msgid "Curve high"
+msgstr "Arc de texte haut"
+
+#: includes/front/awesome.php:404
+msgid "Curve bottom"
+msgstr "Arc de texte bas"
+
+#: includes/front/awesome.php:414
+msgid "Curve"
+msgstr "Arc de texte"
+
+#: includes/front/awesome.php:428
+msgid "Length"
+msgstr "Longueur"
+
+#: includes/front/awesome.php:441
+msgid "Align right"
+msgstr "Aligner à droite"
+
+#: includes/front/awesome.php:444
+msgid "Align center"
+msgstr "Centrer"
+
+#: includes/front/awesome.php:447
+msgid "Align left"
+msgstr "Aligner à gauche"
+
+#: includes/front/awesome.php:462
+msgid "CLIPART"
+msgstr "CLIPART"
+
+#: woocommerce-awesome-designer.php:144 woocommerce-awesome-designer.php:147
+#: woocommerce-awesome-designer.php:150 woocommerce-awesome-designer.php:153
+#: woocommerce-awesome-designer.php:179
+#, php-format
+msgid "Impossible to create %s directory."
+msgstr "Impossible de créer le répertoire %s"

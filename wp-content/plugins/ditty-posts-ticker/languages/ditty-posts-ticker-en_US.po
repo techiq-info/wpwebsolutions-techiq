@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ditty Posts Ticker v1.0.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-31 15:37:12+0000\n"
+"Last-Translator: admin <joe@metaphorcreations.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/filters.php:16
+#@ ditty-posts-ticker
+msgid "Posts"
+msgstr ""
+
+#: includes/meta-boxes.php:415
+#@ ditty-posts-ticker
+msgid "Post type"
+msgstr ""
+
+#: includes/meta-boxes.php:416
+#@ ditty-posts-ticker
+msgid "Select the post type to display"
+msgstr ""
+
+#: includes/meta-boxes.php:444
+#@ ditty-posts-ticker
+msgid "Post limit"
+msgstr ""
+
+#: includes/meta-boxes.php:454
+#@ ditty-posts-ticker
+msgid "Post order"
+msgstr ""
+
+#: includes/meta-boxes.php:458
+#@ ditty-posts-ticker
+msgid "Orderby"
+msgstr ""
+
+#: includes/meta-boxes.php:473
+#@ ditty-posts-ticker
+msgid "Meta Key"
+msgstr ""
+
+#: includes/meta-boxes.php:474
+#@ ditty-posts-ticker
+msgid "Order"
+msgstr ""
+
+#: includes/meta-boxes.php:496
+#@ ditty-posts-ticker
+msgid "Post title"
+msgstr ""
+
+#: includes/meta-boxes.php:497
+#: includes/meta-boxes.php:524
+#: includes/meta-boxes.php:536
+#@ ditty-posts-ticker
+msgid "Link to post"
+msgstr ""
+
+#: includes/meta-boxes.php:506
+#@ ditty-posts-ticker
+msgid "Post date"
+msgstr ""
+
+#: includes/meta-boxes.php:507
+#@ ditty-posts-ticker
+msgid "Format"
+msgstr ""
+
+#: includes/meta-boxes.php:385
+#@ ditty-posts-ticker
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/meta-boxes.php:386
+#@ ditty-posts-ticker
+msgid "Medium Size"
+msgstr ""
+
+#: includes/meta-boxes.php:387
+#@ ditty-posts-ticker
+msgid "Large Size"
+msgstr ""
+
+#: includes/meta-boxes.php:388
+#@ ditty-posts-ticker
+msgid "Full Size"
+msgstr ""
+
+#: includes/meta-boxes.php:516
+#@ ditty-posts-ticker
+msgid "Post thumbnail"
+msgstr ""
+
+#: includes/meta-boxes.php:533
+#@ ditty-posts-ticker
+msgid "Post excerpt"
+msgstr ""
+
+#: includes/meta-boxes.php:534
+#@ ditty-posts-ticker
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/meta-boxes.php:535
+#@ ditty-posts-ticker
+msgid "Excerpt more"
+msgstr ""
+
+#: includes/meta-boxes.php:545
+#@ ditty-posts-ticker
+msgid "Post content"
+msgstr ""
+
+#: includes/meta-boxes.php:483
+#@ ditty-posts-ticker
+msgid "Post arrangement"
+msgstr ""
+
+#: includes/meta-boxes.php:558
+#@ ditty-posts-ticker
+msgid "Advanced options"
+msgstr ""
+
+#: includes/meta-boxes.php:571
+#@ ditty-posts-ticker
+msgid "Parameter"
+msgstr ""
+
+#: includes/meta-boxes.php:572
+#@ ditty-posts-ticker
+msgid "Value"
+msgstr ""
+
+#: includes/meta-boxes.php:573
+#@ ditty-posts-ticker
+msgid "Create array"
+msgstr ""
+
+#: includes/meta-boxes.php:650
+#@ ditty-posts-ticker
+msgid "Split list"
+msgstr ""
+
+#: includes/meta-boxes.php:564
+#@ ditty-posts-ticker
+msgid "Query args"
+msgstr ""
+
+#: includes/meta-boxes.php:597
+#@ ditty-posts-ticker
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/meta-boxes.php:598
+#@ ditty-posts-ticker
+msgid "Field"
+msgstr ""
+
+#: includes/meta-boxes.php:599
+#@ ditty-posts-ticker
+msgid "Term(s)"
+msgstr ""
+
+#: includes/meta-boxes.php:600
+#@ ditty-posts-ticker
+msgid "Children"
+msgstr ""
+
+#: includes/meta-boxes.php:601
+#@ ditty-posts-ticker
+msgid "Operator"
+msgstr ""
+
+#: includes/meta-boxes.php:590
+#@ ditty-posts-ticker
+msgid "Taxonomy args"
+msgstr ""
+
+#: includes/meta-boxes.php:618
+#@ ditty-posts-ticker
+msgid "Taxonomy relation"
+msgstr ""
+
+#: includes/meta-boxes.php:326
+#@ ditty-posts-ticker
+msgid "Posts Ticker Data"
+msgstr ""
+
+#: ditty-posts-ticker.php:75
+#, php-format
+#@ ditty-posts-ticker
+msgid "<a class=\"thickbox\" href=\"%s\"><strong>Ditty News Ticker</strong></a> must be installed and activated to use Ditty Posts Ticker."
+msgstr ""
+
+#: includes/meta-boxes.php:373
+#@ ditty-posts-ticker
+msgid "Read more"
+msgstr ""
+
+#: includes/meta-boxes.php:429
+#@ ditty-posts-ticker
+msgid "Post format"
+msgstr ""
+
+#: includes/meta-boxes.php:430
+#@ ditty-posts-ticker
+msgid "Any Format"
+msgstr ""
+
+#: includes/meta-boxes.php:445
+#@ ditty-posts-ticker
+msgid "Limit the number of posts to show per page (set to -1 for all)"
+msgstr ""
+
+#: includes/meta-boxes.php:448
+#@ ditty-posts-ticker
+msgid "Limit"
+msgstr ""
+
+#: includes/meta-boxes.php:455
+#@ ditty-posts-ticker
+msgid "Set the order and orderby parameters"
+msgstr ""
+
+#: includes/meta-boxes.php:459
+#: includes/meta-boxes.php:675
+#@ ditty-posts-ticker
+msgid "ID"
+msgstr ""
+
+#: includes/meta-boxes.php:460
+#@ ditty-posts-ticker
+msgid "Author"
+msgstr ""
+
+#: includes/meta-boxes.php:461
+#@ ditty-posts-ticker
+msgid "Title"
+msgstr ""
+
+#: includes/meta-boxes.php:462
+#@ ditty-posts-ticker
+msgid "Name"
+msgstr ""
+
+#: includes/meta-boxes.php:463
+#@ ditty-posts-ticker
+msgid "Date"
+msgstr ""
+
+#: includes/meta-boxes.php:464
+#@ ditty-posts-ticker
+msgid "Modified"
+msgstr ""
+
+#: includes/meta-boxes.php:465
+#@ ditty-posts-ticker
+msgid "Parent"
+msgstr ""
+
+#: includes/meta-boxes.php:466
+#@ ditty-posts-ticker
+msgid "Random"
+msgstr ""
+
+#: includes/meta-boxes.php:467
+#@ ditty-posts-ticker
+msgid "Comment Count"
+msgstr ""
+
+#: includes/meta-boxes.php:468
+#@ ditty-posts-ticker
+msgid "Menu Order"
+msgstr ""
+
+#: includes/meta-boxes.php:469
+#@ ditty-posts-ticker
+msgid "Meta Value"
+msgstr ""
+
+#: includes/meta-boxes.php:470
+#@ ditty-posts-ticker
+msgid "Meta Value Number"
+msgstr ""
+
+#: includes/meta-boxes.php:471
+#@ ditty-posts-ticker
+msgid "Post In"
+msgstr ""
+
+#: includes/meta-boxes.php:475
+#@ ditty-posts-ticker
+msgid "Ascending"
+msgstr ""
+
+#: includes/meta-boxes.php:476
+#@ ditty-posts-ticker
+msgid "Descending"
+msgstr ""
+
+#: includes/meta-boxes.php:484
+#@ ditty-posts-ticker
+msgid "Set the post assets and order"
+msgstr ""
+
+#: includes/meta-boxes.php:565
+#@ ditty-posts-ticker
+msgid "Add query args for advanced post queries"
+msgstr ""
+
+#: includes/meta-boxes.php:591
+#@ ditty-posts-ticker
+msgid "Add taxonomy query args for advanced post queries"
+msgstr ""
+
+#: includes/meta-boxes.php:619
+#@ ditty-posts-ticker
+msgid "Select the relation between multiple taxonomies"
+msgstr ""
+
+#: includes/meta-boxes.php:623
+#: includes/meta-boxes.php:689
+#@ ditty-posts-ticker
+msgid "And"
+msgstr ""
+
+#: includes/meta-boxes.php:624
+#@ ditty-posts-ticker
+msgid "Or"
+msgstr ""
+
+#: includes/meta-boxes.php:676
+#@ ditty-posts-ticker
+msgid "Slug"
+msgstr ""
+
+#: includes/meta-boxes.php:687
+#@ ditty-posts-ticker
+msgid "In"
+msgstr ""
+
+#: includes/meta-boxes.php:688
+#@ ditty-posts-ticker
+msgid "Not In"
+msgstr ""
+

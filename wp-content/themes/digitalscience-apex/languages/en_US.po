@@ -1,0 +1,2670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Apex v1.1.14\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-09-15 17:23:27+0000\n"
+"Last-Translator: admin <joe@metaphorcreations.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:33
+#@ apex
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:54
+#@ apex
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:64
+#@ apex
+msgid "Your name"
+msgstr ""
+
+#: comments.php:65
+#@ apex
+msgid "Your email"
+msgstr ""
+
+#: comments.php:66
+#@ apex
+msgid "Your website"
+msgstr ""
+
+#: comments.php:72
+#@ apex
+msgid "Your message"
+msgstr ""
+
+#: comments.php:78
+#@ apex
+msgid "Submit"
+msgstr ""
+
+#: comments.php:79
+#@ apex
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:80
+#@ apex
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:82
+#: includes/admin/walkers.php:212
+#@ apex
+msgid "Cancel"
+msgstr ""
+
+#: functions.php:95
+#@ apex
+msgid "Primary Widget Area"
+msgstr ""
+
+#: functions.php:133
+#@ apex
+msgid "Primary Menu"
+msgstr ""
+
+#: activate.php:135
+#: includes/class-tgm-plugin-activation.php:333
+#@ apex
+msgid "Install Required Plugins"
+msgstr ""
+
+#: activate.php:136
+#: includes/class-tgm-plugin-activation.php:334
+#@ apex
+msgid "Install Plugins"
+msgstr ""
+
+#: activate.php:137
+#: includes/class-tgm-plugin-activation.php:335
+#, php-format
+#@ apex
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: activate.php:138
+#: includes/class-tgm-plugin-activation.php:336
+#@ apex
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: activate.php:139
+#: includes/class-tgm-plugin-activation.php:338
+#, php-format
+#@ apex
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:140
+#: includes/class-tgm-plugin-activation.php:343
+#, php-format
+#@ apex
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:141
+#, php-format
+#@ apex
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:142
+#: includes/class-tgm-plugin-activation.php:368
+#, php-format
+#@ apex
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:143
+#: includes/class-tgm-plugin-activation.php:373
+#, php-format
+#@ apex
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:144
+#, php-format
+#@ apex
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:145
+#: includes/class-tgm-plugin-activation.php:353
+#, php-format
+#@ apex
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:146
+#, php-format
+#@ apex
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:147
+#: includes/class-tgm-plugin-activation.php:383
+#@ apex
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: activate.php:149
+#: includes/class-tgm-plugin-activation.php:397
+#@ apex
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: activate.php:150
+#: includes/class-tgm-plugin-activation.php:399
+#: includes/class-tgm-plugin-activation.php:3029
+#@ apex
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: activate.php:151
+#, php-format
+#@ apex
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/admin/fields.php:40
+#: includes/admin/fields.php:71
+#: includes/admin/fields.php:107
+#: includes/admin/fields.php:148
+#: includes/admin/fields.php:174
+#: includes/admin/fields.php:201
+#: includes/admin/fields.php:226
+#: includes/admin/fields.php:262
+#: includes/admin/fields.php:287
+#: includes/admin/fields.php:316
+#: includes/admin/fields.php:350
+#: includes/admin/fields.php:404
+#: includes/admin/fields.php:437
+#: includes/admin/fields.php:467
+#: includes/admin/fields.php:527
+#: includes/admin/fields.php:572
+#: includes/admin/fields.php:627
+#: includes/admin/fields.php:691
+#: includes/admin/fields.php:759
+#: includes/admin/fields.php:957
+#: includes/admin/fields.php:990
+#: includes/admin/fields.php:1035
+#: includes/admin/fields.php:1131
+#: includes/admin/fields.php:1227
+#: includes/admin/fields.php:1263
+#: includes/admin/fields.php:1320
+#: includes/admin/fields.php:1393
+#@ apex
+msgid "Missing required data"
+msgstr ""
+
+#: includes/admin/fields.php:99
+#@ apex
+msgid "Default display"
+msgstr ""
+
+#: includes/admin/fields.php:101
+#@ apex
+msgid "Show"
+msgstr ""
+
+#: includes/admin/fields.php:102
+#@ apex
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/fields.php:130
+#@ apex
+msgid "ID"
+msgstr ""
+
+#: includes/admin/fields.php:131
+#@ apex
+msgid "Author"
+msgstr ""
+
+#: includes/admin/fields.php:132
+#@ apex
+msgid "Title"
+msgstr ""
+
+#: includes/admin/fields.php:133
+#@ apex
+msgid "Name"
+msgstr ""
+
+#: includes/admin/fields.php:134
+#: templates/content-mtphr_gallery.php:10
+#: templates/content-mtphr_gallery.php:12
+#: templates/elements/mtphr-gallery.php:24
+#: templates/elements/mtphr-gallery.php:26
+#@ apex
+msgid "Date"
+msgstr ""
+
+#: includes/admin/fields.php:135
+#@ apex
+msgid "Modified"
+msgstr ""
+
+#: includes/admin/fields.php:136
+#@ apex
+msgid "Parent"
+msgstr ""
+
+#: includes/admin/fields.php:137
+#@ apex
+msgid "Random"
+msgstr ""
+
+#: includes/admin/fields.php:138
+#@ apex
+msgid "Comment Count"
+msgstr ""
+
+#: includes/admin/fields.php:139
+#@ apex
+msgid "Menu Order"
+msgstr ""
+
+#: includes/admin/fields.php:142
+#@ apex
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin/fields.php:143
+#@ apex
+msgid "Descending"
+msgstr ""
+
+#: includes/admin/fields.php:339
+#: includes/admin/fields.php:380
+#: includes/admin/fields.php:427
+#: includes/admin/fields.php:981
+#@ apex
+msgid "Use default"
+msgstr ""
+
+#: includes/admin/fields.php:341
+#: includes/admin/fields.php:382
+#: includes/admin/fields.php:865
+#: includes/admin/meta-boxes.php:325
+#: includes/admin/meta-boxes.php:875
+#: includes/admin/settings/content.php:140
+#@ apex
+msgid "None"
+msgstr ""
+
+#: includes/admin/fields.php:460
+#: includes/admin/fields.php:462
+#: includes/admin/fields.php:513
+#: includes/admin/fields.php:515
+#@ apex
+msgid "Add Image"
+msgstr ""
+
+#: includes/admin/fields.php:519
+#@ apex
+msgid "Default image display"
+msgstr ""
+
+#: includes/admin/fields.php:521
+#@ apex
+msgid "Display full width"
+msgstr ""
+
+#: includes/admin/fields.php:522
+#@ apex
+msgid "Display as pattern"
+msgstr ""
+
+#: includes/admin/fields.php:556
+#: includes/admin/fields.php:610
+#: includes/admin/fields.php:1113
+#@ apex
+msgid "Override default opacity"
+msgstr ""
+
+#: includes/admin/fields.php:558
+#@ apex
+msgid "Parallax amount"
+msgstr ""
+
+#: includes/admin/fields.php:612
+#@ apex
+msgid "Opacity"
+msgstr ""
+
+#: includes/admin/fields.php:656
+#@ apex
+msgid "Text color"
+msgstr ""
+
+#: includes/admin/fields.php:659
+#@ apex
+msgid "Highlight color"
+msgstr ""
+
+#: includes/admin/fields.php:662
+#@ apex
+msgid "Highlight offset color"
+msgstr ""
+
+#: includes/admin/fields.php:902
+#@ apex
+msgid "Use default settings"
+msgstr ""
+
+#: includes/admin/fields.php:903
+#@ apex
+msgid "Override default settings"
+msgstr ""
+
+#: includes/admin/fields.php:912
+#@ apex
+msgid "Background color"
+msgstr ""
+
+#: includes/admin/fields.php:923
+#@ apex
+msgid "Background image"
+msgstr ""
+
+#: includes/admin/fields.php:934
+#@ apex
+msgid "Background image parallax"
+msgstr ""
+
+#: includes/admin/fields.php:945
+#@ apex
+msgid "Background overlay"
+msgstr ""
+
+#: includes/admin/fields.php:983
+#@ apex
+msgid "Full width"
+msgstr ""
+
+#: includes/admin/fields.php:984
+#@ apex
+msgid "Sidebar right"
+msgstr ""
+
+#: includes/admin/fields.php:985
+#@ apex
+msgid "Sidebar left"
+msgstr ""
+
+#: includes/admin/fields.php:1015
+#@ apex
+msgid "Use default width"
+msgstr ""
+
+#: includes/admin/fields.php:1017
+#@ apex
+msgid "Span 1"
+msgstr ""
+
+#: includes/admin/fields.php:1018
+#@ apex
+msgid "Span 2"
+msgstr ""
+
+#: includes/admin/fields.php:1019
+#@ apex
+msgid "Span 3"
+msgstr ""
+
+#: includes/admin/fields.php:1020
+#@ apex
+msgid "Span 4"
+msgstr ""
+
+#: includes/admin/fields.php:1021
+#@ apex
+msgid "Span 5"
+msgstr ""
+
+#: includes/admin/fields.php:1022
+#@ apex
+msgid "Span 6"
+msgstr ""
+
+#: includes/admin/fields.php:1026
+#@ apex
+msgid "Use default mobile positioning"
+msgstr ""
+
+#: includes/admin/fields.php:1028
+#@ apex
+msgid "Do not reposition sidebar on mobile"
+msgstr ""
+
+#: includes/admin/fields.php:1029
+#@ apex
+msgid "Force sidebar below content on mobile"
+msgstr ""
+
+#: includes/admin/fields.php:1030
+#@ apex
+msgid "Force sidebar above content on mobile"
+msgstr ""
+
+#: includes/admin/fields.php:1115
+#@ apex
+msgid "Overlay opacity"
+msgstr ""
+
+#: includes/admin/fields.php:1164
+#@ apex
+msgid "Text rotator"
+msgstr ""
+
+#: includes/admin/fields.php:1165
+#@ apex
+msgid "Background rotator"
+msgstr ""
+
+#: includes/admin/fields.php:1184
+#: includes/admin/fields.php:1211
+#@ apex
+msgid "Use Default Setting"
+msgstr ""
+
+#: includes/admin/fields.php:1186
+#: includes/admin/fields.php:1213
+#@ apex
+msgid "No Rotator"
+msgstr ""
+
+#: includes/admin/fields.php:1192
+#@ apex
+msgid "Please create a rotating default ticker"
+msgstr ""
+
+#: includes/admin/fields.php:1220
+#@ apex
+msgid "Please create a rotating image ticker"
+msgstr ""
+
+#: includes/admin/fields.php:1258
+#, php-format
+#@ apex
+msgid "<a class=\"thickbox\" href=\"%s\"><strong>Metaphor Widgets</strong></a> must be installed & activated to setup Social Sites in the footer."
+msgstr ""
+
+#: includes/admin/meta-boxes.php:12
+#@ apex
+msgid "Apex Page Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:109
+#@ apex
+msgid "Post Archive Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:112
+#@ apex
+msgid "Gallery Archive Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:115
+#@ apex
+msgid "Member Archive Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:118
+#@ apex
+msgid "Post Gallery Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:121
+#@ apex
+msgid "Post Video Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:126
+#@ apex
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:127
+#: includes/admin/settings/content.php:31
+#@ apex
+msgid "Elements"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:128
+#@ apex
+msgid "Content Style"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:129
+#@ apex
+msgid "Header Style"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:130
+#: includes/admin/settings/content.php:37
+#@ apex
+msgid "Hero Settings"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:166
+#: includes/admin/settings/content.php:65
+#@ apex
+msgid "Content width"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:167
+#@ apex
+msgid "Choose how to display content for the page"
+msgstr ""
+
+#: includes/admin/fields.php:394
+#: includes/admin/meta-boxes.php:175
+#: includes/admin/meta-boxes.php:301
+#: includes/admin/meta-boxes.php:322
+#: includes/admin/meta-boxes.php:406
+#: includes/admin/meta-boxes.php:495
+#: includes/admin/meta-boxes.php:634
+#@ apex
+msgid "Use default setting"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:176
+#: includes/admin/settings/content.php:73
+#@ apex
+msgid "Normal"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:177
+#: includes/admin/settings/content.php:74
+#@ apex
+msgid "Condensed"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:178
+#: includes/admin/settings/content.php:75
+#@ apex
+msgid "Wide"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:188
+#: includes/admin/settings/content.php:52
+#@ apex
+msgid "Page layout"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:189
+#@ apex
+msgid "Set a custom layout for the page"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:205
+#: includes/admin/settings/content.php:83
+#@ apex
+msgid "Sidebar"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:206
+#@ apex
+msgid "Adjust the sidebar for the page"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:313
+#: includes/admin/settings/content.php:130
+#@ apex
+msgid "Page top"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:314
+#@ apex
+msgid "Choose the element to display at the top of the page"
+msgstr ""
+
+#: includes/admin/fields.php:729
+#: includes/admin/meta-boxes.php:323
+#: includes/admin/settings/content.php:138
+#@ apex
+msgid "Header"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:324
+#: includes/admin/settings/content.php:139
+#@ apex
+msgid "Hero"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:235
+#@ apex
+msgid "Page title"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:236
+#@ apex
+msgid "Override the default page title"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:254
+#@ apex
+msgid "Page tagline"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:255
+#@ apex
+msgid "Add a custom tagline for the page"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:369
+#: includes/admin/settings/content.php:204
+#@ apex
+msgid "Widget area"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:370
+#@ apex
+msgid "Select the widget area to display in the sidebar"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:397
+#: includes/admin/settings/content.php:217
+#@ apex
+msgid "Content style"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:398
+#@ apex
+msgid "Set the initial color style of the page"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:407
+#: includes/admin/meta-boxes.php:496
+#: includes/admin/meta-boxes.php:635
+#: includes/admin/settings/content.php:225
+#: includes/admin/settings/content.php:297
+#: includes/admin/settings/content.php:410
+#: includes/admin/settings/general.php:139
+#: includes/admin/settings/general.php:169
+#@ apex
+msgid "Light"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:408
+#: includes/admin/meta-boxes.php:497
+#: includes/admin/meta-boxes.php:636
+#: includes/admin/settings/content.php:226
+#: includes/admin/settings/content.php:298
+#: includes/admin/settings/content.php:411
+#: includes/admin/settings/general.php:140
+#: includes/admin/settings/general.php:170
+#@ apex
+msgid "Dark"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:418
+#: includes/admin/settings/content.php:234
+#@ apex
+msgid "Content colors"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:419
+#@ apex
+msgid "Set custom colors for the page content"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:434
+#: includes/admin/settings/content.php:256
+#@ apex
+msgid "Content background"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:435
+#@ apex
+msgid "Set options for the page content background"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:486
+#: includes/admin/settings/content.php:289
+#@ apex
+msgid "Header style"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:487
+#@ apex
+msgid "Set the initial color style of the page header"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:507
+#: includes/admin/settings/content.php:306
+#@ apex
+msgid "Header colors"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:508
+#@ apex
+msgid "Set custom colors for the page header"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:523
+#: includes/admin/settings/content.php:328
+#@ apex
+msgid "Header background"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:524
+#@ apex
+msgid "Set options for the page header background"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:574
+#: includes/admin/settings/content.php:361
+#@ apex
+msgid "Hero logo"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:575
+#@ apex
+msgid "Set a custom logo for the hero element"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:590
+#: includes/admin/settings/content.php:374
+#@ apex
+msgid "Hero menu"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:591
+#@ apex
+msgid "Choose a custom menu to display"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:606
+#@ apex
+msgid "Hero rotator"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:607
+#@ apex
+msgid "Setup custom rotators to display"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:625
+#: includes/admin/settings/content.php:402
+#@ apex
+msgid "Hero style"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:626
+#@ apex
+msgid "Set the initial color style of the hero element"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:646
+#: includes/admin/settings/content.php:419
+#@ apex
+msgid "Hero colors"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:647
+#@ apex
+msgid "Set custom colors for the hero element"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:662
+#: includes/admin/settings/content.php:441
+#@ apex
+msgid "Hero background"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:663
+#@ apex
+msgid "Set options for the hero element background"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:733
+#: includes/admin/meta-boxes.php:825
+#: includes/admin/meta-boxes.php:1003
+#@ apex
+msgid "Post order"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:734
+#: includes/admin/meta-boxes.php:826
+#: includes/admin/meta-boxes.php:1004
+#@ apex
+msgid "Set the display order of the posts"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:751
+#: includes/admin/meta-boxes.php:888
+#: includes/admin/meta-boxes.php:1021
+#@ apex
+msgid "Category filter"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:752
+#: includes/admin/meta-boxes.php:889
+#: includes/admin/meta-boxes.php:1022
+#@ apex
+msgid "Filter the archive by specific categories"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:756
+#: includes/admin/meta-boxes.php:893
+#: includes/admin/meta-boxes.php:1026
+#@ apex
+msgid "Do not filter posts by categories"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:757
+#: includes/admin/meta-boxes.php:894
+#: includes/admin/meta-boxes.php:1027
+#@ apex
+msgid "Show posts with any of the selected categories"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:758
+#: includes/admin/meta-boxes.php:895
+#: includes/admin/meta-boxes.php:1028
+#@ apex
+msgid "Hide posts with any of the selected categories"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:759
+#: includes/admin/meta-boxes.php:896
+#: includes/admin/meta-boxes.php:1029
+#@ apex
+msgid "Show posts with all of the selected categories"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:775
+#: includes/admin/meta-boxes.php:912
+#@ apex
+msgid "Tag filter"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:776
+#: includes/admin/meta-boxes.php:913
+#@ apex
+msgid "Filter the archive by specific tags"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:780
+#: includes/admin/meta-boxes.php:917
+#@ apex
+msgid "Do not filter posts by tags"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:781
+#: includes/admin/meta-boxes.php:918
+#@ apex
+msgid "Show posts with any of the selected tags"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:782
+#: includes/admin/meta-boxes.php:919
+#@ apex
+msgid "Hide posts with any of the selected tags"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:783
+#: includes/admin/meta-boxes.php:920
+#@ apex
+msgid "Show posts with all of the selected tags"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:841
+#@ apex
+msgid "Post limit"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:842
+#@ apex
+msgid "Limit the number of posts to display on page load"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:846
+#@ apex
+msgid "posts"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:867
+#@ apex
+msgid "Filter buttons"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:868
+#@ apex
+msgid "Display buttons to dynamically filter posts"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:876
+#@ apex
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:877
+#: includes/display.php:596
+#: includes/display.php:616
+#: templates/content-mtphr_gallery.php:19
+#: templates/content-mtphr_gallery.php:21
+#: templates/elements/mtphr-gallery.php:32
+#: templates/elements/mtphr-gallery.php:34
+#@ apex
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:1075
+#: includes/admin/meta-boxes.php:1077
+#: includes/admin/meta-boxes.php:1112
+#: includes/admin/meta-boxes.php:1114
+#, php-format
+#@ apex
+msgid "<a class=\"thickbox\" href=\"%s\"><strong>Metaphor Galleries</strong></a> must be installed & activated to setup <strong>post gallery images</strong>."
+msgstr ""
+
+#: includes/admin/scripts.php:82
+#@ apex
+msgid "Upload or select an image"
+msgstr ""
+
+#: includes/admin/scripts.php:83
+#@ apex
+msgid "Use Image"
+msgstr ""
+
+#: includes/admin/scripts.php:84
+#@ apex
+msgid "Are you sure you want to delete all existing widgets?"
+msgstr ""
+
+#: includes/admin/scripts.php:109
+#@ apex
+msgid "Select an icon"
+msgstr ""
+
+#: includes/admin/scripts.php:110
+#@ apex
+msgid "Use icon"
+msgstr ""
+
+#: includes/admin/settings/content.php:29
+#@ apex
+msgid "Layouts"
+msgstr ""
+
+#: includes/admin/settings/content.php:29
+#: includes/admin/settings/content.php:31
+#: includes/admin/settings/content.php:33
+#: includes/admin/settings/content.php:35
+#: includes/admin/settings/content.php:37
+#: includes/admin/settings/general.php:20
+#: includes/admin/settings/general.php:23
+#: includes/admin/settings/general.php:26
+#: includes/admin/settings/general.php:29
+#: includes/admin/settings/general.php:32
+#: includes/admin/settings/typography.php:20
+#: includes/admin/settings/typography.php:23
+#@ apex
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/settings/content.php:33
+#@ apex
+msgid "Content Styles"
+msgstr ""
+
+#: includes/admin/settings/content.php:35
+#@ apex
+msgid "Header Styles"
+msgstr ""
+
+#: includes/admin/settings/content.php:52
+#, php-format
+#@ apex
+msgid "Set a custom layout for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:65
+#, php-format
+#@ apex
+msgid "Choose how to display content for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:83
+#, php-format
+#@ apex
+msgid "Adjust the sidebar for %s"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:292
+#: includes/admin/settings/content.php:98
+#@ apex
+msgid "Auto-hide navigation"
+msgstr ""
+
+#: includes/admin/settings/content.php:98
+#, php-format
+#@ apex
+msgid "Set the default navigation display for %s"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:302
+#: includes/admin/settings/content.php:106
+#@ apex
+msgid "No"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:303
+#: includes/admin/settings/content.php:107
+#@ apex
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/settings/content.php:130
+#, php-format
+#@ apex
+msgid "Choose the element to display at the top of %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:148
+#@ apex
+msgid "Titles"
+msgstr ""
+
+#: includes/admin/settings/content.php:148
+#, php-format
+#@ apex
+msgid "Set the default page title for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:163
+#@ apex
+msgid "Taglines"
+msgstr ""
+
+#: includes/admin/settings/content.php:163
+#, php-format
+#@ apex
+msgid "Set the default page tagline for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:204
+#, php-format
+#@ apex
+msgid "Select the widget area to display in the sidebar for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:217
+#, php-format
+#@ apex
+msgid "Set the initial color style for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:234
+#, php-format
+#@ apex
+msgid "Set custom colors for %s content"
+msgstr ""
+
+#: includes/admin/settings/content.php:256
+#, php-format
+#@ apex
+msgid "Set options for the %s content background"
+msgstr ""
+
+#: includes/admin/settings/content.php:289
+#, php-format
+#@ apex
+msgid "Set the initial color style for %s headers"
+msgstr ""
+
+#: includes/admin/settings/content.php:306
+#, php-format
+#@ apex
+msgid "Set custom colors for %s headers"
+msgstr ""
+
+#: includes/admin/settings/content.php:328
+#, php-format
+#@ apex
+msgid "Set options for the %s header backgrounds"
+msgstr ""
+
+#: includes/admin/settings/content.php:361
+#, php-format
+#@ apex
+msgid "Set a custom logo for %s hero elements"
+msgstr ""
+
+#: includes/admin/settings/content.php:374
+#, php-format
+#@ apex
+msgid "Choose a custom menu to display for %s hero elements"
+msgstr ""
+
+#: includes/admin/settings/content.php:387
+#, php-format
+#@ apex
+msgid "Setup custom rotators to display for %s hero elements"
+msgstr ""
+
+#: includes/admin/settings/content.php:402
+#, php-format
+#@ apex
+msgid "Set the initial color style for %s hero elements"
+msgstr ""
+
+#: includes/admin/settings/content.php:419
+#, php-format
+#@ apex
+msgid "Set custom colors for %s hero elements"
+msgstr ""
+
+#: includes/admin/settings/content.php:441
+#, php-format
+#@ apex
+msgid "Set options for the %s hero element backgrounds"
+msgstr ""
+
+#: includes/admin/settings/general.php:20
+#@ apex
+msgid "General settings"
+msgstr ""
+
+#: includes/admin/settings/general.php:26
+#@ apex
+msgid "Social settings"
+msgstr ""
+
+#: includes/admin/settings/general.php:29
+#: includes/admin/settings/general.php:245
+#@ apex
+msgid "Widget areas"
+msgstr ""
+
+#: includes/admin/settings/general.php:43
+#@ apex
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/settings/general.php:43
+#@ apex
+msgid "Upload a custom logo"
+msgstr ""
+
+#: includes/admin/settings/general.php:56
+#@ apex
+msgid "Favicon"
+msgstr ""
+
+#: includes/admin/settings/general.php:56
+#@ apex
+msgid "Upload a custom favicon"
+msgstr ""
+
+#: includes/admin/settings/general.php:83
+#@ apex
+msgid "Archive navigation"
+msgstr ""
+
+#: includes/admin/settings/general.php:83
+#@ apex
+msgid "Select to paginate archive pages"
+msgstr ""
+
+#: includes/admin/settings/general.php:90
+#@ apex
+msgid "Use pagination"
+msgstr ""
+
+#: includes/admin/settings/general.php:131
+#@ apex
+msgid "Navigation style"
+msgstr ""
+
+#: includes/admin/settings/general.php:131
+#@ apex
+msgid "Set the color scheme of the navigation bar"
+msgstr ""
+
+#: includes/admin/settings/general.php:148
+#@ apex
+msgid "Navigation colors"
+msgstr ""
+
+#: includes/admin/settings/general.php:148
+#@ apex
+msgid "Set custom colors for the navigation bar"
+msgstr ""
+
+#: includes/admin/settings/general.php:161
+#@ apex
+msgid "Footer style"
+msgstr ""
+
+#: includes/admin/settings/general.php:161
+#@ apex
+msgid "Set the color scheme of the footer"
+msgstr ""
+
+#: includes/admin/settings/general.php:178
+#@ apex
+msgid "Footer colors"
+msgstr ""
+
+#: includes/admin/settings/general.php:178
+#@ apex
+msgid "Set custom colors for the footer"
+msgstr ""
+
+#: includes/admin/settings/general.php:191
+#@ apex
+msgid "Copyright"
+msgstr ""
+
+#: includes/admin/settings/general.php:191
+#@ apex
+msgid "Text to display on the left side of the footer"
+msgstr ""
+
+#: includes/admin/settings/general.php:204
+#@ apex
+msgid "Text to display on 404 error pages"
+msgstr ""
+
+#: includes/admin/settings/general.php:217
+#@ apex
+msgid "Additional CSS"
+msgstr ""
+
+#: includes/admin/settings/general.php:217
+#@ apex
+msgid "Add custom CSS styles to the site"
+msgstr ""
+
+#: includes/admin/settings/general.php:231
+#@ apex
+msgid "Additional javascript"
+msgstr ""
+
+#: includes/admin/settings/general.php:231
+#@ apex
+msgid "Add additional scripts to the footer of your site"
+msgstr ""
+
+#: includes/admin/settings/general.php:245
+#@ apex
+msgid "Add additional widget areas to replace the primary widget area"
+msgstr ""
+
+#: includes/admin/settings/general.php:253
+#@ apex
+msgid "Add new widget name here"
+msgstr ""
+
+#: includes/admin/settings/general.php:261
+#@ apex
+msgid "Social links"
+msgstr ""
+
+#: includes/admin/settings/general.php:261
+#@ apex
+msgid "Select the social sites to display in the footer"
+msgstr ""
+
+#: includes/admin/settings/index.php:21
+#@ apex
+msgid "Apex Settings"
+msgstr ""
+
+#: includes/admin/settings/index.php:22
+#@ apex
+msgid "Theme Settings"
+msgstr ""
+
+#: includes/admin/settings/index.php:57
+#@ apex
+msgid "Apex Theme Settings"
+msgstr ""
+
+#: includes/admin/settings/index.php:62
+#@ apex
+msgid "Content Settings"
+msgstr ""
+
+#: includes/admin/settings/index.php:63
+#@ apex
+msgid "Typography"
+msgstr ""
+
+#: includes/admin/settings/index.php:71
+#: includes/admin/settings/index.php:100
+#@ apex
+msgid "All"
+msgstr ""
+
+#: includes/admin/settings/index.php:72
+#@ apex
+msgid "Generic"
+msgstr ""
+
+#: includes/admin/settings/index.php:73
+#@ apex
+msgid "Classes"
+msgstr ""
+
+#: includes/admin/settings/index.php:101
+#@ apex
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings/index.php:104
+#@ apex
+msgid "Widget Areas"
+msgstr ""
+
+#: includes/admin/settings/index.php:103
+#@ apex
+msgid "Social"
+msgstr ""
+
+#: includes/admin/settings/import.php:90
+#@ apex
+msgid "Import Widget Data"
+msgstr ""
+
+#: includes/admin/settings/typography.php:20
+#@ apex
+msgid "Generic typography settings"
+msgstr ""
+
+#: includes/admin/settings/typography.php:23
+#@ apex
+msgid "Class typography settings"
+msgstr ""
+
+#: includes/admin/settings/typography.php:32
+#@ apex
+msgid "Base"
+msgstr ""
+
+#: includes/admin/settings/typography.php:32
+#@ apex
+msgid "Set the style of the base font"
+msgstr ""
+
+#: includes/admin/settings/typography.php:36
+#@ apex
+msgid "Header 1"
+msgstr ""
+
+#: includes/admin/settings/typography.php:36
+#@ apex
+msgid "Set the style of the h1 elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:40
+#@ apex
+msgid "Header 2"
+msgstr ""
+
+#: includes/admin/settings/typography.php:40
+#@ apex
+msgid "Set the style of the h2 elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:44
+#@ apex
+msgid "Header 3"
+msgstr ""
+
+#: includes/admin/settings/typography.php:44
+#@ apex
+msgid "Set the style of the h3 elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:48
+#@ apex
+msgid "Header 4"
+msgstr ""
+
+#: includes/admin/settings/typography.php:48
+#@ apex
+msgid "Set the style of the h4 elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:52
+#@ apex
+msgid "Header 5"
+msgstr ""
+
+#: includes/admin/settings/typography.php:52
+#@ apex
+msgid "Set the style of the h5 elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:56
+#@ apex
+msgid "Header 6"
+msgstr ""
+
+#: includes/admin/settings/typography.php:56
+#@ apex
+msgid "Set the style of the h6 elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:60
+#@ apex
+msgid "Section title"
+msgstr ""
+
+#: includes/admin/settings/typography.php:60
+#@ apex
+msgid "Set the style of the .section-title elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:64
+#@ apex
+msgid "Section tagline"
+msgstr ""
+
+#: includes/admin/settings/typography.php:64
+#@ apex
+msgid "Set the style of the .section-tagline elements"
+msgstr ""
+
+#: includes/admin/settings/typography.php:96
+#@ apex
+msgid "Font Size"
+msgstr ""
+
+#: includes/admin/settings/typography.php:97
+#@ apex
+msgid "Line Height"
+msgstr ""
+
+#: includes/admin/settings/typography.php:98
+#@ apex
+msgid "Font Family"
+msgstr ""
+
+#: includes/admin/settings/typography.php:99
+#@ apex
+msgid "Font Weight"
+msgstr ""
+
+#: includes/admin/settings/typography.php:100
+#@ apex
+msgid "Font Style"
+msgstr ""
+
+#: includes/admin/settings/typography.php:101
+#@ apex
+msgid "Color"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/admin/walkers.php:58
+#, php-format
+#@ apex
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/admin/walkers.php:62
+#, php-format
+#@ apex
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/admin/walkers.php:88
+#@ apex
+msgid "sub item"
+msgstr ""
+
+#: includes/admin/walkers.php:104
+#@ apex
+msgid "Move up"
+msgstr ""
+
+#: includes/admin/walkers.php:117
+#@ apex
+msgid "Move down"
+msgstr ""
+
+#: includes/admin/walkers.php:119
+#: includes/admin/walkers.php:121
+#@ apex
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/admin/walkers.php:130
+#@ apex
+msgid "URL"
+msgstr ""
+
+#: includes/admin/walkers.php:139
+#@ apex
+msgid "Use as hashtag link for"
+msgstr ""
+
+#: includes/admin/walkers.php:141
+#@ apex
+msgid "Use post ID"
+msgstr ""
+
+#: includes/admin/walkers.php:148
+#@ apex
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/admin/walkers.php:154
+#@ apex
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/admin/walkers.php:161
+#@ apex
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/admin/walkers.php:166
+#@ apex
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/admin/walkers.php:172
+#@ apex
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/admin/walkers.php:178
+#@ apex
+msgid "Description"
+msgstr ""
+
+#: includes/admin/walkers.php:180
+#@ apex
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: includes/admin/walkers.php:186
+#@ apex
+msgid "Move"
+msgstr ""
+
+#: includes/admin/walkers.php:187
+#@ apex
+msgid "Up one"
+msgstr ""
+
+#: includes/admin/walkers.php:188
+#@ apex
+msgid "Down one"
+msgstr ""
+
+#: includes/admin/walkers.php:191
+#@ apex
+msgid "To the top"
+msgstr ""
+
+#: includes/admin/walkers.php:198
+#, php-format
+#@ apex
+msgid "Original: %s"
+msgstr ""
+
+#: includes/admin/walkers.php:211
+#@ apex
+msgid "Remove"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+#, php-format
+#@ apex
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:828
+#: includes/class-tgm-plugin-activation.php:3438
+#@ apex
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+#@ apex
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2192
+#@ apex
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2186
+#@ apex
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2167
+#@ apex
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2170
+#@ apex
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2209
+#@ apex
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2213
+#@ apex
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2436
+#@ apex
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2437
+#@ apex
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2438
+#@ apex
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2443
+#@ apex
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2603
+#@ apex
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2612
+#@ apex
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: includes/class-tgm-plugin-activation.php:2832
+#: includes/class-tgm-plugin-activation.php:400
+#@ apex
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:3028
+#@ apex
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3369
+#@ apex
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3370
+#, php-format
+#@ apex
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3370
+#: includes/class-tgm-plugin-activation.php:3376
+#@ apex
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3370
+#: includes/class-tgm-plugin-activation.php:3376
+#@ apex
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3371
+#@ apex
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3372
+#, php-format
+#@ apex
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3375
+#@ apex
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3364
+#, php-format
+#@ apex
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3365
+#, php-format
+#@ apex
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3376
+#, php-format
+#@ apex
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3377
+#@ apex
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3378
+#, php-format
+#@ apex
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/display.php:188
+#: includes/helpers.php:49
+#@ apex
+msgid "Archive"
+msgstr ""
+
+#: includes/display.php:201
+#: includes/helpers.php:52
+#: includes/helpers.php:53
+#: searchform.php:4
+#: searchform.php:7
+#@ apex
+msgid "Search"
+msgstr ""
+
+#: includes/display.php:205
+#: includes/helpers.php:56
+#: includes/helpers.php:57
+#@ apex
+msgid "Error"
+msgstr ""
+
+#: includes/display.php:505
+#@ apex
+msgid "Newer"
+msgstr ""
+
+#: includes/display.php:508
+#@ apex
+msgid "Older"
+msgstr ""
+
+#: templates/content-mtphr_gallery.php:16
+#: templates/elements/mtphr-gallery.php:29
+#@ apex
+msgid ", "
+msgstr ""
+
+#: includes/display.php:655
+#@ apex
+msgid "* Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/display.php:676
+#@ apex
+msgid "Reply"
+msgstr ""
+
+#: includes/display.php:691
+#@ apex
+msgid "Pingback:"
+msgstr ""
+
+#: includes/display.php:691
+#@ apex
+msgid "(Edit)"
+msgstr ""
+
+#: includes/admin/filters.php:62
+#@ apex
+msgid "Custom Styles"
+msgstr ""
+
+#: includes/filters.php:307
+#@ apex
+msgid "Learn more"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:949
+#: includes/filters.php:314
+#@ apex
+msgid "Read more"
+msgstr ""
+
+#: includes/filters.php:380
+#: includes/filters.php:578
+#, php-format
+#@ apex
+msgid "Permalink to %s"
+msgstr ""
+
+#: includes/display.php:603
+#: includes/display.php:607
+#: includes/filters.php:404
+#@ apex
+msgid "By"
+msgstr ""
+
+#: includes/helpers.php:40
+#: includes/helpers.php:41
+#@ apex
+msgid "Blog"
+msgstr ""
+
+#: includes/helpers.php:44
+#: includes/helpers.php:45
+#@ apex
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/helpers.php:48
+#@ apex
+msgid "Archives"
+msgstr ""
+
+#: includes/settings.php:27
+#@ apex
+msgid "Copyright &copy; 2014 APEX. All Rights Reserved.<br/>Theme design by <a href=\"http://themeforest.net/user/digitalscience\" target=\"_blank\">digitalscience</a> & <a href=\"http://themeforest.net/user/JoeMC\" target=\"_blank\">Metaphor Creations</a>"
+msgstr ""
+
+#: includes/settings.php:28
+#@ apex
+msgid "Whoops! You seem to be lost."
+msgstr ""
+
+#: includes/settings.php:135
+#: includes/settings.php:146
+#: includes/settings.php:157
+#: includes/settings.php:168
+#: includes/settings.php:179
+#: includes/settings.php:190
+#: includes/settings.php:201
+#: includes/settings.php:212
+#: includes/settings.php:223
+#@ apex
+msgid "Grumpy wizards make toxic brew for the evil Queen and Jack."
+msgstr ""
+
+#: includes/walkers.php:276
+#, php-format
+#@ apex
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: includes/walkers.php:306
+#, php-format
+#@ apex
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: page.php:17
+#: pgtemp-galleries.php:16
+#: pgtemp-members.php:16
+#: pgtemp-posts.php:16
+#: single.php:16
+#: templates/elements/extra-content-inner.php:26
+#: templates/elements/extra-content.php:26
+#, php-format
+#@ apex
+msgid "<i class=\"apex-icon-gear\"></i> Edit %s"
+msgstr ""
+
+#: templates/content-mtphr_gallery.php:36
+#: templates/content-mtphr_member.php:29
+#: templates/post/content-gallery.php:36
+#: templates/post/content-image.php:33
+#: templates/post/content-video.php:38
+#: templates/post/content.php:33
+#@ apex
+msgid "Read More"
+msgstr ""
+
+#: templates/page/content-pgtemp-galleries.php:27
+#@ apex
+msgid "All Projects"
+msgstr ""
+
+#: templates/page/content-pgtemp-galleries.php:49
+#@ apex
+msgid "Load More"
+msgstr ""
+
+#: includes/display.php:601
+#: includes/display.php:611
+#@ apex
+msgid "Category"
+msgstr ""
+
+#: includes/admin/fields.php:718
+#@ apex
+msgid "Element"
+msgstr ""
+
+#: includes/admin/fields.php:719
+#@ apex
+msgid "Animation"
+msgstr ""
+
+#: includes/admin/fields.php:720
+#@ apex
+msgid "Delay"
+msgstr ""
+
+#: includes/admin/fields.php:735
+#: includes/admin/fields.php:751
+#@ apex
+msgid "seconds"
+msgstr ""
+
+#: includes/admin/fields.php:745
+#@ apex
+msgid "Content"
+msgstr ""
+
+#: includes/admin/fields.php:863
+#@ apex
+msgid "Use Default Value"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:273
+#: includes/admin/settings/content.php:115
+#@ apex
+msgid "Content animations"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:274
+#@ apex
+msgid "Fade in content for the page"
+msgstr ""
+
+#: includes/admin/settings/content.php:115
+#, php-format
+#@ apex
+msgid "Fade in content for %s"
+msgstr ""
+
+#: includes/admin/settings/general.php:23
+#@ apex
+msgid "Style settings"
+msgstr ""
+
+#: includes/admin/settings/general.php:32
+#@ apex
+msgid "Content setting sections"
+msgstr ""
+
+#: includes/admin/settings/general.php:276
+#@ apex
+msgid "Global content sections"
+msgstr ""
+
+#: includes/admin/settings/general.php:276
+#@ apex
+msgid "Enable global content settings to the selected page/post types"
+msgstr ""
+
+#: includes/admin/settings/general.php:290
+#@ apex
+msgid "Single post content sections"
+msgstr ""
+
+#: includes/admin/settings/general.php:290
+#@ apex
+msgid "Enable content setting metaboxes on the selected post type edit pages"
+msgstr ""
+
+#: includes/admin/settings/index.php:61
+#@ apex
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings/index.php:102
+#@ apex
+msgid "Style"
+msgstr ""
+
+#: includes/admin/settings/index.php:105
+#@ apex
+msgid "Content Setting Sections"
+msgstr ""
+
+#: includes/helpers.php:33
+#: includes/helpers.php:34
+#@ apex
+msgid "Default"
+msgstr ""
+
+#: includes/admin/settings/content.php:387
+#@ apex
+msgid "Hero rotators"
+msgstr ""
+
+#: includes/admin/settings/general.php:97
+#@ apex
+msgid "Theme color"
+msgstr ""
+
+#: includes/admin/settings/general.php:97
+#@ apex
+msgid "Set the global theme color for the site"
+msgstr ""
+
+#: includes/admin/settings/general.php:105
+#@ apex
+msgid "Blue"
+msgstr ""
+
+#: includes/admin/settings/general.php:108
+#@ apex
+msgid "Yellow"
+msgstr ""
+
+#: includes/admin/settings/general.php:110
+#@ apex
+msgid "Pink"
+msgstr ""
+
+#: includes/admin/settings/general.php:107
+#@ apex
+msgid "Orange"
+msgstr ""
+
+#: activate.php:148
+#: includes/class-tgm-plugin-activation.php:393
+#@ apex
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/fields.php:396
+#@ apex
+msgid "Below"
+msgstr ""
+
+#: includes/admin/fields.php:397
+#@ apex
+msgid "Inside"
+msgstr ""
+
+#: includes/admin/filters.php:112
+#@ apex
+msgid "Custom Margins"
+msgstr ""
+
+#: includes/admin/filters.php:199
+#: includes/admin/filters.php:283
+#@ apex
+msgid "Please upload a valid .json file"
+msgstr ""
+
+#: includes/admin/filters.php:205
+#: includes/admin/filters.php:289
+#@ apex
+msgid "Please upload a file to import"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:335
+#: includes/admin/settings/content.php:178
+#@ apex
+msgid "Extra content - inner"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:336
+#@ apex
+msgid "Choose extra content you want to display within this page's main content wrapper"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:352
+#: includes/admin/settings/content.php:191
+#@ apex
+msgid "Extra content - outer"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:353
+#@ apex
+msgid "Choose extra content you want to display below this page's main content wrapper"
+msgstr ""
+
+#: includes/admin/settings/content.php:178
+#, php-format
+#@ apex
+msgid "Choose extra content you want to display within this page's main content wrapper for %s"
+msgstr ""
+
+#: includes/admin/settings/content.php:191
+#, php-format
+#@ apex
+msgid "Choose extra content you want to display below this page's main content wrapper for %s"
+msgstr ""
+
+#: includes/admin/settings/general.php:106
+#@ apex
+msgid "Lime"
+msgstr ""
+
+#: includes/admin/settings/general.php:109
+#@ apex
+msgid "Teal"
+msgstr ""
+
+#: includes/admin/settings/general.php:204
+#@ apex
+msgid "404 content"
+msgstr ""
+
+#: includes/admin/settings/import.php:10
+#@ apex
+msgid "Import content & settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:18
+#@ apex
+msgid "Theme settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:18
+#@ apex
+msgid "Import & export Apex theme settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:22
+#@ apex
+msgid "Widget data"
+msgstr ""
+
+#: includes/admin/settings/import.php:22
+#@ apex
+msgid "Import & export widgets and their data"
+msgstr ""
+
+#: includes/admin/settings/import.php:47
+#@ apex
+msgid "Import theme settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:49
+#@ apex
+msgid "Import the theme settings from a .json file."
+msgstr ""
+
+#: includes/admin/settings/import.php:55
+#@ apex
+msgid "Import Theme Settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:60
+#@ apex
+msgid "Export theme settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:62
+#@ apex
+msgid "Export the theme settings for this site as a .json file."
+msgstr ""
+
+#: includes/admin/settings/import.php:65
+#@ apex
+msgid "Export Theme Settings"
+msgstr ""
+
+#: includes/admin/settings/import.php:82
+#@ apex
+msgid "Import widget data"
+msgstr ""
+
+#: includes/admin/settings/import.php:84
+#@ apex
+msgid "Import the widget data from a .json file."
+msgstr ""
+
+#: includes/admin/settings/import.php:95
+#@ apex
+msgid "Export widget data"
+msgstr ""
+
+#: includes/admin/settings/import.php:97
+#@ apex
+msgid "Export the widget data for this site as a .json file."
+msgstr ""
+
+#: includes/admin/settings/import.php:100
+#@ apex
+msgid "Export Widget Data"
+msgstr ""
+
+#: includes/admin/settings/index.php:64
+#@ apex
+msgid "Import/Export"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:398
+#@ apex
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:293
+#@ apex
+msgid "Set the navigation display"
+msgstr ""
+
+#: includes/admin/settings/general.php:118
+#@ apex
+msgid "Custom theme color"
+msgstr ""
+
+#: includes/admin/settings/general.php:118
+#@ apex
+msgid "Set custom global theme color for the site"
+msgstr ""
+
+#: includes/admin/filters.php:167
+#@ apex
+msgid "Apex"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:852
+#@ apex
+msgid "Direct link"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:853
+#@ apex
+msgid "Choose to link directly to the gallery's single page"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:859
+#@ apex
+msgid "Link thumbnails directly to single page"
+msgstr ""
+
+#: includes/admin/settings/general.php:69
+#@ apex
+msgid "Page ID Prefix"
+msgstr ""
+
+#: includes/admin/settings/general.php:69
+#@ apex
+msgid "Add a custom prefix for your section ID's"
+msgstr ""
+
+#: includes/admin/notices.php:23
+#@ apex
+msgid "<strong>Apex 1.1.0 Notice:</strong> Apex page icons have been removed from individual posts."
+msgstr ""
+
+#: includes/admin/notices.php:25
+#, php-format
+#@ apex
+msgid "Icons are now individually selected for each menu item within the <a href=\"%1$s\">Appearance > Menus</a> page."
+msgstr ""
+
+#: includes/admin/notices.php:26
+#@ apex
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:960
+#@ apex
+msgid "Disable social links"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:961
+#@ apex
+msgid "Link thumbnail directly to single post"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:967
+#@ apex
+msgid "Disable social links on hover"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:975
+#@ apex
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:976
+#@ apex
+msgid "Set the excerpt length"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:989
+#@ apex
+msgid "Excerpt more"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:990
+#@ apex
+msgid "Set the excerpt more text. Use curly brackets to create a link to the single post."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:348
+#, php-format
+#@ apex
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:358
+#, php-format
+#@ apex
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:363
+#, php-format
+#@ apex
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:378
+#, php-format
+#@ apex
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:388
+#@ apex
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+#@ apex
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+#, php-format
+#@ apex
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:405
+#@ apex
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:520
+#@ apex
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:521
+#@ apex
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:635
+#@ apex
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:935
+#@ apex
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:935
+#: includes/class-tgm-plugin-activation.php:938
+#@ apex
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:938
+#@ apex
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1116
+#: includes/class-tgm-plugin-activation.php:2828
+#@ apex
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1881
+#, php-format
+#@ apex
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2189
+#@ apex
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2215
+#@ apex
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2221
+#@ apex
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2224
+#@ apex
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2227
+#@ apex
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2235
+#, php-format
+#@ apex
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2280
+#, php-format
+#@ apex
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2283
+#, php-format
+#@ apex
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2286
+#, php-format
+#@ apex
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2289
+#, php-format
+#@ apex
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2371
+#@ apex
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2379
+#@ apex
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2387
+#@ apex
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2399
+#@ apex
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2422
+#, php-format
+#@ apex
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2442
+#@ apex
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2491
+#, php-format
+#@ apex
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2495
+#, php-format
+#@ apex
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2500
+#, php-format
+#@ apex
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2570
+#@ apex
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2609
+#@ apex
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2643
+#@ apex
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2645
+#@ apex
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2681
+#@ apex
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2683
+#@ apex
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2788
+#@ apex
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2814
+#@ apex
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3362
+#, php-format
+#@ apex
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: templates/elements/author.php:11
+#, php-format
+#@ apex
+msgid "About %s"
+msgstr ""
+

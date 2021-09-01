@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Metaphor Widgets v2.1.16\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-22 17:19:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: Max Guglielmino\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#  mtphr-widgets
+#: includes/comments.php:35
+#@ mtphr-widgets
+msgid "Displays recent comments."
+msgstr "Mostra commenti recenti."
+
+#  mtphr-widgets
+#: includes/comments.php:44
+#@ mtphr-widgets
+msgid "Metaphor Recent Comments"
+msgstr "Metaphor Commenti Recenti"
+
+#: includes/comments.php:99
+#, php-format
+#@ mtphr-widgets
+msgid "%s ago"
+msgstr "%s fa"
+
+#  mtphr-widgets
+#: includes/collapse.php:131
+#: includes/comments.php:156
+#: includes/contact.php:157
+#: includes/navigation.php:195
+#: includes/posts.php:180
+#: includes/social.php:130
+#: includes/tabbed-posts.php:201
+#: includes/twitter.php:145
+#@ mtphr-widgets
+msgid "Title:"
+msgstr "Titolo:"
+
+#: includes/posts.php:186
+#: includes/tabbed-posts.php:207
+#@ mtphr-widgets
+msgid "Number of Posts:"
+msgstr "Numero di Articoli:"
+
+#: includes/comments.php:168
+#: includes/posts.php:192
+#: includes/tabbed-posts.php:213
+#@ mtphr-widgets
+msgid "Excerpt Length:"
+msgstr "Lunghezza Riassunto:"
+
+#: includes/comments.php:175
+#@ mtphr-widgets
+msgid "Show Avatar?"
+msgstr "Mostra Avatar?"
+
+#: includes/collapse.php:140
+#: includes/comments.php:181
+#: includes/contact.php:166
+#: includes/navigation.php:276
+#: includes/posts.php:238
+#: includes/social.php:144
+#: includes/tabbed-posts.php:226
+#: includes/twitter.php:177
+#@ mtphr-widgets
+msgid "Show Advanced Info"
+msgstr "Mostra Info Avanzate"
+
+#: includes/collapse.php:145
+#: includes/comments.php:186
+#: includes/contact.php:171
+#: includes/navigation.php:281
+#: includes/posts.php:243
+#: includes/social.php:149
+#: includes/tabbed-posts.php:231
+#: includes/twitter.php:182
+#@ mtphr-widgets
+msgid "Widget ID:"
+msgstr "ID Widget:"
+
+#: includes/collapse.php:151
+#: includes/comments.php:192
+#: includes/contact.php:177
+#: includes/navigation.php:287
+#: includes/posts.php:249
+#: includes/social.php:155
+#: includes/tabbed-posts.php:237
+#: includes/twitter.php:188
+#@ mtphr-widgets
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: includes/contact.php:35
+#@ mtphr-widgets
+msgid "Displays contact information."
+msgstr "Mostra informazioni di contatto."
+
+#: includes/contact.php:45
+#@ mtphr-widgets
+msgid "Metaphor Contact"
+msgstr "Metaphor Contatti"
+
+#: includes/contact.php:132
+#: includes/functions.php:275
+#@ mtphr-widgets
+msgid "Email"
+msgstr "Email"
+
+#: includes/contact.php:136
+#: includes/functions.php:282
+#@ mtphr-widgets
+msgid "Tel"
+msgstr "Tel"
+
+#: includes/contact.php:140
+#: includes/functions.php:289
+#@ mtphr-widgets
+msgid "Fax"
+msgstr "Fax"
+
+#: includes/collapse.php:185
+#: includes/contact.php:212
+#@ mtphr-widgets
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/collapse.php:186
+#: includes/contact.php:213
+#@ mtphr-widgets
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/posts.php:35
+#: includes/tabbed-posts.php:35
+#@ mtphr-widgets
+msgid "Displays recent posts."
+msgstr "Mostra articoli recenti."
+
+#: includes/posts.php:44
+#@ mtphr-widgets
+msgid "Metaphor Recent Posts"
+msgstr "Metaphor Articoli Recenti"
+
+#: includes/posts.php:205
+#@ mtphr-widgets
+msgid "Author:"
+msgstr "Autore:"
+
+#: includes/posts.php:219
+#@ mtphr-widgets
+msgid "Category:"
+msgstr "Categoria:"
+
+#: includes/social.php:30
+#@ mtphr-widgets
+msgid "Displays your social links."
+msgstr "Mostra i tuoi social links."
+
+#: includes/social.php:40
+#@ mtphr-widgets
+msgid "Metaphor Social Links"
+msgstr "Metaphor Social Links"
+
+#: includes/social.php:186
+#@ mtphr-widgets
+msgid "Open links in a new window/tab"
+msgstr "Apri links in una nuova finestra/scheda"
+
+#: includes/twitter.php:35
+#@ mtphr-widgets
+msgid "Displays a users latest twitter comments."
+msgstr "Mostra gli ultimi commenti twitter dell'utente"
+
+#: includes/twitter.php:44
+#@ mtphr-widgets
+msgid "Metaphor Twitter Feed"
+msgstr "Metaphor Twitter Feed"
+
+#: includes/twitter.php:151
+#@ mtphr-widgets
+msgid "Twitter Username:"
+msgstr "Nome Utente Twitter:"
+
+#: includes/twitter.php:157
+#@ mtphr-widgets
+msgid "Number of Tweets:"
+msgstr "Numero di Tweets:"
+
+#: includes/twitter.php:167
+#@ mtphr-widgets
+msgid "Show Icon?"
+msgstr "Mostra Icona?"
+
+#: includes/twitter.php:171
+#@ mtphr-widgets
+msgid "Use Avatar?"
+msgstr "Usa Avatar?"
+
+#: includes/twitter.php:258
+#@ mtphr-widgets
+msgid "Error"
+msgstr "Errore"
+
+#: includes/twitter.php:284
+#@ mtphr-widgets
+msgid "ago"
+msgstr "fa"
+
+#: includes/twitter.php:289
+#@ mtphr-widgets
+msgid "Sorry, but there was a problem connecting to the API."
+msgstr "Spiacente, c'è stato un problema di collegamento con l'API"
+
+#: includes/comments.php:162
+#@ mtphr-widgets
+msgid "Number of Comments:"
+msgstr "Numero di Commenti:"
+
+#: includes/comments.php:145
+#@ mtphr-widgets
+msgid "Latest Comments"
+msgstr "Ultimi Commenti"
+
+#: includes/contact.php:129
+#@ mtphr-widgets
+msgid "Contact"
+msgstr "Contatto"
+
+#: includes/contact.php:145
+#@ mtphr-widgets
+msgid "Add your address here..."
+msgstr "Aggiungi il tuo indirizzo qui..."
+
+#: includes/navigation.php:35
+#@ mtphr-widgets
+msgid "Displays previous, next, and archive links for single posts."
+msgstr "Mostra links precedente, successivo, archivio per i singoli articoli."
+
+#: includes/navigation.php:45
+#@ mtphr-widgets
+msgid "Metaphor Post Navigation"
+msgstr "Metaphor Navigazione Articolo"
+
+#: includes/navigation.php:179
+#: includes/shortcodes.php:275
+#@ mtphr-widgets
+msgid " home"
+msgstr " home"
+
+#: includes/navigation.php:181
+#: includes/shortcodes.php:277
+#@ mtphr-widgets
+msgid "Previous"
+msgstr "Precedente"
+
+#: includes/navigation.php:182
+#: includes/shortcodes.php:278
+#@ mtphr-widgets
+msgid "Next"
+msgstr "Successivo"
+
+#: includes/navigation.php:201
+#@ mtphr-widgets
+msgid "Home link text:"
+msgstr "Testo link home:"
+
+#: includes/navigation.php:219
+#@ mtphr-widgets
+msgid "Custom home link:"
+msgstr "Link home personalizzato:"
+
+#: includes/navigation.php:207
+#@ mtphr-widgets
+msgid "Previous link text:"
+msgstr "Testo link precedente:"
+
+#: includes/navigation.php:213
+#@ mtphr-widgets
+msgid "Next link text:"
+msgstr "Testo link successivo:"
+
+#: includes/posts.php:167
+#: includes/shortcodes.php:320
+#: includes/tabbed-posts.php:190
+#@ mtphr-widgets
+msgid "Blog Posts"
+msgstr "Articoli Blog"
+
+#: includes/social.php:117
+#@ mtphr-widgets
+msgid "Get Social"
+msgstr "Diventa Social"
+
+#: includes/twitter.php:121
+#@ mtphr-widgets
+msgid "Recent Tweets"
+msgstr "Tweets Recenti"
+
+#: includes/collapse.php:35
+#@ mtphr-widgets
+msgid "Displays collapsible content."
+msgstr "Mostra contenuto collassabile."
+
+#: includes/collapse.php:45
+#@ mtphr-widgets
+msgid "Metaphor Collapse"
+msgstr "Metaphor Collassa"
+
+#: includes/collapse.php:117
+#@ mtphr-widgets
+msgid "Information"
+msgstr "Informazioni"
+
+#: includes/collapse.php:121
+#@ mtphr-widgets
+msgid "Add a description here..."
+msgstr "Aggiungi una descrizione qui..."
+
+#: includes/navigation.php:225
+#@ mtphr-widgets
+msgid "Query order:"
+msgstr "Ordine query:"
+
+#: includes/settings.php:452
+#: includes/settings.php:453
+#@ mtphr-widgets
+msgid "Metaphor Widgets"
+msgstr "Metaphor Widgets"
+
+#: includes/settings.php:471
+#@ mtphr-widgets
+msgid "Metaphor Widgets Settings"
+msgstr "Impostazioni Metaphor Widgets"
+
+#: includes/posts.php:63
+#: includes/posts.php:170
+#@ mtphr-widgets
+msgid "Read more"
+msgstr "Leggi tutto"
+
+#: includes/posts.php:198
+#@ mtphr-widgets
+msgid "More Text :"
+msgstr "Testo Leggi tutto:"
+
+#: includes/tabbed-posts.php:44
+#@ mtphr-widgets
+msgid "Metaphor Tabbed Posts"
+msgstr "Metaphor Articoli in schede"
+
+#: includes/tabbed-posts.php:136
+#@ mtphr-widgets
+msgid "Popular"
+msgstr "Popolare"
+
+#: includes/tabbed-posts.php:137
+#@ mtphr-widgets
+msgid "Recent"
+msgstr "Recente"
+
+#: includes/tabbed-posts.php:219
+#@ mtphr-widgets
+msgid "Date Format:"
+msgstr "Formato Data:"
+
+#: includes/twitter.php:80
+#@ mtphr-widgets
+msgid "Twitter feed must be authorized."
+msgstr "Feed Twitter deve essere autorizzato."
+
+#: includes/twitter.php:138
+#@ mtphr-widgets
+msgid "You must authorize <strong>Metaphor Widgets</strong> access through Twitter before you can display any feeds."
+msgstr "È necessario autorizzare <strong>Widget metafora</strong> di accesso tramite Twitter prima di poter visualizzare qualsiasi feed."
+
+#: includes/navigation.php:248
+#@ mtphr-widgets
+msgid "Taxonomy:"
+msgstr "Tassonomia:"
+
+#: includes/navigation.php:269
+#@ mtphr-widgets
+msgid "Terms: <small>Use slugs separated by commas (,)</small>"
+msgstr "Condizioni: <small>Utilizzare lumache separati da virgole (,)</small>"
+
+#: includes/settings.php:51
+#@ mtphr-widgets
+msgid "Twitter settings"
+msgstr "Impostazioni di Twitter"
+
+#: includes/settings.php:51
+#@ mtphr-widgets
+msgid "Save Changes"
+msgstr "Salvare Cambiamenti"
+
+#: includes/settings.php:54
+#@ mtphr-widgets
+msgid "Reset Authorization"
+msgstr "Reset Autorizzazioni"
+
+#: includes/settings.php:55
+#@ mtphr-widgets
+msgid "Reset Information"
+msgstr "Reset Informazioni"
+
+#: includes/settings.php:65
+#@ mtphr-widgets
+msgid "API Information"
+msgstr "Informazioni API"
+
+#: includes/settings.php:65
+#@ mtphr-widgets
+msgid "In order to connect to Twitter you must create a custom application with your account. Please follow the directions here to quickly get your application up and running!"
+msgstr "Per connetterti a Twitter devi creare un'applicazione personalizzata con il tuo account. Per favore segui la guida per andare direttamente alla tua applicazione e farla partire!"
+
+#: includes/settings.php:93
+#: includes/settings.php:114
+#@ mtphr-widgets
+msgid "Twitter User Info"
+msgstr "Informazioni Utente Twitter"
+
+#: includes/settings.php:93
+#: includes/settings.php:114
+#, php-format
+#@ mtphr-widgets
+msgid "Congratulation! You are now connected to Twitter. %s"
+msgstr "Congratulazioni! Sei connesso a Twitter. %s"
+
+#: includes/settings.php:99
+#@ mtphr-widgets
+msgid "Twitter Error"
+msgstr "Errore di Twitter"
+
+#: includes/settings.php:99
+#, php-format
+#@ mtphr-widgets
+msgid "Whoops! There seems to have been an error connecting to Twitter. %s"
+msgstr "Ops! Sembra ci sia stato un errore nel tentativo di connettersi a Twitter. %s"
+
+#: includes/settings.php:107
+#@ mtphr-widgets
+msgid "Authorization"
+msgstr "Autorizzazione"
+
+#: includes/settings.php:107
+#, php-format
+#@ mtphr-widgets
+msgid "You must authorize your account with Twitter to use Ditty Twitter Ticker %s"
+msgstr "Devi autorizzare il tuo account di Twitter per usare Ditty Twitter Ticker %s"
+
+#: includes/settings.php:119
+#@ mtphr-widgets
+msgid "Cache Time"
+msgstr "Tempo della Cache"
+
+#: includes/settings.php:119
+#@ mtphr-widgets
+msgid "Set the amount of time your feeds should stay cached"
+msgstr "impostare per quanto tempo i tuoi feeds dovrebbero rimanere in cache"
+
+#: includes/settings.php:158
+#@ mtphr-widgets
+msgid "My applications"
+msgstr "Le Mie Applicazioni"
+
+#: includes/settings.php:170
+#@ mtphr-widgets
+msgid "Create New App"
+msgstr "Creare una Nuova App"
+
+#: includes/settings.php:171
+#, php-format
+#@ mtphr-widgets
+msgid "Select %s"
+msgstr "Seleziona %s"
+
+#: includes/settings.php:182
+#@ mtphr-widgets
+msgid "Give your application an appropriate <strong>Name</strong> and <strong>Description</strong>"
+msgstr "Dai alla tua applicazione un <strong>Nome</strong> e una <strong>Descrizione</strong> adeguata"
+
+#: includes/settings.php:193
+#@ mtphr-widgets
+msgid "Copy and paste the following URL into the <strong>Website</strong> field"
+msgstr "Copia e incolla la seguente URL nel campo <strong>Website</strong>"
+
+#: includes/settings.php:205
+#@ mtphr-widgets
+msgid "Copy and paste the following URL into the <strong>Callback URL</strong> field"
+msgstr "Copia e incolla la seguente URL nel campo <strong>Richiama URL</strong> (callback URL)"
+
+#: includes/settings.php:228
+#@ mtphr-widgets
+msgid "Select <strong>Create your Twitter Application</strong> to register your new application"
+msgstr "Selezionare <strong>Crea la tua Applicazione di Twitter</strong> per registrare la tua nuova applicazione"
+
+#: includes/settings.php:251
+#@ mtphr-widgets
+msgid "API key"
+msgstr "API key"
+
+#: includes/settings.php:263
+#@ mtphr-widgets
+msgid "API secret"
+msgstr "API secret"
+
+#: includes/settings.php:274
+#@ mtphr-widgets
+msgid "Select <strong>Save Changes</strong> below"
+msgstr "Seleziona <strong>Salva Cambiamenti</strong> qui sotto"
+
+#: includes/settings.php:321
+#@ mtphr-widgets
+msgid "Authorize Twitter"
+msgstr "Autorizzare Twitter"
+
+#: includes/settings.php:325
+#@ mtphr-widgets
+msgid "There was an error with the Twitter API."
+msgstr "Si era verificato un errore con l'API Twitter"
+
+#: includes/settings.php:346
+#@ mtphr-widgets
+msgid "Sorry, there was an issue authorizing Twitter."
+msgstr "Spiacenti, esisteva già un'autorizzazione per Twitter."
+
+#: includes/settings.php:347
+#, php-format
+#@ mtphr-widgets
+msgid "Error %s:"
+msgstr "Errore %s:"
+
+#: includes/settings.php:395
+#@ mtphr-widgets
+msgid "Minutes"
+msgstr "Minuti"
+
+#: includes/twitter.php:138
+#, php-format
+#@ mtphr-widgets
+msgid "<a href=\"%s\"><strong>Click here</strong></a> for instructions on creating an app and granting acces to <strong>Metaphor Widgets</strong>."
+msgstr "<a href=\"%s\"><strong>Cliccare qui</strong></a> per istruzioni o per creare un'app e garantire l'accesso a <strong>Metaphor Widgets</strong>."
+
+#: includes/twitter.php:160
+#@ mtphr-widgets
+msgid "Open links in window/tab"
+msgstr "Apri il link in una nuova finestra/pagina"
+
+#: includes/helpers.php:55
+#, php-format
+#@ mtphr-widgets
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+#: includes/collapse.php:120
+#@ mtphr-widgets
+msgid "Add title here..."
+msgstr "Aggiungi titolo qui..."
+
+#: includes/collapse.php:187
+#@ mtphr-widgets
+msgid "Open"
+msgstr "Aperto"
+
+#: includes/settings.php:159
+#, php-format
+#@ mtphr-widgets
+msgid "Go to your Twitter Apps page %s and log into your account"
+msgstr "Vai alla tua pagina di Twitter Apps %s e accedi al tuo account"
+
+#: includes/settings.php:217
+#@ mtphr-widgets
+msgid "Select the checkbox to agree to the <strong>Developer Agreement</strong>"
+msgstr "Selezionare la casella di controllo per accettare la <strong>Accordo Developer</strong>"
+
+#: includes/settings.php:239
+#@ mtphr-widgets
+msgid "Once your application is created select the <strong>Keys and Access Tokens</strong> tab on your App page"
+msgstr "Una volta creata l'applicazione selezionare <strong>Keys and Access Tokens</strong> nella pagina App"
+
+#: includes/settings.php:250
+#@ mtphr-widgets
+msgid "Copy and paste the <strong>Consumer Key (API Key)</strong> here"
+msgstr "Copia e incolla il <strong>Consumer Key (API Key)</strong> qui"
+
+#: includes/settings.php:262
+#@ mtphr-widgets
+msgid "Copy and paste the <strong>Consumer Secret (API Secret)</strong> here"
+msgstr "Copia e incolla il <strong>Consumer Secret (API Secret)</strong> qui"
+
